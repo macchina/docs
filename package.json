@@ -1,0 +1,19 @@
+{
+  "name": "macchina-guide-scrape",
+  "version": "0.0.0",
+  "description": "Code for building a markdown version of the Guide",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Adam Voss",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "glob": "^7.1.2",
+    "pdc": "^0.2.3"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.2"
+  }
+}
