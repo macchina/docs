@@ -12,9 +12,11 @@ async function main() {
     // {
     for (let page of pages) {
         const html = await promisify(fs.readFile)(page, "utf8")
-        const content = extractDesiredHtml(html)
+        const content = fixLinks(extractDesiredHtml(html))
 
-        fs.writeFileSync("showMe.html", content, "utf8")
+        // if (page === "./www.macchina.cc/guide/m2/memory/microsd.html"){
+        //     fs.writeFileSync("showMe.html", extractDesiredHtml(html), "utf8")
+        // }
 
         const markdown = await pandoc(content, "html", "markdown_github")
 
@@ -23,7 +25,7 @@ async function main() {
         ensureDirectoryExits(dest)
         await promisify(fs.writeFile)(dest, markdown, "utf8")
         console.log(page)
-        console.log(markdown)
+        //        console.log(markdown)
         console.log()
     }
 
@@ -40,6 +42,22 @@ async function main() {
         $("img").removeClass()
 
         return $("#content-wrapper").html()
+    }
+
+    function fixLinks(content) {
+        return content
+            .replace(/http:\/\/macchina.cc\/guide\//g, "/")
+            .replace(/(\.\.\/)*\/?sites\/default\/files\//g, "/images/")
+            .replace(/\?itok=.*?"/g, "\"")
+            //.replace(/\/images\/(.*).html/g, "/images/$1.JPG")
+            .replace(/\/images\/styles\/medium\/public\//g, "/images/")
+            .replace(/\/images\/styles\/large\/public\//g, "/images/")
+            .replace(/\/images\/styles\/640_wide\/public\//g, "/images/")
+            .replace(/\/images\/styles\/datasheet\/public\//g, "/images/")
+            .replace(/\/images\/styles\/full_width\/public\//g, "/images/")
+            .replace(/\/images\/styles\/blog2\/public\//g, "/images/")
+            .replace(/(\.\.\/)+/g, "http://")
+
     }
 }
 
