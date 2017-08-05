@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.macchina.cc"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Macchina - Made w/ Macchina</title>
+ <link>https://www.macchina.cc/tags/made-w-macchina</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Tesla LIN BUS Hacking with Macchina</title>
+ <link>https://www.macchina.cc/content/tesla-lin-bus-hacking-macchina</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/default/files/stretchla-v2-695x275%20%281%29.jpg&quot; width=&quot;695&quot; height=&quot;275&quot; alt=&quot;&quot; class=&quot;inserted&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We are super excited to see that Otmar (of Zilla Fame) and Deb over at Cafe Electric have had some great success hacking a Tesla S. They are in the middle of building a stretched Voltswagen Van using a salvaged Tesla S as the power train. Proof that really anything can be done.&lt;/p&gt;
+&lt;p&gt;As you can imagine, reviving a salvaged/crashed Tesla (or any car for that matter) is a tall order. Making things extra challenging is the added complexity of this advanced electric car&#039;s computer system. Their car was not happy after an accident, and the numerous errors showing up on the HMI was proof. One of these errors was as a result of a missing motorized louver in the front of the car. To fix this, they used Macchina to spoof the signals that would have been coming from the louver motor in order to trick the ECU into thinking everything was OK.&lt;/p&gt;
+&lt;p&gt; Here is what they had to say: &lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/4ITmvIGgwrw?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;
+“The Macchina is an Arduino compatible board, very similar to the Mega 2560 with the addition of hardware to run automotive OBD protocols including CAN and K line aka ISO-9141 which seems to be a form of LIN. This is a neat little board that came in very handy, Debbie and I are fans of the Arduino system since it makes simple tasks easy to implement. Although we can code it all the hard way, why bother when the Arduino environment makes simple projects go easily and quickly? You really don’t have to know how to program to get started using Arduino.&lt;br /&gt;
+Debbie made up some programs (Arduino “sketches”) that manipulated (bit banged) the LIN port initially to send some commands so we could see the louver motor respond. She then modified it to also read back the data from the louver motor. Next she wrote up “sniffer” code to read data on the LIN bus and display it in a easy readable format in our laptops. This made it much easier to see what codes the louver is sending back so we can spoof those. &lt;/p&gt;
+&lt;p&gt;We’ve (probably) deduced which addresses are used for the missing louvers, and we can only hope that they respond with the same data set as the one motor that we have here. Next up we’ll try to spoof all the louvers and hope that the car likes what we send. We’ll know it worked if the car stops sending louver error codes to Tesla. If that works, we may hook up a set of RC car servos in place of the louvers so we can watch the car cycling them. It’s fortunate for us that the car cycles the lovers on power up. Otherwise it could be a slow process getting the proper codes.&lt;/p&gt;
+&lt;p&gt;I’m sure that buying a new set of louvers (for $532.40) would have moved things along much faster, but then we would not have learned LIN bus down to the nitty gritty bit level.  It’s a good brain workout to try to decode the nibbles and bits of data and lots of fun for people like us!”&lt;/p&gt;
+&lt;p&gt;Check out their project &lt;a href=&quot;http://cafeelectric.com/stretchla/?orderby=date&amp;amp;order=ASC&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/made-w-macchina&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Made w/ Macchina&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 06 Mar 2015 20:18:40 +0000</pubDate>
+ <dc:creator>Josh</dc:creator>
+ <guid isPermaLink="false">2 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/tesla-lin-bus-hacking-macchina#comments</comments>
+</item>
+<item>
+ <title>CANbus Viewer (example project)</title>
+ <link>https://www.macchina.cc/content/canbus-viewer-example-project</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/default/files/canbus.jpg&quot; width=&quot;1550&quot; height=&quot;727&quot; alt=&quot;&quot; class=&quot;inserted&quot; /&gt;&lt;br /&gt;
+coming soon...&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/made-w-macchina&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Made w/ Macchina&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 06 Mar 2015 02:55:13 +0000</pubDate>
+ <dc:creator>administrator</dc:creator>
+ <guid isPermaLink="false">49 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/canbus-viewer-example-project#comments</comments>
+</item>
+</channel>
+</rss>

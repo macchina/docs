@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.macchina.cc"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Earl&#039;s blog</title>
+ <link>https://www.macchina.cc/blog/15</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Developer Spotlight: Collin Kidder - Reverse engineering software and M2 firmware.</title>
+ <link>https://www.macchina.cc/content/developer-spotlight-collin-kidder-reverse-engineering-software-and-m2-firmware</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;div style=&quot;position:relative;height:0;padding-bottom:56.25%; margin-bottom: 20px;&quot;&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/lJv_BHFUqEA?ecver=2&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;In an early project, Collin used M2’s LEDs as opportunity to teach everyone about CAN bus load in his Nissan Leaf. &lt;/p&gt;
+&lt;p&gt;Collin is the author of the “due_can” Arduino library and many more excellent projects, including “SavvyCAN.” We’ve found SavvyCAN to be a great reverse engineering tool that we use all the time. It is cross platform, easy to use and open source.&lt;/p&gt;
+&lt;p&gt;Learn more &lt;a href=&quot;https://github.com/collin80/SavvyCAN&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;SavvyCAN requires a go-between to get your computer interfaced to your car. M2 can be that interface. With Collin’s help, M2 now pairs nicely with SavvyCAN using “M2RET (M2 Reverse Engineering Tool). Future goals for M2RET/SavvyCAN include adding LIN and SWCAN reverse engineering functionality.&lt;/p&gt;
+&lt;p&gt;Check it out &lt;a href=&quot;https://github.com/collin80/M2RET&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Oh yes, and he just recently helped reverse engineer the BMS (battery management system) in the Tesla battery pack.&lt;/p&gt;
+&lt;p&gt;Jack Rickard and Collin Kidder of EVTV (Missouri): A closer look at M2 and reverse engineering the Tesla battery pack BMS.&lt;/p&gt;
+&lt;p&gt;Jack and Collin of EVTV have figured out exactly how the BMS of a Tesla battery pack works. EVTV produces a video series and blog on the topic of electric cars and electric car conversions. We debuted a prototype M1 board at their very first EVCCON (electric vehicle conversion convention) way back in 2011.&lt;/p&gt;
+&lt;div style=&quot;position:relative;height:0;padding-bottom:56.25%&quot;&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/0xYRlsIzZZs?ecver=2&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sat, 01 Apr 2017 18:36:01 +0000</pubDate>
+ <dc:creator>Earl</dc:creator>
+ <guid isPermaLink="false">204 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/developer-spotlight-collin-kidder-reverse-engineering-software-and-m2-firmware#comments</comments>
+</item>
+<item>
+ <title>The Campaign is Up!</title>
+ <link>https://www.macchina.cc/content/campaign</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;div style=&quot;position:relative;height:0;padding-bottom:56.25%&quot;&gt;
+&lt;iframe src=&quot;https://www.kickstarter.com/projects/1029808658/macchina-the-ultimate-tool-for-taking-control-of-y/widget/video.html&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;This is very exciting for us.  We would like to thank everyone that has helped us make this possible.  Aaron, Andy, Brian, Chris, Dan, Dave, Doug, Dustin, Helen, Jeff, Johnny, Kat, Ken, Mark, Melissa, Merlin, Rainer and Special Interest Auto Service; this would have been very difficult without you all.  We would also like to thank the organizations that believed in our mission prior to launch even. Arduino, DIGI International, Digi-Key, Hackaday, Open Garages, and the EFF.  Most importantly all of the car nerds out there that encouraged us to keep going and get this built. &lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/news&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Macchina News&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sat, 01 Apr 2017 18:33:18 +0000</pubDate>
+ <dc:creator>Earl</dc:creator>
+ <guid isPermaLink="false">201 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/campaign#comments</comments>
+</item>
+</channel>
+</rss>

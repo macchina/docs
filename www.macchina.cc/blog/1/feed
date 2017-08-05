@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.macchina.cc"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>administrator&#039;s blog</title>
+ <link>https://www.macchina.cc/blogs/administrator</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Production Update - almost there!</title>
+ <link>https://www.macchina.cc/content/production-update-almost-there</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/default/files/interface%20board%20changes.png&quot; width=&quot;1333&quot; height=&quot;673&quot; alt=&quot;&quot; class=&quot;inserted&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We&#039;ve spent the last couple of months working with the community and doing our own testing to find ways we can improve M2. We&#039;re keeping track of known issues that will be addressed in the M2 Release &lt;a href=&quot;https://forum.macchina.cc/t/known-issue-feature-request-tracking-thread/60/ &quot;&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;In summary, we&#039;re doing a quick-turn prototype of our interface board to confirm that several improvements we&#039;ve made are acceptable for production. The bigger improvements are our six 12V driver circuits. We&#039;ve made them more robust and easier to work with in software. Most other changes were made to improve manufacturability.&lt;/p&gt;
+&lt;p&gt;We&#039;re making a couple small tweaks to our processor board as well, but not as many as the interface board. We’ve also identified several small changes throughout the design to further improve current consumption when in low power mode. &lt;/p&gt;
+&lt;p&gt;We are thrilled by all of the excellent feedback we are getting from the car hacking community. We&#039;ve taken your feedback and rolled it into the production version. Stay tuned for more updates as this production run comes together.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 14 Jun 2017 00:31:25 +0000</pubDate>
+ <dc:creator>administrator</dc:creator>
+ <guid isPermaLink="false">252 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/production-update-almost-there#comments</comments>
+</item>
+<item>
+ <title>Who (or what) is Macchina?</title>
+ <link>https://www.macchina.cc/content/macchina-who</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/full_width/public/M2%20With%20Code.png?itok=REaa2bGK&quot; width=&quot;100%&quot; alt=&quot;&quot; class=&quot;image-full_width inserted&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic right --&gt;&lt;h3&gt;First off, how do you say it?&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;Your guess is as good as ours (we&#039;re from Minnesota). We believe in the ethos of Arduino so we thought an Italian word would be fitting. “Macchina” is sort of the Italian vernacular for &quot;car&quot;. Josh came up with this name shortly after coming up with the concept for M1. While spending some time in Italy, Macchina was one of the few words he learned.
+        &lt;/p&gt;
+&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Definition: &lt;/strong&gt;Translation from Italian [Noun] &lt;a href=&quot;https://en.wiktionary.org/wiki/macchina&quot; class=&quot;alert-link&quot;&gt;macchina (ˈmakkina): &lt;/a&gt;1. machine 2. car, automobile &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/blog/public/Nerds%21.jpg?itok=m-VEjcs1&quot; width=&quot;750&quot; height=&quot;326&quot; alt=&quot;&quot; class=&quot;image-blog inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic Left --&gt;&lt;h3&gt;Our experience&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/blog/public/IMG_5892.JPG?itok=_V7bp-qd&quot; width=&quot;750&quot; height=&quot;563&quot; alt=&quot;&quot; class=&quot;image-blog inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;     &lt;br /&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;Macchina started as a group of friends with experience in consumer electronics making hardware to fit the needs of our own automotive projects. Over time we realized many people--ranging from hobbyists to prototyping labs and even entrepreneurs--could benefit from the work we are doing. Now we are a large team making hardware for everyone&#039;s projects.&lt;/p&gt;
+&lt;p&gt;        We are proud of the fact that our hardware is continually finding new applications in every corner of the automotive industry, and new niches are being developed even outside of the automotive space. Many companies are already leaning on our experience, existing development, and supply chain.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic right --&gt;&lt;h3&gt;Community building&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;In order for Macchina’s projects and goals to reach their full potential, we need an active and engaged community. We are strong believers in Open Source Hardware principles where everyone can be involved and benefit from a collaborative and iterative design approach. We acknowledge that this collaborative community starts with us, by creating top notch documentation, interesting examples, and a pain-free forum. To help grow the community and make Macchina hardware accessible to all, we are making a commitment to keep the price of our hardware as low as possible. Additionally, we are actively looking for ways to support the developers that go the extra mile and help us move the project forward.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/blog/public/forum%20update.png?itok=9YPfu5m2&quot; width=&quot;750&quot; height=&quot;422&quot; alt=&quot;&quot; class=&quot;image-blog inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic Left --&gt;&lt;h3&gt;Educational goals&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/blog/public/motorcycle-show-1174888_1920.jpg?itok=2FU8idbh&quot; width=&quot;750&quot; height=&quot;498&quot; alt=&quot;&quot; class=&quot;image-blog inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;     &lt;br /&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;Macchina aspires to do more than simply manufacture and sell automotive hardware and tools. Our site serves as a hub for learning and dissecting everything about cars and anything else that comes up. We want people to get curious about how their car functions. Many of the people on our team got into STEM fields because of their childhood fascination with cars and we want to foster that curiosity to produce the mechanics and engineers of tomorrow.&lt;/p&gt;
+&lt;p&gt;        Macchina also strives to inform the community of current issues in the automotive industry.  Macchina believes strongly in the Right to Repair and is working to educate DIYers on the latest legislation, progress and active efforts. Vehicle cyber security is another area of concern for Macchina and many of our early supporters. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 17 May 2017 04:15:59 +0000</pubDate>
+ <dc:creator>administrator</dc:creator>
+ <guid isPermaLink="false">220 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/macchina-who#comments</comments>
+</item>
+<item>
+ <title>First look: Connyct gets your car on the internet</title>
+ <link>https://www.macchina.cc/content/first-look-connyct-gets-your-car-internet</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/default/files/1.PNG&quot; width=&quot;1300&quot; height=&quot;883&quot; alt=&quot;&quot; class=&quot;inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;This week we are showing off another exciting developer project. Lots of you immediately saw the IoT (Internet of Things) potential that M2 has. Sushant and Suraj jumped at the chance to start working on a platform to allow you to easily monitor any piece of data you find with M2. We are impressed to see just how far along their project is. This thing probably deserves its own Kickstarter! The least we can do is give them the rest of this update to tell you about it:&lt;/p&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;b&gt;Macchina + Connyct&lt;/b&gt;&lt;/div&gt;
+&lt;p&gt;M2 acts as the bridge between your car and Connyct by talking and listening to your car. M2 then sends the information to the Connyct cloud via several methods (WIFI, Cellular, etc). Connyct takes that data, visualizes it and helps you interact with your car in real time from anywhere. Macchina and Connyct are a perfect pairing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;b&gt;Use cases&lt;/b&gt;&lt;/div&gt;
+&lt;p&gt;This combination of M2 and Connyct will benefit a wide variety of users and applications. It will already be useful to the general hobbyist and we are currently building it up to the point where companies and entrepreneurs will find it very attractive.&lt;/p&gt;
+&lt;li&gt;Fleets - tracking, real time monitoring, or triggering event (for example, monitoring engine usage/load or based on location).&lt;/li&gt;
+&lt;li&gt;Teen drivers - monitoring driving habits of your teen &lt;/li&gt;
+&lt;li&gt;Sales People - Keep track of your fuel usage and cost &lt;/li&gt;
+&lt;li&gt;Diagnostics - Track codes and other critical indicators &lt;/li&gt;
+&lt;li&gt;Web dashboard - display the complex information only M2 can access&lt;/li&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;Just about everyone who is interested in M2 could find a use for Connyct so we are working directly with Macchina to provide you with what you need. &lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;b&gt;2-Way Communication  &lt;/b&gt;&lt;/div&gt;
+&lt;p&gt;Connyct is not JUST a dashboard. You can even do 2-way communication with your car. For example, create a button on your smartphone to start your car or roll down your windows on a hot day. The possibilities are endless.  &lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;b&gt;Compatibility / Ease of Use &lt;/b&gt;&lt;/div&gt;
+&lt;p&gt;Macchina pairs very easily with Connyct. To learn about how to use Connyct with Macchina click &lt;a href=&quot;http://developer.connyct.com/create_your_first_device/using_macchina/ &quot;&gt;here&lt;/a&gt;.   &lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;&lt;b&gt;Give it a try! &lt;/b&gt;&lt;/div&gt;
+&lt;p&gt;Macchina users who bought an M2 on Kickstarter or pre-ordered through macchina.cc will receive early access to the Connyct IoT platform. You&#039;ll receive storage and analysis of a million data points every month. Learn more on the Macchina forums &lt;a href=&quot;https://forum.macchina.cc/t/connyct-realtime-dashboard-https-www-connyct-com/127&quot;&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Thanks,&lt;/p&gt;
+&lt;p&gt;Sushant &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 12 May 2017 04:17:12 +0000</pubDate>
+ <dc:creator>administrator</dc:creator>
+ <guid isPermaLink="false">222 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/first-look-connyct-gets-your-car-internet#comments</comments>
+</item>
+<item>
+ <title>Introduction to M2</title>
+ <link>https://www.macchina.cc/m2-introduction</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/default/files/www.gifmaker.me-cool%20%281%29.gif&quot; width=&quot;1726&quot; height=&quot;700&quot; alt=&quot;&quot; class=&quot;inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;M2 by Macchina is a &lt;b&gt;key&lt;/b&gt; to unlock the control center of your car. Once you are in, M2 can then be used to make changes and tweaks to your car. You can do anything from simple projects like stopping that annoying ding to more complex upgrades like unlocking more horsepower or improving fuel economy. M2 arrives to you as a blank key - you have to cut it yourself. Learning how to cut that key (reverse engineering, writing code, and plain-old tinkering) is the fun and challenging part, but don&#039;t worry you can do it, because a community of &lt;b&gt;car nerds&lt;/b&gt; already exists. The community supports each other and you by sharing what we have learned and discovered together. &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic right --&gt;&lt;h3&gt;M2 is &lt;b&gt;ready&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;M2 is an open source automotive interface that can take your car to the next level. Use it to unlock your car&#039;s potential or as a development platform for your next product. M2 was engineered to facilitate many uses for most cars. We set out to build a platform of modular pieces that works for beginners and professionals alike. We crammed all of this in a small format at an affordable price.&lt;/p&gt;
+&lt;p&gt;		(We don’t claim to be experts in video production, only hardware production.)&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;div style=&quot;position:relative;height:0;padding-bottom:56.25%; margin-bottom: 20px;&quot;&gt;
+&lt;iframe src=&quot;https://www.kickstarter.com/projects/1029808658/macchina-the-ultimate-tool-for-taking-control-of-y/widget/video.html&quot; width=&quot;400&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic Left --&gt;&lt;h3&gt;M2 is &lt;b&gt;Capable&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/capable.png?itok=NoDYy3e3&quot; width=&quot;640&quot; height=&quot;436&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;M2 is a general purpose development platform that will work as a core building block for just about any automotive project. Most beginning car hackers will be able to tackle projects like simple modifications for customization or data collection for diagnostics. Tuning a car for more HP or MPG is possible, but not yet easy; this is a great example of an ambitious project experienced developers could pursue.&lt;/p&gt;
+&lt;p&gt;		Some of the first adopters of M2 were Security Researchers, and it remains a great platform for their work. We work with a many companies that want to leverage our experience and existing hardware to get their projects off to a faster start. M2 can also be used to make your car safer by tracking its location and other telematic data. Telematics isn’t just for safety; race teams, parents and fleets are all looking for more insight into their cars. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic right --&gt;&lt;h3&gt;M2 is &lt;b&gt;Universal&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;M2 has the protocols and libraries to work with any car that isn&#039;t older than Google and plenty that are. We&#039;ve made sure to design our interface circuitry to work with every car built after 1996 when the OBD2 (On-Board-Diagnostics) standard was made mandatory in the US. However, several car manufacturers already met this standard even before 1996.&lt;/p&gt;
+&lt;p&gt;		The most common protocol is CAN. First deployed in the 1980’s, it gained wide adoption quickly and can be found in almost any car made from 2007 and on. M2 is also ready to work with protocols like LIN and Single Wire CAN that continue to see wide adoption in new cars. We are additionally supporting older protocols like J1850, K-line, and KWP2000, and many less popular protocols will be possible to support with our current hardware.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/universal.png?itok=Z3YLMhSA&quot; width=&quot;640&quot; height=&quot;487&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic Left --&gt;&lt;h3&gt;M2 is &lt;b&gt;Familiar&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/familar.png?itok=SSMVLcsa&quot; width=&quot;640&quot; height=&quot;455&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;M2 is based on the Arduino Due. If you have any previous experience with the Arduino platform, you can leverage existing code, libraries, tutorials, and established communities. Don’t worry if you you’re not a coding expert - this is a fantastic development platform built for newcomers and professionals alike.&lt;/p&gt;
+&lt;p&gt;		Arduino is great for beginners and others looking to get things done quickly, but it’s not the only way to work with M2. People and companies are coding with M2 in a number of ways from Simulink to good old C++. These options provide greater flexibility; as you learn or your projects change M2 can change with you.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic right --&gt;&lt;h3&gt;M2 is &lt;b&gt;Adaptable&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;M2 has two installation options. The simple plug-and-play under-the-dash (UTD) solution makes it easy to get started if what you are looking for can be found through the OBD2 port. The OBD2 port is located under the dash on the driver’s side. For many projects this will be all you need. M2 blows every other car dongle out of the water in terms of speed, features, and long term support.&lt;/p&gt;
+&lt;p&gt;  	   The wired under-the-hood (UTH) solution is also available for a more permanent installation. Maybe you are concerned about leg room and want an adapter cable to connect M2 to the OBD2 Port. You could also skip OBD2 all together, find the right wires and tap into the network directly. In some cases, this can open your project up to networks that might not be on the OBD connector. It can also help keep M2 out of view and hidden. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/adaptable_0.png?itok=wGAK0q2P&quot; width=&quot;640&quot; height=&quot;346&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic Left --&gt;&lt;h3&gt;M2 is &lt;b&gt;Compact&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/Banana.jpg?itok=dohHWStV&quot; width=&quot;640&quot; height=&quot;360&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;The area under the dash and the gaps under the hood are very small, so we made M2 as tiny as we could (2.22&quot; x 1.60&quot; x 0.62&quot; or 56.4mm x 40.6mm x 15.7mm). Shrinking the Arduino Due by well over 50% was no small task! You will be amazed at how densely packed M2 is with parts and how small it actually is in real life.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic right --&gt;&lt;h3&gt;M2 is &lt;b&gt;Connectable&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;M2 accommodates a wide variety of wireless options using the popular DIGI XBee form factor socket. Many inexpensive, plug-and-play boards already exist including BLE, WIFI, GSM, 3G, LTE, GPS and others. You can even reprogram M2 wirelessly. &lt;/p&gt;
+&lt;p&gt;		Connect your car to the web, phones, satellites, IoT devices, or the cloud. Many applications have different wireless needs so we went the route of making it completely modular. Pick what you need when you need it.  &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/connectable.png?itok=krFA_e3W&quot; width=&quot;640&quot; height=&quot;232&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic Left --&gt;&lt;h3&gt;M2 is &lt;b&gt;Breakout...able&lt;/b&gt; &lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/breakoutable.png?itok=4WbuYnyB&quot; width=&quot;640&quot; height=&quot;392&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;M2&#039;s breakout board lets you use your own processor board and save money - just wire it up and get coding! We know everyone has their favorite go-to board and it doesn’t matter if it’s a Raspberry Pi, another Arduino, an Intel Edison, or something you built yourself.&lt;/p&gt;
+&lt;p&gt;		There are many advantages to using the board we created specifically for M2, but you may find applications where you prefer something else. In that case, we still want you to be a part of the community! The modular nature of M2 doesn’t lock you into anything so you can always change your mind.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic right --&gt;&lt;h3&gt;M2 is a &lt;b&gt;Platform&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;Automotive interfacing circuits won’t change as quickly as microprocessor technology. M2&#039;s modular approach allows for simple and inexpensive upgrades. The platform consists of three main interchangeable components: an XBee board, a Processor board, and an Interface board.&lt;/p&gt;
+&lt;p&gt;		With this modular approach, you have an almost infinite number of possible combinations. So, we are sure you will be able to create the exact feature set your project requires. Upgrades and changing your mind will be painless and inexpensive.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/r30.png?itok=TLNHo8U7&quot; width=&quot;640&quot; height=&quot;630&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic Left --&gt;&lt;h3&gt;M2 is &lt;b&gt;Affordable&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/affordable.png?itok=92Ge_CbQ&quot; width=&quot;640&quot; height=&quot;495&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;The one thing that all car hobbyists can agree on is that playing with cars isn&#039;t cheap. Open source hardware is the answer! M2 is feature-packed and can go toe-to-toe with more expensive professional solutions.&lt;/p&gt;
+&lt;p&gt;		There isn’t anything on the market that can compete with M2 on a price per feature basis. We keep our prices as low as possible so that the community can be as large and inclusive as possible!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic right --&gt;&lt;h3&gt;More about the Processor Board&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;We decided to make further improvements to M2 by using the High Speed SD card interface and writing the appropriate firmware libraries to allow for faster data logging. We also added several LED options and a couple switches for a more pleasant development experience. Lastly, we tacked on a EEPROM to store variables after power is cut to M2.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/processor_0.png?itok=tZaFrDiP&quot; width=&quot;640&quot; height=&quot;403&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic Left --&gt;&lt;h3&gt;More about the Interface Board&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/Interface.png?itok=SbSU3ota&quot; width=&quot;640&quot; height=&quot;404&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;The goal for M2 is to interface and communicate with as many cars as possible. We crammed 2 channels of CAN, 2 channels of LIN/K-LINE, a J1850 VPW/PWM and even a single-wire CAN (GMLAN) interface onto the board.&lt;/p&gt;
+&lt;p&gt;		Automotive environments require M2 to be seriously strong, so we built in plenty of protection circuitry. Lastly, we have 6 general purpose driver circuits, each of which can source and sink up to 1 amp of current at 12 volts! This makes M2 useful for cars that predate automotive networks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns, pic right --&gt;&lt;h3&gt;Open Source Hardware&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;For M2 and Macchina to reach its full potential, we need a large, active, and engaged community. Open source hardware and software allow us to more quickly develop and iterate our designs with community feedback. We will learn from one another and create the best tools available.&lt;/p&gt;
+&lt;p&gt;		To that end, we will release all design documentation to our development team once our campaign is over and we begin shipping beta units. Going forward, we will release updated design documentation as updated hardware is released.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/styles/640_wide/public/Open%20Source.png?itok=wzTeXghf&quot; width=&quot;640&quot; height=&quot;452&quot; alt=&quot;&quot; class=&quot;image-640_wide inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;!-- 2 columns --&gt;&lt;h3&gt;Getting Started&lt;/h3&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;div style=&quot;position:relative;height:0;padding-bottom:56.25%; margin-bottom: 20px;&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/OOa7SzO1BMM&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;div style=&quot;position:relative;height:0;padding-bottom:56.25%; margin-bottom: 20px;&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xxYcsptzg_E&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Wed, 10 May 2017 06:23:25 +0000</pubDate>
+ <dc:creator>administrator</dc:creator>
+ <guid isPermaLink="false">218 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/m2-introduction#comments</comments>
+</item>
+<item>
+ <title>The Developer Program is off to a Great Start!</title>
+ <link>https://www.macchina.cc/content/developer-program-great-start</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/default/files/boxes%20and%20boxes.png&quot; width=&quot;2000&quot; height=&quot;964&quot; alt=&quot;&quot; class=&quot;inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Most of the developer units are shipped! With the exception of surveys that were just recently filled out and a couple spare units (more on that later), the large majority of developer units are in the hands of car hackers. This strategy is already paying off - they’ve already discovered a couple things that we will want to address before the larger production run begins. I know it feels far off to you, but we are already preparing for it and it feels like it’s coming fast for us. &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;As you can see below we have our forum up and it has been working pretty well for managing development! It is still a work in progress, but overall we are very happy with it. Stop in and check it out. Feel free to help out the development team in any way you can. Be aware that the main purpose right now is for just that - development! Check it out at: &lt;a href=&quot;https://forum.macchina.cc&quot;&gt;forum.macchina.cc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/forum%20update_0.png&quot; width=&quot;1659&quot; height=&quot;933&quot; alt=&quot;&quot; class=&quot;inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Thu, 27 Apr 2017 04:10:47 +0000</pubDate>
+ <dc:creator>administrator</dc:creator>
+ <guid isPermaLink="false">221 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/developer-program-great-start#comments</comments>
+</item>
+<item>
+ <title>What is Macchina?</title>
+ <link>https://www.macchina.cc/content/what-macchina</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Macchina is a &lt;b&gt;key&lt;/b&gt; to unlock the control center of your car. Once you are in, Macchina can then be used to make changes and tweaks to your car. You can do anything from simple projects like stopping that annoying ding to more complex upgrades like unlocking more horsepower or improving fuel economy. Macchina arrives to you as a blank key - you have to cut it yourself. Learning how to cut that key (reverse engineering, writing code, and plain-old tinkering) is the fun and challenging part, but don&#039;t worry you can do it, because a community of &lt;b&gt;car nerds&lt;/b&gt; already exists. The community supports each other and you by sharing what we have learned and discovered together. &lt;/p&gt;
+&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;
+  &lt;strong&gt;Definition: &lt;/strong&gt;Translation from Italian [Noun] &lt;a href=&quot;https://en.wiktionary.org/wiki/macchina&quot; class=&quot;alert-link&quot;&gt;macchina (ˈmakkina): &lt;/a&gt;1. machine 2. car, automobile
+&lt;/div&gt;
+&lt;p&gt;One of our other goals is to help grow and strengthen this community. We built Macchina using &lt;b&gt;Open Source Hardware&lt;/b&gt; principles so that everyone involved can benefit from collaborative and iterative design improvements.  To help make Macchina &lt;b&gt;accessible&lt;/b&gt; to all, we are making a commitment to keep the price of our hardware as low as possible. We are making Macchina.cc more than just a store for hardware and tools, but also a hub for learning and disecting everything about cars. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/Macchina_1_D8C_9332_16x9_133dpi.jpg&quot; width=&quot;2128&quot; height=&quot;1197&quot; alt=&quot;&quot; class=&quot;inserted&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sun, 17 Jan 2016 23:43:07 +0000</pubDate>
+ <dc:creator>administrator</dc:creator>
+ <guid isPermaLink="false">85 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/what-macchina#comments</comments>
+</item>
+<item>
+ <title>CANbus Viewer (example project)</title>
+ <link>https://www.macchina.cc/content/canbus-viewer-example-project</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/default/files/canbus.jpg&quot; width=&quot;1550&quot; height=&quot;727&quot; alt=&quot;&quot; class=&quot;inserted&quot; /&gt;&lt;br /&gt;
+coming soon...&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/made-w-macchina&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Made w/ Macchina&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 06 Mar 2015 02:55:13 +0000</pubDate>
+ <dc:creator>administrator</dc:creator>
+ <guid isPermaLink="false">49 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/canbus-viewer-example-project#comments</comments>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,87 @@
+HTTrack3.48-21 launched on Wed, 02 Aug 2017 18:43:27 at http://www.macchina.cc/guide +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://www.macchina.cc/guide -O "/home/vossad01/websites/macchina" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:43:28	Warning: 	Note: due to https://www.macchina.cc remote robots.txt rules, links beginning with these path will be forbidden: /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/ (see in the options to disable this)
+18:51:26	Error: 	"Not Found" (404) at link https://www.macchina.cc/automotive-interfaces/lin (from https://www.macchina.cc/guide/m2/automotive-interfaces)
+18:51:26	Error: 	"Not Found" (404) at link https://www.macchina.cc/automotive-interfaces/single-wire-can (from https://www.macchina.cc/guide/m2/automotive-interfaces)
+18:55:11	Error: 	"Not Found" (404) at link https://www.macchina.cc/node/automotive-interfaces/can (from https://www.macchina.cc/node/232)
+18:55:11	Error: 	"Not Found" (404) at link https://www.macchina.cc/node/automotive-interfaces/j1850-pwm (from https://www.macchina.cc/node/232)
+18:55:11	Error: 	"Not Found" (404) at link https://www.macchina.cc/node/automotive-interfaces/j1850-vpw (from https://www.macchina.cc/node/232)
+18:55:11	Error: 	"Not Found" (404) at link https://www.macchina.cc/node/automotive-interfaces/k-line (from https://www.macchina.cc/node/232)
+18:55:24	Warning: 	HTML file (20867 bytes) retransferred due to lack of cache: https://www.macchina.cc/guide/m2
+18:55:24	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js
+18:55:26	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://www.google.com/recaptcha/api.js?hl=en
+18:59:53	Warning: 	Unexpected socket error during pre-loop
+19:10:35	Warning: 	Unexpected socket error during pre-loop
+19:11:35	Warning: 	Unexpected socket error during pre-loop
+19:13:36	Warning: 	Unexpected socket error during pre-loop
+19:13:36	Warning: 	Unexpected socket error during pre-loop
+19:21:51	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/225%23comment-form
+19:22:16	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/227%23comment-form
+19:22:58	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/228%23comment-form
+19:23:00	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/229%23comment-form
+19:23:02	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/230%23comment-form
+19:23:04	Warning: 	HTML file (14479 bytes) retransferred due to lack of cache: https://www.macchina.cc/automotive-interfaces/lin
+19:23:06	Error: 	"Not Found" (404) at link https://www.macchina.cc/automotive-interfaces/lin (from https://www.macchina.cc/guide/m2/automotive-interfaces)
+19:23:06	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/249%23comment-form
+19:23:08	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/251%23comment-form
+19:23:21	Error: 	"Not Found" (404) at link https://www.macchina.cc/sites/default/files/styles/large/public/R1_CASE_1.0.JPG?itok=dEnKblx9 (from https://www.macchina.cc/guide/m2/enclosures)
+19:23:21	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/250%23comment-form
+19:23:23	Warning: 	HTML file (32272 bytes) retransferred due to lack of cache: https://www.macchina.cc/m2-introduction
+19:23:26	Warning: 	HTML file (23560 bytes) retransferred due to lack of cache: https://www.macchina.cc/content/macchina-who
+19:23:29	Warning: 	HTML file (25979 bytes) retransferred due to lack of cache: https://www.macchina.cc/blogs/administrator
+19:23:31	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/222%23comment-form
+19:23:33	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/221%23comment-form
+19:23:36	Warning: 	HTML file (21824 bytes) retransferred due to lack of cache: https://www.macchina.cc/superdev
+19:23:38	Warning: 	HTML file (21455 bytes) retransferred due to lack of cache: https://www.macchina.cc/bulkform
+19:23:40	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/233%23comment-form
+19:23:42	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/234%23comment-form
+19:23:45	Error: 	"Not Found" (404) at link https://www.macchina.cc/sites/default/files/styles/datasheet/public/TJA1051.jpg?itok=D1QWCy08 (from https://www.macchina.cc/guide/m2/automotive-interfaces/can)
+19:23:45	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/239%23comment-form
+19:24:15	Error: 	"Not Found" (404) at link https://www.macchina.cc/sites/default/files/styles/datasheet/public/TJA1021.jpg?itok=s3MgFUCh (from https://www.macchina.cc/guide/m2/automotive-interfaces/k-line)
+19:24:29	Error: 	"Not Found" (404) at link https://www.macchina.cc/sites/default/files/styles/medium/public/IMG_20161216_132049053.jpg?itok=mt6sVXgw (from https://www.macchina.cc/guide/m2/automotive-interfaces/j1850-pwm)
+19:24:29	Error: 	"Not Found" (404) at link https://www.macchina.cc/sites/default/files/IMG_20161216_132049053.jpg (from https://www.macchina.cc/guide/m2/automotive-interfaces/j1850-pwm)
+19:24:29	Error: 	"Not Found" (404) at link https://www.macchina.cc/sites/default/files/bees5.png (from https://www.macchina.cc/guide/m2/communication/bee-wireless-socket)
+19:24:30	Error: 	"Not Found" (404) at link https://www.macchina.cc/sites/default/files/styles/medium/public/Sandisk_microSDXC_64GB_Ultra.jpg?itok=LosQoM7q (from https://www.macchina.cc/guide/m2/memory/microsd)
+19:24:30	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/246%23comment-form
+19:25:32	Error: 	"Forbidden" (403) at link https://www.macchina.cc/sites/default/files/styles/datasheet/public/24AA32A_24LC32A.jpg?itok=c2O1JkM1 (from https://www.macchina.cc/guide/m2/memory/eeprom)
+19:25:32	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/248%23comment-form
+19:25:34	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/218%23comment-form
+19:25:36	Warning: 	HTML file (20165 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/220%23comment-form
+19:25:38	Warning: 	HTML file (21533 bytes) retransferred due to lack of cache: https://www.macchina.cc/blogs/administrator?page=1
+19:25:40	Warning: 	HTML file (21526 bytes) retransferred due to lack of cache: https://www.macchina.cc/node/204
+19:25:42	Warning: 	HTML file (20462 bytes) retransferred due to lack of cache: https://www.macchina.cc/content/campaign
+19:25:44	Warning: 	HTML file (21893 bytes) retransferred due to lack of cache: https://www.macchina.cc/content/macchina-so-far
+19:25:46	Warning: 	HTML file (20157 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/3%23comment-form
+19:25:49	Warning: 	HTML file (20157 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/2%23comment-form
+19:25:51	Warning: 	HTML file (20157 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/1%23comment-form
+19:25:54	Warning: 	HTML file (19616 bytes) retransferred due to lack of cache: https://www.macchina.cc/blog/140
+19:26:36	Warning: 	HTML file (20161 bytes) retransferred due to lack of cache: https://www.macchina.cc/user/login?destination=node/49%23comment-form
+19:26:38	Error: 	"Not Found" (404) at link https://www.macchina.cc/content/arduino.cc (from https://www.macchina.cc/content/macchina-so-far)
+19:26:38	Warning: 	HTML file (27755 bytes) retransferred due to lack of cache: https://www.macchina.cc/comment/17
+19:26:40	Error: 	"Forbidden" (403) at link https://www.macchina.cc/sites/default/files/styles/medium/public/M0.9_ISO_SMALLER.jpg?itok=EyjknoYY (from https://www.macchina.cc/content/and-you-may-ask-yourself-wellhow-did-we-get-here)
+19:26:40	Error: 	"Forbidden" (403) at link https://www.macchina.cc/sites/default/files/styles/medium/public/IMG_2052-4.jpg?itok=DH_HI980 (from https://www.macchina.cc/content/and-you-may-ask-yourself-wellhow-did-we-get-here)
+19:26:40	Warning: 	HTML file (20115 bytes) retransferred due to lack of cache: https://www.macchina.cc/node/85
+19:26:42	Warning: 	HTML file (21824 bytes) retransferred due to lack of cache: https://www.macchina.cc/node/49
+19:26:44	Error: 	"Not Found" (404) at link https://www.macchina.cc/node/arduino.cc (from https://www.macchina.cc/node/90)
+19:26:44	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.macchina.cc/sites/all/modules/ctools/images/status-active.gif (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:26:59	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1017.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:27:36	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1018.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:27:41	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1022.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:27:41	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1024.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:27:56	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1028.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:28:33	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1131.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:28:38	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1136.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:28:38	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1138.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:28:52	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1140.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:29:30	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1142.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:29:34	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://www.macchina.cc/sites/default/files/styles/menu_icon/public/menu_icons/menu_icon_1144.png (from https://www.macchina.cc/sites/default/files/css/css_NdwwF6t6aglzfZPE3GdMuKDTx2iraepCt_wNWzz6UfA.css)
+19:29:35	Error: 	"Not Found" (404) at link https://www.macchina.cc/has_js=1; path=/ (from https://www.macchina.cc/sites/default/files/js/js_g9KXZPmxgJ0pQYJeyxq_SiYSpL6WflD1eQ_kKEXvja4.js)
+
+HTTrack Website Copier/3.48-21 mirror complete in 46 minutes 8 seconds : 361 links scanned, 410 files written (42826033 bytes overall) [31446674 bytes received at 11360 bytes/sec], 5035372 bytes transferred using HTTP compression in 239 files, ratio 32%, 2.0 requests per connection
+(20 errors, 56 warnings, 0 messages)

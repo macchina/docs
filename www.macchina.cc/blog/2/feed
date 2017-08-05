@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.macchina.cc"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Josh&#039;s blog</title>
+ <link>https://www.macchina.cc/blog/2</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Halfway there and M2 starts a car!</title>
+ <link>https://www.macchina.cc/content/halfway-there-and-m2-starts-car</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;div style=&quot;position:relative;height:0;padding-bottom:56.25%; margin-bottom: 20px;&quot;&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/nqIQS6NJgvI?ecver=2&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;We wanted to address some of the more frequent questions and feedback that we were getting, so we decided what better way to do that than to do a real project?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can M2 actually start a car? Yes! Yes, it can!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A friend of ours has a Chevy Tahoe and wanted to see if it would be possible to remotely start his car (a nice feature when living in frigid Minnesota) via the OBD2 port and his phone. We knew that it probably used the same GMLAN interface (also know as single-wire CAN) as many late-model GM cars, so we set out to see if it could be done. We knew we must be on the right track when we plugged M2 into his car and saw SWCAN messages flying around using some beta software we are working with.&lt;/p&gt;
+&lt;p&gt;One thing that we found interesting was that the bus is “asleep” when the car is turned off, and won’t respond to messages unless “woken up” with a specific command. This makes sense - you don’t want to use any extra power when the car is off.&lt;/p&gt;
+&lt;p&gt;We had a lot of fun Tuesday afternoon hacking, researching and programming and eventually we were able to start his car! Not only start, but shut down the engine, lock and unlock his doors - all with a little app we put together. The generalized Arduino code we used to start his car is &lt;a href=&quot;https://gist.github.com/macchina/ac0db2bc45774836d6fe2a5758b12e06 &quot;&gt;here&lt;/a&gt;.&lt;br /&gt;
+.&lt;br /&gt;
+Next step could be replacing the WIFI connection between the phone and M2 with a cellular link instead. Text your car to lock the doors while you are out of town?&lt;/p&gt;
+&lt;p&gt;Thank you once again for all your feedback and comments. Keep ‘em coming.&lt;/p&gt;
+&lt;p&gt;Josh&lt;/p&gt;
+&lt;p&gt;There were lots of good comments in the Kickstarter page &lt;a href=&quot;https://www.kickstarter.com/projects/1029808658/macchina-the-ultimate-tool-for-taking-control-of-y/posts/1827465&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Sat, 01 Apr 2017 18:35:29 +0000</pubDate>
+ <dc:creator>Josh</dc:creator>
+ <guid isPermaLink="false">203 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/halfway-there-and-m2-starts-car#comments</comments>
+</item>
+<item>
+ <title>Macchina So Far</title>
+ <link>https://www.macchina.cc/content/macchina-so-far</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Who we are:&lt;/p&gt;
+&lt;p&gt;Several years ago, a group of friends decided to build an electric car. More specifically, we decided to convert an old Ford Contour to electric by replacing the existing gasoline motor with an electric motor and the fuel tank with batteries. We quickly realized that a major obstacle was communication with (i.e. tricking) the various computer within the car. We wanted the gears in the automatic transmission to shift at the ideal time, the fuel gauge to display battery capacity and generally wanted our “new” car to perform exactly how we wanted.&lt;/p&gt;
+&lt;p&gt;Our challenge stems from the closed, unpublished nature of modern-day car computers. We had to figure out how to talk with it. After cobbling together Arduino-based components and code to build an interface, we eventually reverse engineered what was needed to meet our requirements. Somewhere along the line, we thought others might benefit from this and other EV-conversion solutions we came up with. We started a business called RechargeCar and began producing and selling a handful of EV related products, including Macchina. &lt;/p&gt;
+&lt;p&gt;More recently, we decided it was time to reach beyond the niche world of EV conversions to every car out there. We spun off the Macchina project as a stand-alone project with a wider market in mind. Our hope is to continue growing and evolving this project as more people become involved, technology advances and .&lt;/p&gt;
+&lt;p&gt;.something something.&lt;/p&gt;
+&lt;p&gt;We base Macchina on the &lt;a href=&quot;arduino.cc&quot;&gt;Arduino&lt;/a&gt; hardware, software and ethos. We believe that sharing information and collaboration is the best way to build amazing things. We can learn from one another and solve problems better and faster together. We’ve taken a lot of inspiration from Arduino and we pay homage with our name. &quot;&lt;a href=&quot;http://translate.google.com/translate_t?hl=en&amp;amp;expIds=17259,24472,27147&amp;amp;sugexp=ldymls&amp;amp;xhr=t&amp;amp;cp=10&amp;amp;qe=bWFjY2hpbmEgdA&amp;amp;qesig=4N_xkyMSad1iQ9L1RfXZRQ&amp;amp;pkc=AFgZ2tnRBAc8DoaSkBMfaerFRuOj-AHgniI2WPkA9LWPFjc6WEGFlFU-j9S-ZDyUp8NBADQNeDSKnwo16cK5eNyYpxe1eIvFPw&amp;amp;q=macchina&amp;amp;um=1&amp;amp;ie=UTF-8&amp;amp;sl=it&amp;amp;tl=en&amp;amp;sa=X&amp;amp;ei=pZAiTZnwGoH0swPCh9i5Cg&amp;amp;sqi=2&amp;amp;ved=0CBgQrgYwAA#&quot;&gt;Macchina&lt;/a&gt;&quot; is the Italian word for &quot;machine&quot; or, Italian slang for &quot;Automobile.&quot;&lt;/p&gt;
+&lt;p&gt;What sets us apart from the countless other automotive interfaces out there is simple - openness. Macchina is not just another closed, black box “interpreter chip”, but rather an open, highly customizable and well-documented piece of hardware. Your car is already a closed, mysterious black box - why use a closed tool to communicate with it?&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 04 Mar 2016 04:53:37 +0000</pubDate>
+ <dc:creator>Josh</dc:creator>
+ <guid isPermaLink="false">90 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/macchina-so-far#comments</comments>
+</item>
+<item>
+ <title>A Glimpse Inside M2</title>
+ <link>https://www.macchina.cc/content/glimpse-inside-m2</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;As we set out to create the best open-source automotive interface we could make, we had several goals in mind. We wanted to build something that was as universal-as-possible, small, easy-to-use, versatile and low cost. We believe we did that. The challenge was to jam as many automotive protocol interfaces into a small space, but still retain a low cost to appeal to the largest audience. At the same time, we leveraged and will continue to contribute to the huge open source community. &lt;/p&gt;
+&lt;hr /&gt;&lt;h3&gt;Our Design Goals&lt;/h3&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-8&quot;&gt;
+&lt;div&gt;
+&lt;h4&gt;Automotive focus:&lt;/h4&gt;
+&lt;p&gt; The M2 circuitry is designed specifically to interface with your car.  The components baked into M2 are perfectly capable of the same features as most high-end tuning/performance, diagnostics, and monitoring hardware on the market.  We hope to make car modification and maintenance more open and affordable to everyone.&lt;/p&gt;
+&lt;h4&gt;Compact:&lt;/h4&gt;
+&lt;p&gt; The area under the dash and the nooks under the hood are very small, so we made M2 is as small as we can make it (2.90&quot; x 1.75&quot; x 0.9&quot;). This was no small task, shrinking the Due by well over 50% and THEN adding all of the interface circuits was one of our biggest challenges. &lt;/p&gt;
+&lt;h4&gt;Modular/Upgradable:&lt;/h4&gt;
+&lt;p&gt; Modularity is our hedge against the future - for example, we segregated the processing from the automotive interface onto 2 boards. Automotive interfaces won&#039;t change as quickly as processor technology and this allows future swaps to different (cheaper/faster/better) processors. In addition, the wireless socket (XBEE format) allows for a wide variety of wireless connectivity options. Finally the open source enclosure design leaves you free to choose, design or tweak the case until it is right for your project.   &lt;/p&gt;
+&lt;h4&gt;Open Source:&lt;/h4&gt;
+&lt;p&gt; The Arduino IDE is well known and adopted, by basing our processor board on the Arduino Due we have provided a familiar programing experience with an existing help network. In addition, the enormous amount of existing libraries and code out there helps to speed your development. No need to reinvent the wheel.
+    &lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-4&quot;&gt;
+&lt;div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;&lt;p&gt;
+&lt;/p&gt;&lt;h3&gt;Let&#039;s take a closer look at the hardware features:&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-4&quot;&gt;
+&lt;div&gt;
+      &lt;img src=&quot;/sites/default/files/exploded.jpg&quot; width=&quot;300&quot; height=&quot;376&quot; alt=&quot;&quot; class=&quot;inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-8&quot;&gt;
+We&#039;ve carefully selected the best features to ensure compatibility and durability while remaining low in cost. Coming from a consumer-electronics background, our strengths lie in hardware design and manufacturing. Our focus has alway been on automotive applications and our design is an attempt at the best form factor for your car.&lt;br /&gt;&lt;br /&gt;&lt;div id=&quot;techspecs&quot;&gt;
+&lt;div class=&quot;textsummary&quot;&gt;
+&lt;table class=&quot;table table-striped&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Wireless Socket&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Add a wireless option if you want, for example: BLE, WIFI, GSM, 3G, LTE, ... We use the XBEE &quot;form-factor&quot; here. &lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Processor&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;The same Atmel SAM3X8E processor used on Arduino DUE - a 32-bit ARM Cortex M3 architecture running at 84MHz.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;MicroSD Card Socket&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;HSMCI (or SPI) interface for all your high speed data logging needs. RTOS anyone?&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Micro USB&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;USB 2.0 also allows Macchina to act as both a USB Device and Host.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;LEDs&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;5 one-color and 1 RGB programmable indicators. Great for debugging.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Memory&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;32k EEPROM for non-volatile memory via I2C, 512 KB for the user applications, 96 KB SRAM.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;GPIO Pins&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;6 Automotive level IO Pins to Control 12V devices (Examples: relays, fans, lights, etc) OR act as analog input (like temp sensor).&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Power Supplies&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;5V@ 3 amps, 3.3V@ 1 amps for connecting add ons with worrying about power issues.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Automotive interface Circuits&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;2 channels of CAN, 2 channels of LIN/ K-line, J1850 VPW/PWM, Single-wire CAN interfaces for maximum car compatibility.&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;We chose these parts so we could hit a certain design focus and philosophy.  The focus has alway been the automotive world and our design is an attempt at the best form factor for your car.&lt;/p&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;hr /&gt;&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;img src=&quot;/sites/default/files/DashOrHood.png&quot; width=&quot;675&quot; height=&quot;284&quot; alt=&quot;&quot; class=&quot;inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;h3&gt;Versatility &lt;/h3&gt;
+&lt;p&gt; Macchina Hardware is available in two different form factors, one that can be wired Under-The-Hood (UTH) and the other that is easily installed Under-The-Dash (UTD) via the OBD2 port standard in all modern vehicles.  The UTH version is a bit more permanent and can access other vehicle networks that are not exposed through the OBD2 port.  The UTD M2 is easy to install and work with while still being mostly out of the way.  The two versions share the same M2 core and only differ in connector type.  M2&#039;s core has a modular design for flexibility,  a processor that can keep up with modern cars, a design that fits anywhere, and a common programming experience through Arduino.
+    &lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;h3&gt;Testing and Design&lt;/h3&gt;
+&lt;p&gt; Through our experience in developing embedded and consumer electronics, we know how to make things. Iteration is key. Since our first shipping Macchina back in 2010 to now, we have worked with our loyal customers and friends to keep improving, learning and developing Macchina. Taking all of this feedback, we now have something to show for it. For the last several months, we have been testing and USING our latest M2 hardware. We are excited to share it with you soon. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;col-md-6&quot;&gt;
+&lt;div&gt;
+&lt;img src=&quot;/sites/default/files/img_thermal_1467762700356.jpg&quot; width=&quot;1108&quot; height=&quot;622&quot; alt=&quot;&quot; class=&quot;inserted&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/news&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Macchina News&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 06 Mar 2015 20:21:35 +0000</pubDate>
+ <dc:creator>Josh</dc:creator>
+ <guid isPermaLink="false">3 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/glimpse-inside-m2#comments</comments>
+</item>
+<item>
+ <title>Tesla LIN BUS Hacking with Macchina</title>
+ <link>https://www.macchina.cc/content/tesla-lin-bus-hacking-macchina</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;img src=&quot;/sites/default/files/stretchla-v2-695x275%20%281%29.jpg&quot; width=&quot;695&quot; height=&quot;275&quot; alt=&quot;&quot; class=&quot;inserted&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;We are super excited to see that Otmar (of Zilla Fame) and Deb over at Cafe Electric have had some great success hacking a Tesla S. They are in the middle of building a stretched Voltswagen Van using a salvaged Tesla S as the power train. Proof that really anything can be done.&lt;/p&gt;
+&lt;p&gt;As you can imagine, reviving a salvaged/crashed Tesla (or any car for that matter) is a tall order. Making things extra challenging is the added complexity of this advanced electric car&#039;s computer system. Their car was not happy after an accident, and the numerous errors showing up on the HMI was proof. One of these errors was as a result of a missing motorized louver in the front of the car. To fix this, they used Macchina to spoof the signals that would have been coming from the louver motor in order to trick the ECU into thinking everything was OK.&lt;/p&gt;
+&lt;p&gt; Here is what they had to say: &lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/4ITmvIGgwrw?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;p&gt;
+“The Macchina is an Arduino compatible board, very similar to the Mega 2560 with the addition of hardware to run automotive OBD protocols including CAN and K line aka ISO-9141 which seems to be a form of LIN. This is a neat little board that came in very handy, Debbie and I are fans of the Arduino system since it makes simple tasks easy to implement. Although we can code it all the hard way, why bother when the Arduino environment makes simple projects go easily and quickly? You really don’t have to know how to program to get started using Arduino.&lt;br /&gt;
+Debbie made up some programs (Arduino “sketches”) that manipulated (bit banged) the LIN port initially to send some commands so we could see the louver motor respond. She then modified it to also read back the data from the louver motor. Next she wrote up “sniffer” code to read data on the LIN bus and display it in a easy readable format in our laptops. This made it much easier to see what codes the louver is sending back so we can spoof those. &lt;/p&gt;
+&lt;p&gt;We’ve (probably) deduced which addresses are used for the missing louvers, and we can only hope that they respond with the same data set as the one motor that we have here. Next up we’ll try to spoof all the louvers and hope that the car likes what we send. We’ll know it worked if the car stops sending louver error codes to Tesla. If that works, we may hook up a set of RC car servos in place of the louvers so we can watch the car cycling them. It’s fortunate for us that the car cycles the lovers on power up. Otherwise it could be a slow process getting the proper codes.&lt;/p&gt;
+&lt;p&gt;I’m sure that buying a new set of louvers (for $532.40) would have moved things along much faster, but then we would not have learned LIN bus down to the nitty gritty bit level.  It’s a good brain workout to try to decode the nibbles and bits of data and lots of fun for people like us!”&lt;/p&gt;
+&lt;p&gt;Check out their project &lt;a href=&quot;http://cafeelectric.com/stretchla/?orderby=date&amp;amp;order=ASC&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/tags/made-w-macchina&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Made w/ Macchina&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 06 Mar 2015 20:18:40 +0000</pubDate>
+ <dc:creator>Josh</dc:creator>
+ <guid isPermaLink="false">2 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/tesla-lin-bus-hacking-macchina#comments</comments>
+</item>
+<item>
+ <title>And you may ask yourself: Well...How did [we] get here?</title>
+ <link>https://www.macchina.cc/content/and-you-may-ask-yourself-wellhow-did-we-get-here</link>
+ <description>&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Several years ago (10!?), a group of friends decided to build an electric car. More specifically, we converted an old Ford Contour to electric by replacing the existing gasoline motor with an electric motor and the fuel tank with batteries. Sweet ride, eh?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/image5.png&quot; width=&quot;900&quot; height=&quot;285&quot; alt=&quot;&quot; class=&quot;inserted&quot; style=&quot;width: 100%;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Rather quickly we realized that a major obstacle was convincing the various computers within the car to not be upset after its engine had gone missing. We wanted the gears in the automatic transmission to shift at the ideal time, the fuel gauge to display battery capacity and generally wanted our “new” car to perform exactly how we wanted.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/default/files/M0.9_ISO_SMALLER.jpg&quot; class=&quot;inserted&quot;&gt;&lt;img src=&quot;/sites/default/files/styles/medium/public/M0.9_ISO_SMALLER.jpg?itok=EyjknoYY&quot; width=&quot;220&quot; height=&quot;147&quot; alt=&quot;&quot; class=&quot;image-medium inserted&quot; style=&quot;float: left; margin-right: 25px; margin-bottom: 25px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Our challenge stemmed from the closed, unpublished nature of modern-day car computers. We had to figure out how to talk with it. After cobbling together off-the-shelf components and hacking together some code, we eventually reverse engineered what was needed to meet our specific requirements. From there we built a prototype board with everything we needed in one place. &lt;/p&gt;
+&lt;p&gt;Here is a very early prototype. This first prototype was designed to be as universal and open as possible and compatible with all OBD2 signaling protocols have a sturdy power supply and designed with automotive standards in mind. We also made sure it was “Arduino Compatible” so that the volume of code libraries out there could be re-used.&lt;/p&gt;
+&lt;p&gt;As we tested this prototype, we made sure to keep track of what worked well and what could be improved. For example, we started with a RJ-45 connector to break out the OBD2 protocols, but quickly realized that splicing together wires is no fun. A screw-terminal block would work a lot better. &lt;/p&gt;
+&lt;p&gt;Some circuits worked well, some didn’t - notice the blue-wires? As with any hardware development project, iteration is key. Design, Build, Test, Repeat. &lt;/p&gt;
+&lt;p&gt;Somewhere along the line, we thought others might benefit from this and other EV-conversion solutions we came up with. We started a business called RechargeCar and began producing and selling a handful of EV related products, including Macchina. Here you see an image of our first “shipping” Macchina (announced at the very first EVCCON in 2011) where we eventually produced a few hundred. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/sites/default/files/IMG_2052-4.jpg&quot; class=&quot;inserted&quot;&gt;&lt;img src=&quot;/sites/default/files/styles/medium/public/IMG_2052-4.jpg?itok=DH_HI980&quot; width=&quot;220&quot; height=&quot;128&quot; alt=&quot;&quot; class=&quot;image-medium inserted&quot; style=&quot;float: left; margin-right: 25px; margin-bottom: 25px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Macchina 1.0 still had some minor issues, but overall was a very successful product. Read more about it here in our documentation section (insert link to docs)&lt;/p&gt;
+&lt;p&gt;More recently, we decided it was time to reach beyond the niche world of EV conversions to ALL the other cars out there. We spun off Macchina as a stand-alone project with a wider market in mind while staying true to our original goals. This iteration of Macchina is more modular, more compact and more powerful while being less expensive. We call it Macchina 2.0.&lt;/p&gt;
+&lt;p&gt;Our hope is to continue growing and evolving this project with the reenvisioned goal of giving everyone the ability to learn something about car networks, to create better tools, to improve security/safety and generally build cool car projects. We need your help.&lt;/p&gt;
+&lt;p&gt;(insert a link or button to the join us page)&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-tags field-type-taxonomy-term-reference field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;tags:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/news&quot; typeof=&quot;skos:Concept&quot; property=&quot;rdfs:label skos:prefLabel&quot; datatype=&quot;&quot;&gt;Macchina News&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Fri, 06 Mar 2015 20:06:41 +0000</pubDate>
+ <dc:creator>Josh</dc:creator>
+ <guid isPermaLink="false">1 at https://www.macchina.cc</guid>
+ <comments>https://www.macchina.cc/content/and-you-may-ask-yourself-wellhow-did-we-get-here#comments</comments>
+</item>
+</channel>
+</rss>
