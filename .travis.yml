@@ -1,0 +1,19 @@
+language: nodejs
+node_js:
+  - '8'
+sudo: false
+before_script:
+  - npm install -g gitbook-cli
+script:
+  - gitbook build
+branches:
+  only:
+    - gh-pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: gh-pages
+  target_branch: master
+  local_dir: _book
