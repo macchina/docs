@@ -8,12 +8,12 @@ script:
   - gitbook build
 branches:
   only:
-    - gh-pages
+    - master
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   on:
-    branch: gh-pages
-  target_branch: master
+    branch: master
+  target_branch: gh-pages
   local_dir: _book
