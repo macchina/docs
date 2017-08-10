@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduction](index.md)
 * [Getting Started](getting-started.md)
 * [Overview](overview/README.md)
   * [Under-the-dash (UTD)](overview/utd-under-dash.md)
