@@ -1,0 +1,40 @@
+// variables
+$orange: #ff6600;
+$blue: #274287;
+
+body {
+  border: {
+    top: solid 5px $orange;
+    left: solid 5px $orange;
+  }
+}
+
+// Header
+.main-header {
+  display: block;
+  
+  &__title {
+    margin: 0;
+    height: 50px;
+    line-height: 1.75;
+    padding: 10px 15px;
+    font-size: 1.25em
+  }
+}
+
+// Sidebar
+.book-summary {
+  top: 50px;
+  width: calc(300px - 5px);
+}
+
+// book header
+.book-header {
+  top: 5px;
+}
+
+.book.color-theme-3 .book-header {
+  background-color: $blue;
+}
+
+// book body
