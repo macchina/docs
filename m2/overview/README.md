@@ -5,7 +5,7 @@ Overview
 
 ------------------------------------------------------------------------
 
-M2 is an open source automotive interface that takes the form of a OBD2 dongle or hard-wired "Under-the-hood" device. M2 has all of the interface circuitry to connect to the 5+ standard OBD2 protocols and other interfaces (a second CAN bus, LIN bus, single wire CAN, etc). M2 has several options for connections to the outside world including: SD card, USB Device and Host, 20-pin (sort of standard) XBEE socket, and a general purpose connector.
+M2 is an open source automotive interface that takes the form of a OBD2 "Under-the-Dash" dongle or hard-wired "Under-the-hood" device. M2 has all of the interface circuitry to connect to the 5+ standard OBD2 protocols and other interfaces (a second CAN bus, LIN bus, single wire CAN, etc). M2 has several options for connections to the outside world including: SD card, USB Device and Host, 20-pin (sort of standard) XBEE socket, and a general purpose connector.
 
 The XBEE socket can accept several modules, including BTLE, WIFI, and CELLULAR and others.
 
@@ -39,4 +39,4 @@ We have a few configurations of enclosures designed and ready for 3D printing. Y
 
 ------------------------------------------------------------------------
 
-<img src="/images/adaptable186c.png" width="900" height="486" />
+<img src="/images/adaptable186c.png" width="900" />

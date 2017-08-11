@@ -1,16 +1,33 @@
-M2
-==
+Learn Macchina
+==============
 
-M2 is an open source automotive interface that can take your car to the next level. Use it to unlock your car's potential or as a development platform for your next product.
+This repository contains the developer documentation and getting started guides for all [Macchina](https://www.macchina.cc/) products.
 
-M2 is a complete overhaul of our 1.X generation of Macchina. The goals are still the same: Create an easy-to-use, fully-open, and super-compatible automotive interface. This time, we have improved processing power, designed a smaller form factor and more communication options. We still have all of the physical interfaces to allow communication to most any car, new and old built in.
+Contributing
+------------
 
-<img src="/images/IMG_6049a5c9.jpg" width="480" height="360" />
+All the documentation is open source and we appreciate your help!  If you have a suggestion or encounter a problem, please open an issue.  If you want to make a change, please submit a pull request.
 
-------------------------------------------------------------------------
+You can make changes either by editing files on the GitHub website, or by cloning this repository to and editing on your computer.  Instructions for building the book are below.
 
-Continue reading to learn more about how M2 works, example tutorials, etc.
+Building
+--------
 
-Make sure to join the conversation over at our forums here:
+If you already [have GitBook installed](#dependencies), simply run the following from the repository directory:
 
-<https://forum.macchina.cc/>
+> gitbook serve
+
+The above command will build the book and then start a web server so you can view it.  Once the web server is running, it will display the URL you should visit (usually <http://localhost:4000>).
+
+Dependencies
+------------
+
+This project is built with [GitBook](https://github.com/GitbookIO/gitbook-cli).  To try it yourself you will need [Node.js](https://nodejs.org/en/) installed.  Once you have Node.js installed, install `gitbook-cli`:
+
+> npm install -g gitbook-cli
+
+License
+-------
+
+Except where otherwise indicated, all content of this project is under the [Creative Commons Attribution 4.0 (CC-BY-4.0) license](https://creativecommons.org/licenses/by/4.0/).
+All code samples in the documentation and the underlying source code used to customize the format and display of that content is licensed under the [Creative Commons CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/).
