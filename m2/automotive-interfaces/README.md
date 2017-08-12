@@ -1,25 +1,19 @@
 Automotive interfaces
 =====================
 
-### **Arduino IDE**
+The lower board of M2 contains both the power supply circuitry and the automotive interfaces required to communicate with your car. This includes:
 
-------------------------------------------------------------------------
+- 2x CAN bus
+- 1x SWCAN (single wire can)
+- 2x LIN/9141
+- J1805 VPW/PWM
 
-We made it super easy to get the Arduino IDE set up for use with M2. Watch this video to see how it is done.
-You'll start by downloading and installing the latest Arduino IDE here:
-<https://www.arduino.cc/en/Main/Software>
-If you'd rather read something instead of watching a video, here is a great tutorial:
-<https://learn.adafruit.com/add-boards-arduino-v164/>
+<img src="/images/Interface_0d024.png" width="640" />
 
-<img src="/images/Interface_0d024.png" width="640" height="404" />
+In addition, every M2 has a 26 pin "expansion" connector that provides even more connection options. For example: UART, SPI, I2C, general purpose 12V drivers and 12V analog inputs. See the schematic for actual pinout details:
 
-------------------------------------------------------------------------
+https://github.com/macchina/m2-hardware
 
-These may or may not include:
+Refer to the following diagram for pin 1 location.
 
-3.3 - 5 SPI (4 pins on connector)
-3.3 - 5 I2C (2 pins on connector)
-3.3 - 5 UART (2 pins on connector)
-5V GPIO (X pins)
-12V Rail (1 Pin)
-GND (remainder )
+<img src="/images/26pin_connector.png" width="640" />
