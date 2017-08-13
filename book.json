@@ -1,12 +1,9 @@
 {
-  "plugins": ["styles-sass", "theme-api", "header"],
+  "plugins": ["styles-sass", "header"],
   "styles": {
     "website": "./styles/website.scss"
   },
   "pluginsConfig": {
-    "theme-api": {
-      "theme": "dark"
-    },
     "layout": {
       "headerPath": "layouts/header.html"
     }
