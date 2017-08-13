@@ -11,11 +11,9 @@ The processor board of M2 contains the brains and the communication circuitry. I
 
 ------------------------------------------------------------------------
 
-<img src="/images/Arduino_ISO.jpg" width="447" height="354" />
 
 M2 uses the same processor as the Arduino DUE.
 
-More information, including original DUE schematics found here:
-<https://www.arduino.cc/en/Main/ArduinoBoardDue>
+More information, including original DUE schematics found here: <https://www.arduino.cc/en/Main/ArduinoBoardDue>
 
-[<img src="/images/Atmel%20SAM3X8E5969.jpg" width="250" height="324" />](http://www.atmel.com/Images/Atmel-11057-32-bit-Cortex-M3-Microcontroller-SAM3X-SAM3A_Datasheet.pdf)
+Here is the link to the datasheet: http://www.atmel.com/Images/Atmel-11057-32-bit-Cortex-M3-Microcontroller-SAM3X-SAM3A_Datasheet.pdf
