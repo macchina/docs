@@ -6,6 +6,10 @@
   "pluginsConfig": {
     "layout": {
       "headerPath": "layouts/header.html"
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": false
     }
   },
   "structure": {
