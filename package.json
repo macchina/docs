@@ -1,0 +1,23 @@
+{
+  "name": "macchina-docs",
+  "version": "0.0.0",
+  "description": "Macchina documentation",
+  "main": "",
+  "dependencies": {
+    "gitbook-plugin-ga": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macchina/docs.git"
+  },
+  "author": "",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/macchina/docs/issues"
+  },
+  "homepage": "https://github.com/macchina/docs#readme"
+}
