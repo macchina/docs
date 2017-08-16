@@ -1,7 +1,9 @@
 // variablesaj
+$black: #364149;
 $orange: #ff6600;
 $blue: #274287;
 $light-blue: #b3e2fc;
+$gray: #bdcadb;
 $white: #fff;
 
 body {
@@ -40,6 +42,14 @@ body {
   }
 }
 
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a {
+  color: $orange;
+}
+
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
+  color: $black;
+}
+
 // Sidebar
 .book-summary {
   top: 50px;
@@ -67,14 +77,28 @@ body {
   }
 }
 
+.book.color-theme-2 .book-header .btn {
+  color: $gray;
+}
+
 // book body
 .markdown-section a {
   color: $orange;
 }
 
 // search results
-#book-search-results .search-results .has-results .search-results-item a {
-  color: $orange;
+#book-search-results .search-results .has-results .search-results-item {
+  p {
+    color: $black;
+  }
+
+  a {
+    color: $orange;
+  }
+}
+
+.color-theme-2 #book-search-results .search-results .has-results .search-results-item p{
+  color: $gray;
 }
 
 .summary { 
