@@ -4,5 +4,13 @@
   },
   "structure": {
     "readme": "index.md"
+  },
+  "plugins": [
+    "ga"
+  ],
+  "pluginsConfig": {
+    "ga": {
+      "token": "UA-75126303-1"
+    }
   }
 }
