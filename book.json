@@ -1,16 +1,24 @@
 {
   "styles": {
-    "website": "styles/website.css"
+    "website": "./styles/website.css"
   },
   "structure": {
     "readme": "index.md"
   },
   "plugins": [
-    "ga"
+    "ga",
+    "header"
   ],
   "pluginsConfig": {
     "ga": {
       "token": "UA-75126303-1"
+    },
+    "layout": {
+      "headerPath": "layouts/header.html"
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": false
     }
   }
 }
