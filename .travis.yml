@@ -4,7 +4,7 @@ node_js:
 sudo: false
 before_script:
   - npm install -g gitbook-cli
-  - npm install
+  - gitbook install
 script:
   - gitbook build
 branches:
