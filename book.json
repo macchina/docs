@@ -1,13 +1,12 @@
 {
   "styles": {
-    "website": "./styles/website.scss"
+    "website": "./styles/website.css"
   },
   "structure": {
     "readme": "index.md"
   },
   "plugins": [
     "ga",
-    "styles-sass",
     "header"
   ],
   "pluginsConfig": {
