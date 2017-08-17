@@ -9,4 +9,4 @@ Of course there are LOTs of modules that fit this socket, with many different fu
 
 This page will show how to interface various modules and get your M2 talking to the CLOUD.. woo hoo
 
-<embed src="/images/bees5.html" width="680" height="239" />
+<img src="/images/connectable60ba.png" width="640"/>

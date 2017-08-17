@@ -1,6 +1,6 @@
-# ignore node modules
-node_modules
-
-#ignore generated book
+_site
+.sass-cache
+.jekyll-metadata
 _book
-
+node_modules/
+package-lock.json

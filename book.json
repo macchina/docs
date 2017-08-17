@@ -1,9 +1,19 @@
 {
-  "plugins": ["styles-sass", "header"],
   "styles": {
     "website": "./styles/website.scss"
   },
+  "structure": {
+    "readme": "index.md"
+  },
+  "plugins": [
+    "ga",
+    "styles-sass",
+    "header"
+  ],
   "pluginsConfig": {
+    "ga": {
+      "token": "UA-75126303-1"
+    },
     "layout": {
       "headerPath": "layouts/header.html"
     },
@@ -11,8 +21,5 @@
       "facebook": false,
       "twitter": false
     }
-  },
-  "structure": {
-    "readme": "index.md"
   }
 }
