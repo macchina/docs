@@ -1,4 +1,4 @@
-// variablesaj
+// variables
 $black: #364149;
 $orange: #ff6600;
 $blue: #274287;
@@ -9,7 +9,6 @@ $white: #fff;
 body {
   border: {
     top: solid 5px $orange;
-    //left: solid 5px $orange;
   }
 }
 
@@ -43,7 +42,7 @@ body {
 }
 
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a {
-  color: $orange;
+  color: $blue;
 }
 
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
@@ -55,7 +54,7 @@ body {
   top: 50px;
   
   ul.summary li.active>a {
-    color: $orange;
+    color: $blue;
   }
 }
 
@@ -83,7 +82,7 @@ body {
 
 // book body
 .markdown-section a {
-  color: $orange;
+  color: $blue;
 }
 
 // search results
@@ -93,7 +92,7 @@ body {
   }
 
   a {
-    color: $orange;
+    color: $blue;
   }
 }
 

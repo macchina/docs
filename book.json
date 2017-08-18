@@ -1,5 +1,5 @@
 {
-  "plugins": ["styles-sass", "header"],
+  "plugins": ["styles-sass", "header", "custom-favicon"],
   "styles": {
     "website": "./styles/website.scss"
   },
@@ -10,7 +10,8 @@
     "sharing": {
       "facebook": false,
       "twitter": false
-    }
+    },
+    "favicon": "images/favicon.ico"
   },
   "structure": {
     "readme": "index.md"
