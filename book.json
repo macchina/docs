@@ -22,8 +22,5 @@
       "twitter": false
     },
     "favicon": "images/favicon.ico"
-  },
-  "structure": {
-    "readme": "index.md"
   }
 }
