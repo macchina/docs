@@ -1,8 +1,14 @@
 EEPROM
 ======
 
-Here is where more EEPROM information is found.
+[electrically erasable programmable read-only memory](https://en.wikipedia.org/wiki/EEPROM)
 
-<img src="http://media.digikey.com/Renders/__Pkg.Case%20or%20Series/8-SOIC.jpg" width="220" height="90" />
+M2 contains an EEPROM for non-volatile memory. Non-volatile means this data will not be erased when power is cut to M2.
 
-[<embed src="/images/24AA32A_24LC32Ab89f.html" width="250" height="324" />](http://ww1.microchip.com/downloads/en/DeviceDoc/21713M.pdf)
+The EEPROM is 32Kbits and controlled via I2C.
+
+Here is the link to the datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/21713M.pdf
+
+
+
+https://github.com/JChristensen/extEEPROM

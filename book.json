@@ -1,9 +1,19 @@
 {
-  "plugins": ["styles-sass", "header", "custom-favicon"],
   "styles": {
-    "website": "./styles/website.scss"
+    "website": "./styles/website.css"
   },
+  "structure": {
+    "readme": "index.md"
+  },
+  "plugins": [
+    "ga",
+    "header",
+    "custom-favicon"
+  ],
   "pluginsConfig": {
+    "ga": {
+      "token": "UA-75126303-1"
+    },
     "layout": {
       "headerPath": "layouts/header.html"
     },

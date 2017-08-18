@@ -5,7 +5,7 @@ M2 is an open source automotive interface that can take your car to the next lev
 
 M2 is a complete overhaul of our 1.X generation of Macchina. The goals are still the same: Create an easy-to-use, fully-open, and super-compatible automotive interface. This time, we have improved processing power, designed a smaller form factor and more communication options. We still have all of the physical interfaces to allow communication to most any car, new and old built in.
 
-<img src="/images/IMG_6049a5c9.jpg" width="480" height="360" />
+<img src="/images/IMG_6049a5c9.jpg" width="480"/>
 
 ------------------------------------------------------------------------
 
