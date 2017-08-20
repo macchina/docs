@@ -7,7 +7,8 @@
   },
   "plugins": [
     "ga",
-    "header"
+    "header",
+    "custom-favicon"
   ],
   "pluginsConfig": {
     "ga": {
@@ -19,6 +20,7 @@
     "sharing": {
       "facebook": false,
       "twitter": false
-    }
+    },
+    "favicon": "images/favicon.ico"
   }
 }

@@ -22,7 +22,7 @@ body {
     height: 40px; }
 
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a {
-  color: #ff6600; }
+  color: #274287; }
 
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
   color: #364149; }
@@ -30,7 +30,7 @@ body {
 .book-summary {
   top: 50px; }
   .book-summary ul.summary li.active > a {
-    color: #ff6600; }
+    color: #274287; }
 
 .book-header {
   top: 5px;
@@ -46,12 +46,12 @@ body {
   color: #bdcadb; }
 
 .markdown-section a {
-  color: #ff6600; }
+  color: #274287; }
 
 #book-search-results .search-results .has-results .search-results-item p {
   color: #364149; }
 #book-search-results .search-results .has-results .search-results-item a {
-  color: #ff6600; }
+  color: #274287; }
 
 .color-theme-2 #book-search-results .search-results .has-results .search-results-item p {
   color: #bdcadb; }
