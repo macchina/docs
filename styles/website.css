@@ -60,3 +60,14 @@ body {
   display: none; }
 .summary > li:last-child {
   display: none; }
+
+.markdown-section table {
+  display: block;
+  overflow-x: auto; }
+
+footer {
+  max-width: 800px;
+  padding: 0 15px;
+  margin: 0 auto 15px; }
+  footer a {
+    color: #364149; }
