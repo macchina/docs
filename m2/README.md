@@ -1,9 +1,12 @@
 M2
 ==
 
-**Thank you.** M2 has been in development for years and the team has been working together on other projects for much longer. Building this has always been a goal of ours. The [crowdfunding campaign](https://www.kickstarter.com/projects/1029808658/macchina-the-ultimate-tool-for-taking-control-of-y) was the catalyst that transformed us from friends and an idea into a company and a product. We are very thankful to everyone who enabled that transformation. We hope we can repay you through our hard work and dedication to this project.
 
-We would also like to thank the organizations that have helped build the community(s) that M2 relies on. Chief among them are: Arduino, DIGI International, Digi-Key, the EFF, Hackaday, and Open Garages. Finally to the developers who spend their own time building essential tools, answering question on the forum, and testing, thank you.
+
+M2 has been in development for years and the team has been working together on other projects for much longer. Building M2 has always been a goal of ours. The [crowdfunding campaign](https://www.kickstarter.com/projects/1029808658/macchina-the-ultimate-tool-for-taking-control-of-y) was the catalyst that transformed us from friends and an idea to a company and a product. We are very thankful to everyone who enabled this transformation. We will repay you through our hard work and dedication to this project.
+
+We would also like to thank the organizations that have helped build the communities that M2 relies on: Arduino, DIGI International, Digi-Key, the EFF, Hackaday, and Open Garages. Finally, to the developers who spend their own time building essential tools, answering questions on the forum, and testing, thank you.
+
 
 ---
 
@@ -23,9 +26,11 @@ We would also like to thank the organizations that have helped build the communi
 
 <img src="/images/IMG_6049a5c9.jpg" width="480"/>
 
-M2 by Macchina is an open and versatile automotive interface that can take your car to the next level. Use it to customize your ride or as a development platform for your next product. M2 works with almost any vehicle and features an Arduino Due processor at its core. An XBee form factor socket allows for many wireless capabilities. Read more about M2 general features here(link to article).
+M2 by Macchina is an open and versatile automotive interface that can take your car to the next level. Use it to customize your ride or as a development platform for your next product. M2 works with almost any vehicle and features an Arduino Due processor at its core. An XBee form factor socket allows for many wireless capabilities.
 
-To skip to the quick start guide click here
+Read more about M2 general features [here](https://www.macchina.cc/m2-introduction).
+
+To skip to the quick start guide click [here](http://docs.macchina.cc/m2/getting-started/README.html).
 
 ## Goals
 

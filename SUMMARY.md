@@ -5,7 +5,7 @@
     * [Getting Started](m2/getting-started/README.md)
       * [Programming](m2/getting-started/programming.md)
     * [Build Something](m2/build-something/README.md)
-      * [Car Hacking](m2/build-something/car-hacking.md)
+      * [Car Hacking](m2/build-something/car-hacking/README.md)
       * [Projects](m2/build-something/projects/README.md)
         * [Quick](m2/build-something/projects/quick.md)
         * [Involved](m2/build-something/projects/involved.md)
