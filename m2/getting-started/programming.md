@@ -1,13 +1,13 @@
-Getting Started
+Programming
 ===============
 
 There are many ways you can write code and work with M2. One of the quickest and easiest ways is to use the Arduino IDE. (Integrated Development Environment). Many other development environments work well including [Atmel Studio](http://www.microchip.com/development-tools/atmel-studio-7) and [Simulink®](https://www.mathworks.com/products/simulink.html). In the following section, we'll describe how to set things up in each environment, starting with the Arduino IDE.
 
-### **Arduino IDE**
+## Arduino IDE
 
 ------------------------------------------------------------------------
 
-We made it super easy to get the Arduino IDE set up for use with M2. Watch this video to see how it is done.
+We made it super easy to get the Arduino IDE set up for use with M2.
 
 You'll start by downloading and installing the latest Arduino IDE here:
 
@@ -19,11 +19,11 @@ If you'd rather read something instead of watching a video, here is a great tuto
 
 ------------------------------------------------------------------------
 
-**Setup**
+#### Setup
 
 After installing the Arduino IDE, paste this URL:
 
-`https://macchina.github.io/package_macchina_index.json`
+`https://macchina.cc/package_macchina_index.json`
 
 Into the preferences window like this:
 
@@ -35,7 +35,7 @@ Select the M2 board and install like this:
 
 ------------------------------------------------------------------------
 
-**Blink an LED**
+#### Blink an LED
 
 <img src="/images/capture386c6.gif" width="640" height="350" />
 
