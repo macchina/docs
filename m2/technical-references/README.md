@@ -1,7 +1,4 @@
-Technical references
-=========
-
-
+# Technical references
 
 * [Installation](http://docs.macchina.cc/m2/technical-references/installation.html)
 * [Processor](http://docs.macchina.cc/m2/technical-references/processor.html)

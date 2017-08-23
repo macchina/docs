@@ -1,5 +1,4 @@
-Projects
-========
+# Projects
 
 - Divider break down
 - Where to find more ideas?

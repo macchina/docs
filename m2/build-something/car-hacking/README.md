@@ -1,5 +1,4 @@
-Car Hacking
-===========
+# Car Hacking
 
 - Where to start?
 - What can I do?

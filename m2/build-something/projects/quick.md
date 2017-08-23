@@ -1,5 +1,4 @@
-Quick M2 projects
-=================
+# Quick M2 projects
 
 [Polling OBD2 data via CAN](#OBD2)
 

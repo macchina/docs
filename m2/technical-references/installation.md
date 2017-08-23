@@ -5,7 +5,7 @@ Installation
 
 [UTH (Under the Hood)](#utd-under-the-hood)
 
-<img src="/images/adaptable186c.png" width="900" />
+<img src="/images/adaptable186c.png" width="640" />
 
 ## UTD Under-the-Dash
 

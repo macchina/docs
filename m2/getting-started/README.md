@@ -1,5 +1,4 @@
-Getting Started
-===============
+# Getting Started
 
 Skip to:
 
@@ -13,7 +12,7 @@ Expansion Modules - Customize M2 by adding the things you need.
 Inside your box you should find the following:
 
 
-[Picture of box and contents]
+<img src="/images/WIB_UTD.png" width="640" />
 
 - M2 (UTD or UTH)
 - 26 pin cable harness kit

@@ -1,9 +1,8 @@
-Processor
-=========
+# Processor
 
 [pin mapping](#pin-mapping)
 
-### **Overview**
+## Overview
 
 ------------------------------------------------------------------------
 
@@ -200,7 +199,6 @@ The following table builds on the pin mapping for the Arduino Due and is similar
 |                                 |                             |                              | ADVREF         | DGND                 | Analogue Digital Volt ref                     | 75                          |
 |                                 |                             |                              |                |                      |                                               |                             |
 |                                 |                             |                              | PB9            |                      |                                               | 127                         |
-|                                 |                             |                              |                |                      |                                               |                             |
 |                                 |                             |                              |                |                      |                                               |                             |
 | **Test & Programing Pins**      |                             |                              | PB28           | JTAG-TCK             | TP1                                           | 28                          |
 |                                 |                             |                              | PB29           | JTAG-TDI             | TP2                                           | 29                          |

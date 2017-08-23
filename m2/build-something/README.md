@@ -1,5 +1,4 @@
-Build Something
-===============
+# Build Something
 
 - Section Outline
 - Goals

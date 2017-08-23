@@ -1,5 +1,4 @@
-Automotive Interfaces
-=========
+# Automotive Interfaces
 
 [CAN](#can)
 
