@@ -3,7 +3,7 @@ Getting Started
 
 Skip to:
 
-[Programming](http://docs.macchina.cc/m2/getting-started/programming) - Learn the basics of working with M2 processor.
+[Programming with Arduino IDE](/m2/getting-started/arduino.md) - Get setup and run your first sketch on the Macchina M2.
 
 Software & OS - Getting set up with some of the common tools.
 

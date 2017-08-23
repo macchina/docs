@@ -3,7 +3,7 @@
 * [Introduction](index.md)
   * [M2 Docs](m2/README.md)
     * [Getting Started](m2/getting-started/README.md)
-      * [Programming](m2/getting-started/programming.md)
+      * [Arduino IDE](m2/getting-started/arduino.md)
     * [Build Something](m2/build-something/README.md)
       * [Car Hacking](m2/build-something/car-hacking/README.md)
       * [Projects](m2/build-something/projects/README.md)
