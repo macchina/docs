@@ -1,3 +1,9 @@
-<header class="main-header">
-  <h1 class="main-header__title"><a href="https://macchina.cc" class="main-header__link"><img src="/images/logo.svg" alt="Macchina logo" class="main-header__logo"></a> Docs</h1>
-</header>
+{% extends template.self %}
+
+{% block summary %}
+  {{ super() }}
+
+  <header class="main-header">
+    <h1 class="main-header__title"><a href="https://macchina.cc" class="main-header__link"><img src="/images/logo.svg" alt="Macchina logo" class="main-header__logo"></a> Docs</h1>
+  </header>
+{% endblock %}

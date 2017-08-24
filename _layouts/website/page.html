@@ -1,4 +1,12 @@
 {% extends template.self %}
+
+{% block body %}
+<header class="main-header">
+    <h1 class="main-header__title"><a href="https://macchina.cc" class="main-header__link"><img src="/images/logo.svg" alt="Macchina logo" class="main-header__logo"></a> Docs</h1>
+</header>
+{{ super() }}
+{% endblock %}
+
 {% block book_inner %}
 {{ super() }}
 <footer>

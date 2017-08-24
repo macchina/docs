@@ -7,15 +7,11 @@
   },
   "plugins": [
     "ga",
-    "header",
     "custom-favicon"
   ],
   "pluginsConfig": {
     "ga": {
       "token": "UA-75126303-1"
-    },
-    "layout": {
-      "headerPath": "layouts/header.html"
     },
     "sharing": {
       "facebook": false,
