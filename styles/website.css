@@ -3,7 +3,11 @@ body {
 
 .main-header {
   display: block;
-  background: #274287; }
+  background: #274287; 
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 5px; }
   .main-header__title {
     margin: 0;
     height: 50px;
