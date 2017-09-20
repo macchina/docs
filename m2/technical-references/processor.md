@@ -24,7 +24,7 @@ Here is the link to the datasheet: http://www.atmel.com/Images/Atmel-11057-32-bi
 
 **Use the names in the "Mapped Pin Name" in your Arduino Sketch.**
 
-An alternative method is for re-mapping pin names is the "SamNonDuePin" library found [here.](https://github.com/macchina/m2-libraries/tree/master/SamNonDuePin)
+An alternative method is for re-mapping pin names is the "SamNonDuePin" library found [here.](https://github.com/macchina/SamNonDuePin)
 
 A "pin mapping" describes how the different circuits of M2 are connected to the processor. For example, the Green LED (DS6 on the schematic) is connected to pin 7 (AKA PA14) of the processor. To make things easier from a programming standpoint, we can map this to a pin name, in this case, the green LED is mapped to pin 23.
 
