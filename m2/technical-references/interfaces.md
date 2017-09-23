@@ -75,7 +75,7 @@ LIN bus connections can be found on either the 16 pin OBD2 connector on the [UTD
 
 <img src="/images/LIN_Logo_0114b.jpg" width="220" />
 
-Arduino libraries are available here: https://github.com/macchina/m2-libraries/tree/master/LIN
+Arduino libraries are available here: https://github.com/macchina/LIN
 
 ---
 
