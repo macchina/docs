@@ -40,7 +40,7 @@ Using the SD card slot on M2 is pretty straight-forward since all of complexitie
 
 To get started using the SD card on M2, download these 2 libraries to your library folder:
 
-https://github.com/macchina/Arduino_Due_SD_HSMCI
+https://github.com/macchina/M2_SD_HSMCI
 
 1. Download the files
 2. Move the folder to your Arduino Libraries
