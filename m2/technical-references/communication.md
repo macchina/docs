@@ -23,6 +23,10 @@ This page will show how to interface various modules and get your M2 talking to 
 
 ## USB
 
-M2.0 has a USB connector that can act as either a HOST or DEVICE depending on your code.
+M2 has a USB connector that can act as either a HOST or DEVICE depending on your code.
 
-M2 uses Native USB port only.
+M2 uses Native USB port only. To print something to the Serial monitor, you'd need to use this command:
+
+```cpp
+SerialUSB.print("Something");
+```

@@ -1,6 +1,8 @@
 # More Involved M2 projects
 
-[DIGI XBEE cellular LTE](#digi-xbee-celllar-lte)
+[DIGI XBEE cellular LTE](#digi-xbee-cellular-lte-modem-example)
+
+[M2RET (M2 Reverse Engineering tool)](#M2RET)
 
 [BLE with OBD2 and Blynk](#blynk)
 
@@ -9,7 +11,6 @@ These projects are a little more complex.
 ---
 
 ## Digi XBee Cellular LTE modem example
-
 
 This tutorial will show how to connect your car to the internet using M2, a Digi XBee Cellular LTE modem and a SIM card. For more information about this modem check out this [link](https://www.digi.com/products/xbee-rf-solutions/embedded-cellular-modems/digi-xbee-cellular) or read the [datasheet](https://www.digi.com/pdf/ds_xbee-cellular.pdf).
 
@@ -20,6 +21,15 @@ The modem plugs directly into the 20 pin wireless socket on top of M2. Make sure
 Before plugging the modem into M2, make sure to install a SIM card. This Modem uses a 4FF (Nano) size SIM card.
 
 <img src="/images/DIGI_modem.png" width="640" />
+
+#### Power
+
+As you work with the Digi modem, keep in mind that it requires a bit more power that your computer can provide directly over a USB port. You have 2 options here:
+
+- Power M2 via the OBD2 port (i.e. plugging into your car or some sort of adapter)
+- Use a powered USB hub. This option is preferable for desktop development. We've had good luck with this inexpensive hub:
+
+https://www.amazon.com/AmazonBasics-Port-2-5A-power-adapter/dp/B00DQFGH80
 
 #### Basic communication
 
@@ -32,44 +42,38 @@ This sketch will also make the GREEN LED blink as the [associate](https://www.di
 
 ```cpp
 
-const int DIGI_Associate_PIN  = XBEE_MULT2;   // xbee pin 15
-const int DIGI_RESET_PIN = XBEE_RST;          // xbee pin 5
-const int GREEN_LED =  DS6;                   // the number of the LED pin
-int AssociateState = 0;                       // variable for reading the associate status
+int AssociateState = 0;            // variable for reading the associate status
 
 void setup() {
-  // initialize both serial ports:
-  Serial.begin(9600);
-  SerialUSB.begin(9600);
-  pinMode(DIGI_Associate_PIN, INPUT);
-  pinMode(GREEN_LED, OUTPUT);
-  pinMode(DIGI_RESET_PIN, OUTPUT);
-  digitalWrite(DIGI_RESET_PIN, LOW);
+  Serial.begin(9600);              // Serial port for XBEE socket
+  SerialUSB.begin(9600);           // Native USB port
+  pinMode(XBEE_MULT2, INPUT);      // DIGI Associate PIN
+  pinMode(DS6, OUTPUT);            // Green LED
+  pinMode(XBEE_RST, OUTPUT);
+  digitalWrite(XBEE_RST, HIGH);    // Make sure RESET is HIGH
+  pinMode(DS2, OUTPUT);
+  digitalWrite(DS2, LOW);          // Turns on Red LED
 }
 
 void loop() {
-  // read from port 1, send to port 0:
-  if (SerialUSB.available()) {
+
+  if (SerialUSB.available()) {     // read from port 1, send to port 0:
     int inByte = SerialUSB.read();
     Serial.write(inByte);
   }
 
-  // read from port 0, send to port 1:
-  if (Serial.available()) {
+  if (Serial.available()) {        // read from port 0, send to port 1:
     int inByte = Serial.read();
     SerialUSB.write(inByte);
   }
 
-  AssociateState = digitalRead(DIGI_Associate_PIN);
+  AssociateState = digitalRead(XBEE_MULT2);
 
   if (AssociateState == HIGH) {
-    // turn LED on:
-    digitalWrite(GREEN_LED, HIGH);
+    digitalWrite(DS6, HIGH);       // turn LED on:
   } else {
-    // turn LED off:
-    digitalWrite(GREEN_LED, LOW);
+    digitalWrite(DS6, LOW);        // turn LED off:
   }
-
 }
 ```
 
@@ -81,6 +85,14 @@ From there, you can do all sorts of fun things, from sending a SMS to connecting
 
 #### A more advanced cellular project
 
-The next step is to replace the commands coming from your computer with commands directly from M2! In other words, the processor on M2 will communicate with the modem without intervention. Let's do a more advanced project!
+The next step is to replace the commands coming from your computer with commands directly from M2. In other words, the processor on M2 will communicate with the modem without intervention. Let's do a more advanced project!
+
+To be continued...
+
+## M2RET
+
+To be continued...
+
+## Blynk
 
 To be continued...
