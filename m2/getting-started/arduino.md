@@ -23,7 +23,8 @@ Now that you have the Arduino IDE Installed, you will add support for the for _M
 
 First, you will tell the IDE where to find the Macchina board configuration files.  Go to **_File_** > **_Preferences_**.  Paste
 
-    https://macchina.cc/package_macchina_index.json 
+    https://macchina.github.io/arduino-boards-index/package_macchina_index.json
+    
 
 into the **_Additional Board Manager URLs:_** box and press **_OK_**.  This tells the Arduino IDE where to look to find the board configuration files for Macchina boards.
 
