@@ -1,6 +1,6 @@
-# Bring your own board
+# M2 Breakout Board: bring your own board
 
-M2 was designed to be modular to give you the option of using your own microcontroller board in place of our Arduino-based processor board. We've built a breakout board to make it easy to connect a Raspberry PI, Edison, Particle, or whatever your favorite microcontroller may be.
+M2 was designed to be modular to give you the option of using your own microcontroller board in place of our Arduino-based processor board. We've built a [breakout board](https://www.macchina.cc/catalog) to make it easy to connect a Raspberry PI, Edison, Particle, or whatever your favorite microcontroller may be.
 
 <img src="/images/breakoutable4f35.png" width="640" />
 

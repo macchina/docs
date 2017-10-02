@@ -19,4 +19,4 @@
       * [12V IO](m2/technical-references/12VIO.md)
       * [LEDS/Buttons](m2/technical-references/leds-buttons.md)
       * [Mechanical](m2/technical-references/mechanical.md)
-      * [BYOB](m2/technical-references/byob.md)
+      * [Breakout Board](m2/technical-references/byob.md)
