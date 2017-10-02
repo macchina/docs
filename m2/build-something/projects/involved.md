@@ -1,14 +1,6 @@
 # More Involved M2 projects
 
-[DIGI XBEE cellular LTE](#digi-xbee-cellular-lte-modem-example)
-
-[M2RET (M2 Reverse Engineering tool)](#M2RET)
-
-[BLE with OBD2 and Blynk](#blynk)
-
 These projects are a little more complex.
-
----
 
 ## Digi XBee Cellular LTE modem example
 

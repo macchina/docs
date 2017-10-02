@@ -1,17 +1,5 @@
 # Automotive Interfaces
 
-[CAN](#can)
-
-[Single-wire CAN](#single-wire-can)
-
-[LIN](#lin)
-
-[K-line](#k-line)
-
-[J1850 PWM/VPW](#j1850)
-
----
-
 The lower board of M2 contains both the power supply circuitry and the automotive interfaces required to communicate with your car. This includes:
 
 - 2x CAN bus
@@ -28,8 +16,6 @@ https://github.com/macchina/m2-hardware
 Refer to the following diagram for pin 1 location.
 
 <img src="/images/26pin_connector.png" width="640" />
-
----
 
 ## CAN
 
@@ -51,13 +37,10 @@ https://github.com/collin80/due_can
 
 \[TO DO: Add schematic page for CAN bus transceivers\]
 
----
 
 ## Single-wire CAN
 
 Here is where we talk about all the SW can libraries.
-
----
 
 ## LIN
 
@@ -76,8 +59,6 @@ LIN bus connections can be found on either the 16 pin OBD2 connector on the [UTD
 <img src="/images/LIN_Logo_0114b.jpg" width="220" />
 
 Arduino libraries are available here: https://github.com/macchina/LIN
-
----
 
 ## K-line
 

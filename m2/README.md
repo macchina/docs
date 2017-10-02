@@ -7,21 +7,6 @@ M2 has been in development for years and the team has been working together on o
 
 We would also like to thank the organizations that have helped build the communities that M2 relies on: Arduino, DIGI International, Digi-Key, the EFF, Hackaday, and Open Garages. Finally, to the developers who spend their own time building essential tools, answering questions on the forum, and testing, thank you.
 
-
----
-
-[M2 Summary](#m2-summary)
-
-[M2 Goals](#goals)
-
-[Specification](#specification)
-
-[Outline of sections](#sections)
-
-[Safety](#safety)
-
----
-
 ## M2 Summary
 
 <img src="/images/IMG_6049a5c9.jpg" width="480"/>

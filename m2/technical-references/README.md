@@ -1,14 +1,10 @@
 # Technical references
 
-Skip to:
-
-[Schematics for M2 board](https://github.com/macchina/m2-hardware)
+[The schematics for the M2 boards are open source on GitHub](https://github.com/macchina/m2-hardware)
 
 Note: Make sure to refer to the **R3** version if you have a "Release" M2 board. **R2** refers to "Beta" M2 hardware.
 
----
-
-The following pages will provide more details of M2:
+The following pages provide more details on the M2:
 
 * [Installation](./installation.md)
 * [Processor](./processor.md)
