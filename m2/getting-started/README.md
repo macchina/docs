@@ -32,4 +32,4 @@ Inside your box you should find the following:
 It’s ok to do some initial setup before you have an enclosure, but before your M2 spends long periods in the car please consider protecting it. We have a few configurations of enclosures designed and ready for 3D printing. You can download the designs, tweak them as needed, print, share, lather, rinse, repeat.
 
 
-Find more about enclosures [here](http://docs.macchina.cc/m2/technical-references/mechanical).
+Find more about enclosures [here](http://docs.macchina.cc/m2/technical-references/enclosures).
