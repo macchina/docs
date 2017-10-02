@@ -12,7 +12,7 @@ The following pages provide more details on the M2:
 * [Communication](./communication.md)
 * [Power](./power.md)
 * [Memory](./memory.md)
-* [12V IO](./12VIO.md)
+* [12V IO](./12vio.md)
 * [LEDS/Buttons](./leds-buttons.md)
 * [Enclosures](./enclosures.md)
 * [Breakout Board](./byob.md)

@@ -16,7 +16,7 @@
       * [Communication](m2/technical-references/communication.md)
       * [Power](m2/technical-references/power.md)
       * [Memory](m2/technical-references/memory.md)
-      * [12V IO](m2/technical-references/12VIO.md)
+      * [12V IO](m2/technical-references/12vio.md)
       * [LEDS/Buttons](m2/technical-references/leds-buttons.md)
       * [Enclosuers](m2/technical-references/enclosures.md)
       * [Breakout Board](m2/technical-references/byob.md)
