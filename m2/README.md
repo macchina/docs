@@ -1,26 +1,11 @@
-M2
-==
+Macchina M2
+===========
 
 
 
 M2 has been in development for years and the team has been working together on other projects for much longer. Building M2 has always been a goal of ours. The [crowdfunding campaign](https://www.kickstarter.com/projects/1029808658/macchina-the-ultimate-tool-for-taking-control-of-y) was the catalyst that transformed us from friends and an idea to a company and a product. We are very thankful to everyone who enabled this transformation. We will repay you through our hard work and dedication to this project.
 
 We would also like to thank the organizations that have helped build the communities that M2 relies on: Arduino, DIGI International, Digi-Key, the EFF, Hackaday, and Open Garages. Finally, to the developers who spend their own time building essential tools, answering questions on the forum, and testing, thank you.
-
-
----
-
-[M2 Summary](#m2-summary)
-
-[M2 Goals](#goals)
-
-[Specification](#specification)
-
-[Outline of sections](#sections)
-
-[Safety](#safety)
-
----
 
 ## M2 Summary
 

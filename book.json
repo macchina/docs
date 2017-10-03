@@ -8,7 +8,8 @@
   "plugins": [
     "ga",
     "custom-favicon",
-    "edit-link"
+    "edit-link",
+    "page-toc"
   ],
   "pluginsConfig": {
     "ga": {

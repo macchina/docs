@@ -1,15 +1,8 @@
 Memory
 =========
 
-[EEPROM](#eeprom)
-
-[microSD card](#microsd)
-
----
 
 M2.0 offers 2 options for non-volitile memory: EEPROM and SD card.
-
----
 
 ## eeprom
 
@@ -23,7 +16,6 @@ Here is the link to the datasheet: http://ww1.microchip.com/downloads/en/DeviceD
 
 https://github.com/JChristensen/extEEPROM
 
----
 ## microSD
 
 [microSD memory card](https://en.wikipedia.org/wiki/Secure_Digital)
