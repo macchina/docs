@@ -1,13 +1,5 @@
 # Getting Started
 
-Skip to:
-
-[Programming with Arduino IDE](/m2/getting-started/arduino.md) - Get setup and run your first sketch on the Macchina M2.
-
-Software & OS - Getting set up with some of the common tools.
-
-Expansion Modules - Customize M2 by adding the things you need.
-
 ## What’s in the Box?
 Inside your box you should find the following:
 
@@ -20,16 +12,19 @@ Inside your box you should find the following:
 - Window sticker
 - Start up card
 
-## Quick projects:
+## Quick projects
 
-- Set up Arduino IDE
-- Blink an LED
+There are many ways you can write code and work with M2. One of the quickest and easiest ways is to use the Arduino IDE (Integrated Development Environment) which is what this documentation will use. Many other development environments work well including [Atmel Studio](http://www.microchip.com/development-tools/atmel-studio-7) and [Simulink®](https://www.mathworks.com/products/simulink.html).
+
+
+- [Set up Arduino IDE](./arduino.md)
+- [Blink an LED](./arduino.md#running-your-first-sketch)
 - Simple CAN tutorial
 - Simple Communication tutorial
 
-## Enclosures:
+## Enclosures
 
 It’s ok to do some initial setup before you have an enclosure, but before your M2 spends long periods in the car please consider protecting it. We have a few configurations of enclosures designed and ready for 3D printing. You can download the designs, tweak them as needed, print, share, lather, rinse, repeat.
 
 
-Find more about enclosures [here](http://docs.macchina.cc/m2/technical-references/enclosures).
+Find more about enclosures [here](../technical-references/enclosures.md).

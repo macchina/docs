@@ -1,3 +1,0 @@
-# Programming the Macchina M2
-
-There are many ways you can write code and work with M2. One of the quickest and easiest ways is to use the Arduino IDE (Integrated Development Environment). Many other development environments work well including [Atmel Studio](http://www.microchip.com/development-tools/atmel-studio-7) and [Simulink®](https://www.mathworks.com/products/simulink.html).  In the following section, we'll describe how to set things up in each environment, starting with the Arduino IDE.

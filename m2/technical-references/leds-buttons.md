@@ -5,7 +5,7 @@ There are several LEDs on the processor board of M2.0. These LEDs are user progr
 
 <img src="/images/LED_schematic.png" />
 
-The following table shows what LEDs coorespond to what Pin name.
+The following table shows what LEDs correspond to what Pin name.
 
 
 | LED               | Mapped Pin Name        |

@@ -6,7 +6,7 @@ M2 was designed to be modular to give you the option of using your own microcont
 
 We've broken out all of the necessary signals to make it easy to hook up. Below is a rendering of the top of the breakout board showing where each signal is found. See table below for more description of how pins work.
 
-**At a bare minimum, connect +5VOUT and GND to your microcontroller board, supply the interface board with +3.3V at +3.3VIN, and connect up whatever signals you are looking to interface with (CAN, LIN, etc) **
+**At a bare minimum, connect +5VOUT and GND to your microcontroller board, supply the interface board with +3.3V at +3.3VIN, and connect up whatever signals you are looking to interface with (CAN, LIN, etc)**
 
 <img src="/images/breakout_labels.png" width="640" />
 
