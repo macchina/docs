@@ -1,8 +1,3 @@
-Enclosures
-==========
+# Enclosures
 
-Here is where we will add information on 3D printed enclosures. We share all of our 3D models so you can print your own enclosure. Those files are found here:
-
-https://github.com/macchina/m2-enclosures
-
-[Join the Developer discussion here](https://forum.macchina.cc/t/3d-printed-enclosure-files/82)
+We share all of our 3D models so you can print your own enclosure: [Macchina M2 Enclosures on GitHub](https://github.com/macchina/m2-enclosures)

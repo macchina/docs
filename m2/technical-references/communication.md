@@ -1,17 +1,14 @@
 Communication
 =========
 
-## Bee
+## XBee-compatible socket
 
-M2 has an "XBEE compatible form factor socket" on the top of the processor board. In other words: two 2mm pitch x 10 pin headers spaced 22mm apart. Read more about XBEE modules here:
+M2 has an _XBee-compatible form factor socket_ on the top of the processor board. In other words: two 2mm pitch x 10 pin headers spaced 22mm apart. You an read more about [XBee modules on Wikipedia](https://en.wikipedia.org/wiki/XBee)
 
-<https://en.wikipedia.org/wiki/XBee>
-
-Of course there are LOTs of modules that fit this socket, with many different functions. WIFI, BLE, GSM, LTE, ETHERNET, etc.
-
-This page will show how to interface various modules and get your M2 talking to the CLOUD.. woo hoo
+There are LOTs of modules that fit this socket, with many different functions. WiFi, BLE, GSM, LTE, Ethernet, etc.
 
 <img src="/images/connectable60ba.png" width="640"/>
+
 ## USB
 
 M2 has a USB connector that can act as either a HOST or DEVICE depending on your code.

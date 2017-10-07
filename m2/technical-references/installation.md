@@ -5,7 +5,7 @@ Installation
 
 ## Under-the-Dash (UTD)
 
-The "Under-the-Dash" version of M2 plugs directly into the OBD2 port of the modern car. Any car built after 1996 has an OBD2 port near the steering wheel, under the dash.
+The "Under-the-Dash" version of the M2 plugs directly into the OBD2 port of the modern car. Any car built after 1996 has an OBD2 port near the steering wheel, under the dash.
 
 <img src="/images/UTD_09c94.png" width="640" />
 
@@ -37,7 +37,7 @@ This following table describes the functionality of each pin.
 
 ## Under-the-Hood (UTH)
 
-The "Under-the-Hood" version of M2 is exactly the same as the "Under-the-Dash" version, but rather than a OBD2 connector, it uses a more general purpose connector. This connector takes the form of a 24-pin pluggable connector. Typical usage for this connector would be a more permanent installation where M2 would be hard-wired or spliced into an existing cable harness.
+The "Under-the-Hood" version of the M2 is exactly the same as the "Under-the-Dash" version, but rather than a OBD2 connector, it uses a more general purpose connector. This connector takes the form of a 24-pin pluggable connector. Typical usage for this connector would be a more permanent installation where M2 would be hard-wired or spliced into an existing cable harness.
 
 <img src="/images/UTHc4ce.png" width="640" height="361" />
 

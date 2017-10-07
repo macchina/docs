@@ -31,6 +31,8 @@ Next, you will open the **Boards Manager** to download the needed board configur
 
 In the board manager, install **Arduino SAM Boards (32-bit ARM Cortex-M3) by Arduino**.  Then install **Macchina SAM Boards (Install Arduino SAM Boards first) by Macchina**.
 
+Note: If for any reason you cannot use the Board Manager to install the board configuration files, you have the option to do a [manual install](https://github.com/macchina/arduino-boards-sam/blob/master/CONTRIBUTING.md#board-manager-install) but will not benefit from the updates notification provided by the Board Manager when new versions are released.
+
 ## Drivers
 
 You may need to install a driver to enable your computer to communicate with the Macchina M2 before you can send sketches to it.  The Macchina M2 is based on the Arduino Due and uses the same driver.  Please visit the official Arduino Due documentation for [instructions on installing drivers](https://www.arduino.cc/en/Guide/ArduinoDue#toc4).
@@ -52,3 +54,5 @@ Finally, in the opened window, upload the sketch to your M2 board.  **_Sketch_**
 It will take a few moments for the sketch to be written as firmware to your Macchina M2.  You can watch the progress at the bottom of the IDE window.  When the upload has completed, you should see a flashing LED on your Macchina M2.
 
 Congratulations!  You have now configured your computer for development on the M2 and run your first program.  As a next step, you may choose to learn the names of the other LEDs on the Macchina M2 using the [pin mapping](/m2/processor/pin-mapping).  Then you can practice modifying the sketch to make other LEDs blink.
+
+You may also wish to explore the other sketches under the **_Examples_** menu.  Most libraries include examples which can be accessed by the **_Examples_** menu after the library is installed.  The Macchina M2 Board Configuration you installed includes some libraries which will be listed under the **_Examples for Macchina M2_** section of the **_Examples_** menu.
