@@ -2,14 +2,9 @@
 
 **NOTE!** This table is only applicable when using the M2 board as selected from the Tools -> Board menu from the Arduino IDE. See more information [here.](https://github.com/macchina/arduino-boards-sam)
 
-**Use the names in the "Mapped Pin Name" in your Arduino Sketch.**
+**Use the names in the "Mapped Pin Name" column in your Arduino Sketch.**
 
-An alternative method is for re-mapping pin names is the "SamNonDuePin" library found [here.](https://github.com/macchina/SamNonDuePin)
-
-A "pin mapping" describes how the different circuits of M2 are connected to the processor. For example, the Green LED (DS6 on the schematic) is connected to pin 7 (AKA PA14) of the processor. To make things easier from a programming standpoint, we can map this to a pin name, in this case, the green LED is mapped to pin 23.
-
-The following table builds on the pin mapping for the Arduino Due and is similar to the DUE mapping found here:
-<https://www.arduino.cc/en/Hacking/PinMappingSAM3X>
+A "pin mapping" describes how the different circuits of your M2 are connected to the processor. For example, the Green LED (DS6 on the schematic) is connected to pin 7 (AKA PA14) of the processor. To make things easier from a programming standpoint, we can map this to a pin name, in this case, the green LED is mapped to the name `DS6` (which is compiled to the value 18).
 
 ### LEDs
 

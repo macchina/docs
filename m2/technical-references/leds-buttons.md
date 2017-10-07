@@ -1,7 +1,7 @@
 LEDs
 ====
 
-There are several LEDs on the processor board of M2.0. These LEDs are user programmable and can be used for many applications. The LEDs are as follows:
+There are several LEDs on the processor board of the Macchina M2. These LEDs are user programmable and can be used for many applications. The LEDs are as follows:
 
 <img src="/images/LED_schematic.png" />
 
@@ -30,9 +30,9 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(DS6, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(DS6, HIGH);  // turn the LED on (HIGH is the voltage level)
   delay(1000);              // wait for a second
-  digitalWrite(DS6, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(DS6, LOW);   // turn the LED off by making the voltage LOW
   delay(1000);              // wait for a second
 }
 ```

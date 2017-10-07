@@ -3,6 +3,7 @@
 * [Introduction](index.md)
 * M2 Docs
   * [About the M2](m2/README.md)
+  * [Disclaimer](m2/disclaimer.md)
   * [Getting Started](m2/getting-started/README.md)
   * [Arduino IDE Quick Start](m2/getting-started/arduino.md)
   * Detailed Reference
@@ -13,7 +14,7 @@
     * [Communication](m2/technical-references/communication.md)
       * [Cellular](m2/build-something/cellular.md)
     * [Power](m2/technical-references/power.md)
-    * [Memory](m2/technical-references/memory.md)
+    * [Storage/Memory](m2/technical-references/memory.md)
     * [12V IO](m2/technical-references/12vio.md)
     * [LEDS](m2/technical-references/leds-buttons.md)
     * [Enclosures](m2/technical-references/enclosures.md)

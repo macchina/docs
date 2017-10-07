@@ -1,35 +1,34 @@
-## Digi XBee Cellular LTE modem example
+# Digi XBee Cellular LTE modem example
 
-This tutorial will show how to connect your car to the internet using M2, a Digi XBee Cellular LTE modem and a SIM card. For more information about this modem check out this [link](https://www.digi.com/products/xbee-rf-solutions/embedded-cellular-modems/digi-xbee-cellular) or read the [datasheet](https://www.digi.com/pdf/ds_xbee-cellular.pdf).
+This tutorial will show how to connect your car to the internet using M2, a [Digi XBee Cellular LTE modem]((https://www.digi.com/products/xbee-rf-solutions/embedded-cellular-modems/digi-xbee-cellular)) and a SIM card. You may also wish to reference the [modem's datasheet](https://www.digi.com/pdf/ds_xbee-cellular.pdf).
 
-#### Setup
+## Setup
 
-The modem plugs directly into the 20 pin wireless socket on top of M2. Make sure that it is oriented correctly with the angled chamfers pointed toward the USB/SD side of M2. Make sure M2 is not being powered when plugging in the modem.
+The modem plugs directly into the 20 pin wireless socket on top of your M2. Make sure that it is oriented correctly with the angled chamfers pointed toward the USB/SD side of your M2.  Please make sure your M2 is not being powered when plugging in the modem.
 
-Before plugging the modem into M2, make sure to install a SIM card. This Modem uses a 4FF (Nano) size SIM card.
+Before plugging the modem into your M2, make sure to install a SIM card. This modem uses a 4FF (Nano) size SIM card.
 
 <img src="/images/DIGI_modem.png" width="640" />
 
-#### Power
+## Power
 
-As you work with the Digi modem, keep in mind that it requires a bit more power that your computer can provide directly over a USB port. You have 2 options here:
+As you work with the Digi modem, please keep in mind that it requires more power that your computer can provide directly over a USB port. You have 2 options:
 
-- Power M2 via the OBD2 port (i.e. plugging into your car or some sort of adapter)
+- Power your M2 via the OBD2 port (i.e. plugging into your car or some sort of adapter)
 - Use a powered USB hub. This option is preferable for desktop development. We've had good luck with this inexpensive hub:
 
 https://www.amazon.com/AmazonBasics-Port-2-5A-power-adapter/dp/B00DQFGH80
 
-#### Basic communication
+## Basic communication
 
-A good first step is to check that everything is working by talking to the modem with your computer through M2. For this, we program M2 with a simple sketch that will forward data between the 2 serial ports:
+A good first step is to check that everything is working it to talk to the modem from your computer, through your M2. For this, you need to program your M2 with a simple sketch that will forward data between the 2 serial ports:
 
-- USBSerial = USB connection between M2 processor and your computer.
-- Serial0 = Serial connection between M2 processor and XBEE socket pins
+- **USBSerial**, the USB connection between the M2 processor and your computer.
+- **Serial0**, the Serial connection between the M2 processor and the XBee socket pins
 
 This sketch will also make the GREEN LED blink as the [associate](https://www.digi.com/resources/documentation/digidocs/90001525/default.htm#reference/r_cell_associate_led.htm%3FTocPath%3DHardware%7C_____4) pin of the modem toggles. The pin signals and locations for the modem can be found [here](https://www.digi.com/resources/documentation/digidocs/90001525/default.htm#reference/r_pinouts_th.htm%3FTocPath%3DHardware%7CPin%2520signals%7C_____0).
 
 ```cpp
-
 int AssociateState = 0;            // variable for reading the associate status
 
 void setup() {
@@ -65,11 +64,11 @@ void loop() {
 }
 ```
 
-The second part to a basic communication test is the software on your computer. Digi offers a nice UI called XCTU to communicate with their products. Download the latest verison [here](https://www.digi.com/products/xbee-rf-solutions/xctu-software/xctu).
+The second part to a basic communication test is the software on your computer. Digi offers a nice UI called XCTU to communicate with their products. Download the [latest verison](https://www.digi.com/products/xbee-rf-solutions/xctu-software/xctu).
 
-Once downloaded and installed, launch XCTU and follow the instructions from Digi's documentation found [here](https://www.digi.com/resources/documentation/digidocs/90001525/default.htm#tasks/t_add_device.htm%3FTocPath%3DGetting%2520started%2520with%2520the%2520XBee%2520Cellular%2520Modem%2520Development%2520Kit%7CConfigure%2520the%2520device%2520using%2520XCTU%7C_____1).
+Once downloaded and installed, launch XCTU and follow the instructions from [Digi's documentation](https://www.digi.com/resources/documentation/digidocs/90001525/default.htm#tasks/t_add_device.htm%3FTocPath%3DGetting%2520started%2520with%2520the%2520XBee%2520Cellular%2520Modem%2520Development%2520Kit%7CConfigure%2520the%2520device%2520using%2520XCTU%7C_____1).
 
-From there, you can do all sorts of fun things, from sending a SMS to connecting to servers to posting data to a website. Several examples are found on Digi's documentaion page [here](https://www.digi.com/resources/documentation/digidocs/90001525/default.htm).
+From there, you can do all sorts of fun things, from sending an SMS to connecting to servers to posting data to a website. Several examples are found on [Digi's documentation page](https://www.digi.com/resources/documentation/digidocs/90001525/default.htm).
 
 <!--
 
