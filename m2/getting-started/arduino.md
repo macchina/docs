@@ -31,7 +31,7 @@ Next, you will open the **Boards Manager** to download the needed board configur
 
 In the board manager, install **Arduino SAM Boards (32-bit ARM Cortex-M3) by Arduino**.  Then install **Macchina SAM Boards (Install Arduino SAM Boards first) by Macchina**.
 
-Note: If for any reason you cannot use the Board Manager to install the board configuration files, you have the option to do a [manual install](https://github.com/macchina/arduino-boards-sam/blob/master/CONTRIBUTING.md#board-manager-install) but will not benefit from the updates notification provided by the Board Manager when new versions are released.
+Note: If for any reason you cannot use the Board Manager to install the board configuration files, you have the option to do a [manual install](https://github.com/macchina/arduino-boards-sam/blob/master/CONTRIBUTING.md#local-install-recommended) but will not benefit from the updates notification provided by the Board Manager when new versions are released.
 
 ## Drivers
 
