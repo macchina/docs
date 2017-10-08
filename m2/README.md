@@ -29,7 +29,7 @@ The M2 is an open source automotive interface that takes the form of an OBD2 "un
 
 <img src="/images/blockdiagram3_0_10efe.png" width="480" height="388" />
 
-We designed the M2 to be modular and the result was three main components related, but independent components.
+We designed the M2 to be modular and the result was three main related, but independent, components.
 
 The **M2 Interface Board** provides most of the hardware support for automotive connections. The goal was for M2 to be able to interface and communicate with as many cars as possible. We crammed 2 channels of CAN, 2 channels of LIN/K-LINE, a J1850 VPW/PWM and even a single-wire CAN (GMLAN) interface onto the board. Automotive environments require the M2 to be seriously strong, so we built in plenty of protection circuitry. Lastly, we have 6 general purpose driver circuits, which can source and sink up to 1 amp of current at 12 volts!
 
