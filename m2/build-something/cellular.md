@@ -1,6 +1,6 @@
 # Digi XBee Cellular LTE modem example
 
-This tutorial will show how to connect your car to the internet using M2, a [Digi XBee Cellular LTE modem]((https://www.digi.com/products/xbee-rf-solutions/embedded-cellular-modems/digi-xbee-cellular)) and a SIM card. You may also wish to reference the [modem's datasheet](https://www.digi.com/pdf/ds_xbee-cellular.pdf).
+This tutorial will show how to connect your car to the internet using M2, a [Digi XBee Cellular LTE modem](https://www.digi.com/products/xbee-rf-solutions/embedded-cellular-modems/digi-xbee-cellular) and a SIM card. You may also wish to reference the [modem's datasheet](https://www.digi.com/pdf/ds_xbee-cellular.pdf).
 
 ## Setup
 
