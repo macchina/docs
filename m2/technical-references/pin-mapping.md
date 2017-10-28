@@ -23,8 +23,8 @@ A "pin mapping" describes how the different circuits of your M2 are connected to
 
 | Mapped Pin Name (use these in your sketch) | M2 Board Signal Name | Notes                | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number | 
 |--------------------------------------------|----------------------|----------------------|----------------|-----------------------------|-----------------------------| 
-| BUTTON1                                    | TACT SW1             | Button pressed = LOW | PC27           | 138                         | 22                          | 
-| BUTTON2                                    | TACT SW2             | Button pressed = LOW | PB6            | 121                         | 23                          | 
+| Button1                                    | TACT SW1             | Button pressed = LOW | PC27           | 138                         | 22                          | 
+| Button2                                    | TACT SW2             | Button pressed = LOW | PB6            | 121                         | 23                          | 
 
 ### SD Card
 | Mapped Pin Name (use these in your sketch) | M2 Board Signal Name | Notes                  | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number | 
