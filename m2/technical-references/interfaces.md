@@ -3,19 +3,52 @@
 The M2 Inferface Board contains both the power supply circuitry and the automotive interfaces required to communicate with your car. This includes:
 
 - 2x CAN bus
-- 1x SWCAN (single wire can)
+- 1x SWCAN (Single-Wire CAN)
 - 2x LIN/9141
-- J1805 VPW/PWM
+- J1850 VPW/PWM
 
-To find libraries for any M2 interfaces, try the [Macchina Community Showcase] (http://showcase.macchina.cc/libraries.html).
+To find libraries for any M2 interfaces, try the [Macchina Community Showcase](http://showcase.macchina.cc/libraries.html).
 
 <img src="/images/Interface_0d024.png" width="640" />
 
-In addition, every M2 has a 26 pin "expansion" connector that provides even more connection options. For example: UART, SPI, I2C, general purpose 12V drivers and 12V analog inputs. See the [schematic](https://github.com/macchina/m2-hardware) for actual pinout details.
+In addition, every M2 has a 26 pin "expansion" connector that provides even more connection options. For example: UART, SPI, I2C, general purpose 12V drivers and 12V analog inputs. See the [schematic](https://github.com/macchina/m2-hardware) for actual pinout details and the following table for connector pinout:
 
-Refer to the following diagram for pin 1 location.
+| Pin    | Function| Notes    |
+| ------ |-------------|-------------|
+| 1      | IN 1        |  0-12V Input |
+| 2      | OUT 1       | 12V SOURCE Output|
+| 3      | SCL0        |  |
+| 4      | SDA0        |  |
+| 5      | IN 2        | 0-12V Input |
+| 6      | OUT 2       | 12V SOURCE Output |
+| 7      | UART3 TX    | K-LINE or LIN channel 1 |
+| 8      | UART3 RX    |  |
+| 9      | IN 3        |  0-12V Input |
+| 10     | OUT 3       | 12V SOURCE Output |
+| 11     | SPI0 CLK    |  |
+| 12     | SPI0 MISO   |  |
+| 13     | IN 4        | 0-12V Input |
+| 14     | OUT 4       | 12V SINK Output |
+| 15     | SPI0 CS/USART2RX    |  |
+| 16     | SPIO MOSI           | +12V INPUT |
+| 17     | IN 5        | 0-12V Input |
+| 18     | OUT 5       | 12V SINK Output |
+| 19     | +12VIO      | +12V (switched output) |
+| 20     | +5V         | +5 (constant output)  |
+| 21     | IN 6        | 0-12V Input |
+| 22     | OUT 6       | 12V SINK Output |
+| 23     | +3.3V       | +12V INPUT |
+| 24     | +12V        | +12V (constant output) |
+| 25     | GND         | Ground  |
+| 26     | GND         | Ground  |
+
+
+
+Refer to the following diagram for pin 1 location. Note that the **ODD** pins are on the **TOP** row and the **EVEN** pins are on the **BOTTOM** row.
 
 <img src="/images/26pin_connector.png" width="640" />
+
+Find more about 12VIO [here](../technical-references/12vio.md).
 
 ## CAN
 
