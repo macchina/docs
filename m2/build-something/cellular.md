@@ -24,7 +24,7 @@ https://www.amazon.com/AmazonBasics-Port-2-5A-power-adapter/dp/B00DQFGH80
 A good first step is to check that everything is working it to talk to the modem from your computer, through your M2. For this, you need to program your M2 with a simple sketch that will forward data between the 2 serial ports:
 
 - **USBSerial**, the USB connection between the M2 processor and your computer.
-- **Serial0**, the Serial connection between the M2 processor and the XBee socket pins
+- **Serial**, the Serial connection between the M2 processor and the XBee socket pins
 
 This sketch will also make the GREEN LED blink as the [associate](https://www.digi.com/resources/documentation/digidocs/90001525/default.htm#reference/r_cell_associate_led.htm%3FTocPath%3DHardware%7C_____4) pin of the modem toggles. The pin signals and locations for the modem can be found [here](https://www.digi.com/resources/documentation/digidocs/90001525/default.htm#reference/r_pinouts_th.htm%3FTocPath%3DHardware%7CPin%2520signals%7C_____0).
 

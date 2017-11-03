@@ -1,9 +1,14 @@
-LEDs
-====
+# LEDs/Buttons
 
-There are several LEDs on the processor board of the Macchina M2. These LEDs are user programmable and can be used for many applications. The LEDs are as follows:
+There are several LEDs and Buttons on the processor board of the Macchina M2. These are user programmable and can be used for many applications.
 
-<img src="/images/LED_schematic.png" />
+<img src="/images/LEDS_Buttons_labels.png" width="640"/>
+
+## LEDs
+
+M2 has 5 single-color LEDs and 1 RGB LED. Each LED is active LOW - the processor needs to pull the pin LOW to turn on the LED.
+
+<img src="/images/LED_schematic.png" width="640"/>
 
 The following table shows what LEDs correspond to what Pin name.
 
@@ -36,3 +41,35 @@ void loop() {
   delay(1000);              // wait for a second
 }
 ```
+
+## Buttons
+
+M2 has 4 buttons on the Processor board.
+
+2 of these buttons (**Button1** and **Button2**) are user-programmable. Use these for triggering something in your program. For example, this code turns on the Red LED when Button 1 is pressed:
+
+```cpp
+const int buttonPin = Button1;     // the number of the pushbutton pin
+const int ledPin =  DS2;      // the number of the LED pin
+
+int buttonState = 0;         // variable for reading the pushbutton status
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
+}
+
+void loop() {
+  buttonState = digitalRead(buttonPin);
+
+  if (buttonState == LOW) {   // If button is pressed
+    digitalWrite(ledPin, LOW);  // Turn the Red LED on
+  } else {
+    digitalWrite(ledPin, HIGH);  // Turn the Red LED off
+  }
+}
+```
+
+**RESET** button will reset the processor.
+
+**ERASE** button is used in conjunction with the RESET button. In the event your program hangs or there is some other issue, power up M2, hold down ERASE and then press and release RESET. This will erase the flash on the processor.

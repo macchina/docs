@@ -7,7 +7,7 @@ M2 has several built-in driver circuits that works at your car's 12 volt system.
 The six general purpose 12-volt driver circuits consist of 2 types: **High side and low side.**
 
 - Channels 1, 2 and 3 are HIGH side drivers that switch the output to +12V. (aka SOURCE)
-- Channels 4, 5 and 6 are LOW side drivers that switch the output to GND. (aka SYNC)
+- Channels 4, 5 and 6 are LOW side drivers that switch the output to GND. (aka SINK)
 
 <img src="/images/OUTPUT_pins.png" width="640"/>
 

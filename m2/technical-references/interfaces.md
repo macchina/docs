@@ -11,7 +11,15 @@ To find libraries for any M2 interfaces, try the [Macchina Community Showcase](h
 
 <img src="/images/Interface_0d024.png" width="640" />
 
-In addition, every M2 has a 26 pin "expansion" connector that provides even more connection options. For example: UART, SPI, I2C, general purpose 12V drivers and 12V analog inputs. See the [schematic](https://github.com/macchina/m2-hardware) for actual pinout details and the following table for connector pinout:
+## 26-pin "Expansion" connector
+
+Every M2 has a 26 pin "expansion" connector that provides even more connection options. For example: UART, SPI, I2C, six general purpose 12V drivers and six 12V analog inputs. See the [schematic](https://github.com/macchina/m2-hardware) for actual pinout details.
+
+Refer to the following diagram for pin 1 location. Note that the **ODD** pins are on the **TOP** row and the **EVEN** pins are on the **BOTTOM** row.
+
+<img src="/images/26pin_connector.png" width="640" />
+
+The following table shows what the function for each pin:
 
 | Pin    | Function| Notes    |
 | ------ |-------------|-------------|
@@ -42,12 +50,6 @@ In addition, every M2 has a 26 pin "expansion" connector that provides even more
 | 25     | GND         | Ground  |
 | 26     | GND         | Ground  |
 
-
-
-Refer to the following diagram for pin 1 location. Note that the **ODD** pins are on the **TOP** row and the **EVEN** pins are on the **BOTTOM** row.
-
-<img src="/images/26pin_connector.png" width="640" />
-
 Find more about 12VIO [here](../technical-references/12vio.md).
 
 ## CAN
@@ -56,15 +58,15 @@ Find more about 12VIO [here](../technical-references/12vio.md).
 
 CAN bus is a vehicle bus standard used in most cars built after 2006. It is a message-based protocol that allows modules within a car to communicate with one another. While the physical layer is understood and open, the actual meaning of the messages sent over the bus are not. While some messages are legislated to be "standard", the majority of CAN messages in your typical car are not well documented.
 
-The M2 has 2 CAN channels (in addition to the single-wire CAN channel) that can interface directly to the CAN bus network of your car. The M2 uses the 2 built-in CAN controllers found in the SAM3X and 2 external TJA1051 transceivers.
+The M2 has 2 CAN channels (in addition to the single-wire CAN channel) that can interface directly to the CAN bus network of your car. The M2 uses the 2 built-in CAN controllers found in the SAM3X and 2 external TJA1051 transceivers. Here is a typical example:
+
+<img src="/images/CAN_schematic.png" width="640" />
 
 Here is the link to the datasheet: http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf
 
 CAN bus connections can be found on either the 16-pin OBD2 connector on the under-the-dash M2 or the 24-pin connector used by the under-the-hood M2.
 
 <!-- TO DO: Discuss termination and how to terminate with solder jumpers on interface board. -->
-
-<!-- TO DO: Add schematic page for CAN bus transceivers -->
 
 ## Single-wire CAN
 
@@ -82,9 +84,17 @@ Note that the TJA1027 transceiver is used for both LIN and ISO9141 (K-LINE/L-LIN
 
 LIN bus connections can be found on either the 16-pin OBD2 connector on the under-the-dash M2 or the 24-pin connector used by the under-the-hood M2.
 
-## K-line
+## K-line (aka ISO9141, KWP2000)
 
-ISO9141 (K-Line) interface uses the TJA1021. While this part is designed for LIN, it is also K-line compatible.
+ISO9141/K-line is typically found in Chrysler, European, and Asian vehicles built before around 2005. This protocol is similar to RS-232 but at different voltage levels and on a single, bidirectional line.
+
+Some cars require a secondary line (sometimes referred to as L-Line).
+
+M2 has two K-line channels and uses the TJA1027 transceiver to interface the 12-volt single bidirectional line from the vehicle to a 3.3V UART connection. While this part is designed for LIN, it is also K-line compatible. Here is typical interface circuit showing a channel of ISO9141/LIN connected to the UART channel of the processor.
+
+K-line connections can be found on either the 16-pin OBD2 connector on the under-the-dash M2 or the 24-pin connector used by the under-the-hood M2.
+
+<img src="/images/ISO9141_schematic.png" width="640" />
 
 Here is the link to the datasheet: https://www.nxp.com/docs/en/data-sheet/TJA1027.pdf
 

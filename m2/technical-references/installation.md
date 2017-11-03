@@ -1,5 +1,7 @@
-Installation
-=========
+# Installation
+
+The Macchina M2 was designed to be modular to give you the option of many installation options. The under-the-dash (UTD) version plugs directly into the OBD2 port of any modern car. The under-the-hood (UTH) version can be spliced into a wire harness. A connector is the only difference between the 2 versions.
+
 
 <img src="/images/adaptable186c.png" width="640" />
 
