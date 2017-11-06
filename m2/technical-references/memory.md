@@ -7,7 +7,7 @@ The Macchina M2 offers non-volatile memory or data storage via EEPROM and microS
 ## EEPROM
 
 The M2 contains [electrically erasable programmable read-only memory](https://en.wikipedia.org/wiki/EEPROM) (EEPROM) for non-volatile memory.
-The EEPROM is 32Kbits and controlled via I2C.
+The EEPROM is 32Kbits and controlled via I2C @ address 0x50 Hex.
 
 <img src="/images/EEPROM_schematic.png" width="640"/>
 
