@@ -38,14 +38,14 @@ The following table shows what the function for each pin:
 | 13     | IN 4        | 0-12V Input |
 | 14     | OUT 4       | 12V SINK Output |
 | 15     | SPI0 CS/USART2RX    |  |
-| 16     | SPIO MOSI           | +12V INPUT |
+| 16     | SPIO MOSI           |  |
 | 17     | IN 5        | 0-12V Input |
 | 18     | OUT 5       | 12V SINK Output |
 | 19     | +12VIO      | +12V (switched output) |
 | 20     | +5V         | +5 (constant output)  |
 | 21     | IN 6        | 0-12V Input |
 | 22     | OUT 6       | 12V SINK Output |
-| 23     | +3.3V       | +12V INPUT |
+| 23     | +3.3V       |  |
 | 24     | +12V        | +12V (constant output) |
 | 25     | GND         | Ground  |
 | 26     | GND         | Ground  |
