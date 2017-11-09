@@ -105,7 +105,7 @@ A "pin mapping" describes how the different circuits of your M2 are connected to
 
 | Mapped Pin Name (use these in your sketch) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 |--------------------------------------------|----------------------|-------|----------------|-----------------------------|-----------------------------|
-| J1850PWM_VPW                               | J1850_PWM_nVPW       |       | PB8            | 123                         | 50                          |
+| J1850_PWM_VPW                              | J1850_PWM_nVPW       |       | PB8            | 123                         | 50                          |
 | J1850_PWM_RX                               | J1850_PWM_RX         |       | PC28           | 139                         | 51                          |
 | J1850_VPW_RX                               | J1850_VPW_RX         |       | PC26           | 137                         | 52                          |
 | J1850P_TX                                  | J1850+_TX            |       | PC18           | 100                         | 53                          |

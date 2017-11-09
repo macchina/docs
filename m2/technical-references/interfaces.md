@@ -100,28 +100,61 @@ Here is the link to the datasheet: https://www.nxp.com/docs/en/data-sheet/TJA102
 
 ## J1850
 
-J1850 supports multiple/variants modes. To change between the levels required for PWM and VPW variants of J1850, use this signal:
+M2 supports both J1850 PWM (Pulse-width-modulation) and VPW (Variable Pulse width).
 
-`J1850_PWM_nVPW`
+**J1850 PWM** is typically found in older Ford vehicles and operates at 41.6 kb/s. The bus is active when `J1850+_BUS` is pulled HIGH to 5V and `J1850-_BUS` is pulled LOW to 0V.
 
-This signal is connected to physical pin 123 (PB8) of the SAM3X.
+**J1850 VPW** is typically found in older GM vehicles and operates at 10.4 kb/s.
 
-Make this pin HIGH for PWM and LOW for VPW
+The voltage range for each protocol is different (0-7V for VPW and 0-5V for PWM). To change between the levels required for PWM and VPW variants of J1850, use this signal:
+
+`J1850_PWM_VPW` (M2 board signal name "J1850_PWM_nVPW")
+
+This signal is connected to physical pin 123 (PB8) of the SAM3X. Make this pin HIGH for PWM and LOW for VPW
 
 The following code that will both turn on power to J1850 circuit AND set level for either PWM or VPW:
 
 ```CPP
 void setup() {
   pinMode(PS_J1850_9141, OUTPUT);
-  pinMode(PWM_nVPW, OUTPUT);
+  pinMode(J1850_PWM_VPW, OUTPUT);
 
   digitalWrite(PS_J1850_9141, HIGH);  // LOW  = no power at +12V_SW/+5V_SW
                                       // HIGH = power at +12V_SW/+5V_SW
 
-  digitalWrite(PWM_nVPW, HIGH);       // LOW  = ~7.9v (VPW)
+  digitalWrite(J1850_PWM_VPW, HIGH);       // LOW  = ~7.9v (VPW)
                                       // HIGH = ~5.9V (PWM)
 }
 
 void loop() {
 }
 ```
+
+These signals originate from the vehicle:
+
+`J1850+_BUS` connects to pin 2 on the OBD2 port and is used by **BOTH** J1850 PWM and VPW.
+
+`J1850-_BUS` connects to pin 10 on the OBD2 port and is used by J1850 PWM
+
+
+These signals connect to the processor as OUTPUTS:
+
+`J1850P_TX` (M2 board signal name "J1850+_TX") is an OUTPUT from the processor used for BOTH J1850 PWM and VPW. "J1850+_TX" is connected to pin 45 or PC18. This corresponds to the **PWMH6** on peripheral B.
+
+- *With J1850_PWM_VPW = HIGH (i.e. PWM mode):* When this signal goes HIGH , pin 2 of the OBD2 connector is 5.5V. When this pin is LOW, pin 2 of the OBD2 connector is 0V.
+
+- *With J1850_PWM_VPW = LOW (i.e. VPW mode):* When this signal goes HIGH , pin 2 of the OBD2 connector is 7.5V. When this pin is LOW, pin 2 of the OBD2 connector is 0V.
+
+`J1850N_TX` (M2 board signal name "J1850-_TX") is an OUTPUT from the processor and is used for J1850 PWM. "J1850-_TX" is connected to pin 7 or PC23. This corresponds to the **PWML6** on peripheral B.
+
+- *With J1850_PWM_VPW = HIGH (i.e. PWM mode):* When this signal goes HIGH , pin 10 of the OBD2 connector is 0V. When this pin is LOW, pin 10 of the OBD2 connector is 5V.
+
+PWMH6 and PWML6 functionality is described in section 38: Pulse Width Modulation (PWM) of the SAM3X [datasheet](http://www.atmel.com/Images/Atmel-11057-32-bit-Cortex-M3-Microcontroller-SAM3X-SAM3A_Datasheet.pdf).
+
+These signals connect to the processor as INPUTS:
+
+`J1850_PWM_RX` is an INPUT to the processor. "J1850_PWM_RX" is connected to pin 3 or PC28. This corresponds to the **TIOA7** on peripheral B.
+
+`J1850_VPW_RX` is an INPUT to the processor. "J1850_VPW_RX" is connected to pin 4 or PC26. This corresponds to the **TIOB6** on peripheral B.
+
+TIOB6 and TIOA7 functionality is described in section 36: Timer Counter (TC) of the SAM3X [datasheet](http://www.atmel.com/Images/Atmel-11057-32-bit-Cortex-M3-Microcontroller-SAM3X-SAM3A_Datasheet.pdf).
