@@ -45,7 +45,7 @@ The following table shows what the function for each pin:
 | 20     | +5V         | +5 (constant output)  |
 | 21     | IN 6        | 0-12V Input |
 | 22     | OUT 6       | 12V SINK Output |
-| 23     | +3.3V       | +3.3V (switched output) |
+| 23     | +3.3V       | +3.3V |
 | 24     | +12V        | +12V (constant output) |
 | 25     | GND         | Ground  |
 | 26     | GND         | Ground  |
