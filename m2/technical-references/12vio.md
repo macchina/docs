@@ -13,7 +13,7 @@ The six general purpose 12-volt driver circuits consist of 2 types: **High side 
 
 **Note about current limits:** Each channel is capable of sourcing or sinking around 1 amp of current at 12 volts before the protection fuses opens. Of course, this is a MAXIMUM and depends ambient temperature, duty cycle, etc. Also note that drawing the maximum current over all 6 channels at the same time would most likely exceed the limit of your car's OBD2 port fuse. To ensure a better understanding of all of this, we've implemented a current monitoring circuit.
 
-When sourcing power, the 12V rail is monitored by an internal current monitor. The goal is to be able to be able to dynamically measure how much power an external device is using AND ensure the total power pulled from the OBD2 port does not exceed X amps and open the car's OBD2 fuse.
+When sourcing power, the 12V rail is monitored by an internal current monitor. The goal is to be able to dynamically measure how much power an external device is using AND ensure the total power pulled from the OBD2 port does not exceed X amps and open the car's OBD2 fuse.
 
 Here is a cool example of a tachometer gauge connected directly to M2 and displaying actual RPM as read from the CAN bus:
 
