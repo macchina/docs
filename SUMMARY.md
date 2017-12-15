@@ -2,7 +2,7 @@
 
 * [Introduction](index.md)
 * M2 Docs
-  * [About the M2](m2/README.md)
+  * [About M2](m2/README.md)
   * [Disclaimer](m2/disclaimer.md)
   * [Getting Started](m2/getting-started/README.md)
   * [Arduino IDE Quick Start](m2/getting-started/arduino.md)
@@ -20,3 +20,5 @@
     * [Enclosures](m2/technical-references/enclosures.md)
     * [Breakout Board](m2/technical-references/byob.md)
     * [Schematics and Source](m2/technical-references/open-source.md)
+* Experimental Projects
+  * [PocketBeagle Adapter board](pb/adapter/README.md)
