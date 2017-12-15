@@ -21,4 +21,4 @@
     * [Breakout Board](m2/technical-references/byob.md)
     * [Schematics and Source](m2/technical-references/open-source.md)
 * Experimental Projects
-  * [PocketBeagle Adapter board](pb/adapter/README.md)
+  * [PocketBeagle Adapter board](pb_adapter/README.md)
