@@ -23,34 +23,34 @@ The following table shows what the function for each pin:
 
 | Pin    | Function| Notes    |
 | ------ |-------------|-------------|
-| 1      | IN 1        |  0-12V Input |
-| 2      | OUT 1       | 12V SOURCE Output|
-| 3      | SCL0        | 3V logic |
-| 4      | SDA0        | 3V logic |
-| 5      | IN 2        | 0-12V Input |
+| 1      | IN 1        | 0-12V Analog Input |
+| 2      | OUT 1       | 12V SOURCE Output |
+| 3      | SCL0        | 3.3V logic |
+| 4      | SDA0        | 3.3V logic |
+| 5      | IN 2        | 0-12V Analog Input |
 | 6      | OUT 2       | 12V SOURCE Output |
-| 7      | UART3 TX    | K-LINE or LIN channel 1 |
-| 8      | UART3 RX    |  |
-| 9      | IN 3        |  0-12V Input |
+| 7      | UART3 TX    | 3.3V logic |
+| 8      | UART3 RX    | 3.3V logic |
+| 9      | IN 3        | 0-12V Analog Input |
 | 10     | OUT 3       | 12V SOURCE Output |
-| 11     | SPI0 CLK    | 3V logic |
-| 12     | SPI0 MISO   | 3V logic |
-| 13     | IN 4        | 0-12V Input |
+| 11     | SPI0 CLK    | 3.3V logic |
+| 12     | SPI0 MISO   | 3.3V logic |
+| 13     | IN 4        | 0-12V Analog Input |
 | 14     | OUT 4       | 12V SINK Output |
-| 15     | SPI0 CS/USART2RX    | 3V logic |
-| 16     | SPIO MOSI           | 3V logic |
-| 17     | IN 5        | 0-12V Input |
+| 15     | SPI0 CS/USART2RX    | 3.3V logic |
+| 16     | SPIO MOSI           | 3.3V logic |
+| 17     | IN 5        | 0-12V Analog Input |
 | 18     | OUT 5       | 12V SINK Output |
 | 19     | +12VIO      | +12V (switched output) |
-| 20     | +5V         | +5 (constant output)  |
-| 21     | IN 6        | 0-12V Input |
+| 20     | +5V         | +5 (constant output) |
+| 21     | IN 6        | 0-12V Analog Input |
 | 22     | OUT 6       | 12V SINK Output |
-| 23     | +3.3V       | +3.3V |
+| 23     | +3.3V       | +3.3V (constant output) |
 | 24     | +12V        | +12V (constant output) |
-| 25     | GND         | Ground  |
-| 26     | GND         | Ground  |
+| 25     | GND         | Ground |
+| 26     | GND         | Ground |
 
-Find more about 12VIO [here](../technical-references/12vio.md).
+Find more about six 12V source/sink driver circuits [here](../technical-references/12vio.md).
 
 ## CAN
 
