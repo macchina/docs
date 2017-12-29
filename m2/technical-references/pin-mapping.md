@@ -10,14 +10,14 @@ A "pin mapping" describes how the different circuits of your M2 are connected to
 
 | Mapped Pin Name (use these in your sketch) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 |--------------------------------------------|----------------------|-------|----------------|-----------------------------|-----------------------------|
-| DS2                                        | DS2 (RED)            |       | PD10           | 32                          | 14                          |
-| DS3                                        | DS3 (YELLOW)         |       | PA5            | 25                          | 15                          |
-| DS4                                        | DS4 (YELLOW)         |       | PD2            | 15                          | 16                          |
-| DS5                                        | DS5 (YELLOW)         |       | PA15           | 8                           | 17                          |
-| DS6                                        | DS6 (GREEN)          |       | PA14           | 7                           | 18                          |
-| DS7_BLUE or RGB_BLUE                       | RGB BLUE             |       | PC25           | 136                         | 19                          |
-| DS7_RED or RGB_RED                         | RGB RED              |       | PD7            | 20                          | 20                          |
-| DS7_GREEN or RGB_GREEN                     | RGB GREEN            |       | PD8            | 21                          | 21                          |
+| DS2                                        | DS2 (RED)            | LED ON = LOW | PD10           | 32                          | 14                          |
+| DS3                                        | DS3 (YELLOW)         | LED ON = LOW | PA5            | 25                          | 15                          |
+| DS4                                        | DS4 (YELLOW)         | LED ON = LOW | PD2            | 15                          | 16                          |
+| DS5                                        | DS5 (YELLOW)         | LED ON = LOW | PA15           | 8                           | 17                          |
+| DS6                                        | DS6 (GREEN)          | LED ON = LOW | PA14           | 7                           | 18                          |
+| DS7_BLUE or RGB_BLUE                       | RGB BLUE             | LED ON = LOW | PC25           | 136                         | 19                          |
+| DS7_RED or RGB_RED                         | RGB RED              | LED ON = LOW | PD7            | 20                          | 20                          |
+| DS7_GREEN or RGB_GREEN                     | RGB GREEN            | LED ON = LOW | PD8            | 21                          | 21                          |
 
 ### Buttons
 
