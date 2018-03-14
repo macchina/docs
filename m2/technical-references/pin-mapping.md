@@ -46,24 +46,24 @@ A "pin mapping" describes how the different circuits of your M2 are connected to
 | SPI0_CLK                                   | SPI0 CLK             | Not connected by default | PA27           | 110                         | 45                          |
 | SPI0_MISO                                  | SPI0 MISO            | Not connected by default | PA25           | 108                         | 43                          |
 
-### 12-volt GPIO
+### 12-volt Outputs 
 
 | Mapped Pin Name (use these in your sketch) | M2 Board Signal Name | Notes                         | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 |--------------------------------------------|----------------------|-------------------------------|----------------|-----------------------------|-----------------------------|
-| GPIO1                                      | GPIO1 A              | PWMH0                         | PC3            | 60                          | 24                          |
-| GPIO2                                      | GPIO2 A              | PWMH1                         | PC5            | 63                          | 25                          |
-| GPIO3                                      | GPIO3 A              | PWMH2                         | PC7            | 65                          | 26                          |
-| GPIO4                                      | GPIO4 A              | PWMH3                         | PC9            | 67                          | 27                          |
-| GPIO5                                      | GPIO5 A              | PWMH4                         | PC20           | 131                         | 28                          |
-| GPIO6                                      | GPIO6 A              | PWMH5                         | PC19           | 101                         | 29                          |
-| GPIO1_B                                    | GPIO1 B              | PWML0 (Beta M2 Hardware only) | PC2            | 59                          | 30                          |
-| GPIO2_B                                    | GPIO2 B              | PWML1 (Beta M2 Hardware only) | PC4            | 116                         | 31                          |
-| GPIO3_B                                    | GPIO3 B              | PWML2 (Beta M2 Hardware only) | PC6            | 64                          | 32                          |
-| GPIO4_B                                    | GPIO4 B              | PWML3 (Beta M2 Hardware only) | PC8            | 66                          | 33                          |
-| GPIO5_B                                    | GPIO5 B              | PWML4 (Beta M2 Hardware only) | PC21           | 132                         | 34                          |
-| GPIO6_B                                    | GPIO6 B              | PWML5 (Beta M2 Hardware only) | PC22           | 133                         | 35                          |
+| GPIO1                                      | GPIO1 A              | SOURCE (J5, Pin 2)            | PC3 (PWMH0)    | 60                          | 24                          |
+| GPIO2                                      | GPIO2 A              | SOURCE (J5, Pin 2)            | PC5 (PWMH1)    | 63                          | 25                          |
+| GPIO3                                      | GPIO3 A              | SOURCE (J5, Pin 2)            | PC7 (PWMH2)    | 65                          | 26                          |
+| GPIO4                                      | GPIO4 A              | SINK (J5, Pin 2)              | PC9 (PWMH3)    | 67                          | 27                          |
+| GPIO5                                      | GPIO5 A              | SINK (J5, Pin 2)              | PC20 (PWMH4)   | 131                         | 28                          |
+| GPIO6                                      | GPIO6 A              | SINK (J5, Pin 2)              | PC19 (PWMH5)   | 101                         | 29                          |
+| GPIO1_B                                    | GPIO1 B              | PWML0 (Beta M2 Hardware only) | PC2  (PWML0)   | 59                          | 30                          |
+| GPIO2_B                                    | GPIO2 B              | PWML1 (Beta M2 Hardware only) | PC4  (PWML1)   | 116                         | 31                          |
+| GPIO3_B                                    | GPIO3 B              | PWML2 (Beta M2 Hardware only) | PC6  (PWML2)   | 64                          | 32                          |
+| GPIO4_B                                    | GPIO4 B              | PWML3 (Beta M2 Hardware only) | PC8  (PWML3)   | 66                          | 33                          |
+| GPIO5_B                                    | GPIO5 B              | PWML4 (Beta M2 Hardware only) | PC21 (PWML4)   | 132                         | 34                          |
+| GPIO6_B                                    | GPIO6 B              | PWML5 (Beta M2 Hardware only) | PC22 (PWML5)   | 133                         | 35                          |
 
-### Analog Inputs
+### Analog Inputs (0-12V analog input)
 
 | Mapped Pin Name (use these in your sketch) | M2 Board Signal Name | Notes     | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 |--------------------------------------------|----------------------|-----------|----------------|-----------------------------|-----------------------------|
@@ -164,7 +164,7 @@ A "pin mapping" describes how the different circuits of your M2 are connected to
 | SPI0_CS1                                   | SPI0_nCS1            | Optionally connected to SD Card | PA29           | 112                         | 46                          |
 | SPI0_CS0                                   | SPI0_nCS0            |                                 | PA28           | 111                         | 47                          |
 
-### 26-Pin GPIO Connector
+### 26-Pin GPIO Connector (J5)
 
 | Mapped Pin Name (use these in your sketch) | M2 Board Signal Name | Notes                | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 |--------------------------------------------|----------------------|----------------------|----------------|-----------------------------|-----------------------------|
