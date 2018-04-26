@@ -55,6 +55,14 @@ Plug a microUSB cable into the PocketBeagle and your computer. After a minute or
 Login: *debian*
 Password: *temppwd*
 
+#### Step 2.5: Change your password (optional but recommended)
+
+We want to make sure that others wont be able to access your device to do this the main thing we are going to do is change the root password.
+
+```
+sudo passwd root
+```
+
 #### Step 3: Connect to internet.
 
 First thing we'll want to do is connect to the internet to be able to download the latest packages. To do that, we'll use WIFI. Type the commands as shown below
@@ -116,12 +124,12 @@ sudo reboot
 Now that everything is updated to latest versions, we'll install CAN tools:
 
 ```
-apt-get update && apt-get install git
+sudo apt-get update && sudo apt-get install git
 cd /tmp
 git clone https://github.com/linux-can/can-utils.git
 cd can-utils/
 make
-make install
+sudo make install
 cd ~
 ```
 
@@ -141,9 +149,9 @@ config-pin P1_26 can
 Next, we set up the CAN interface and turn it on. Note that we are setting rate at 500Kb/s here. Your car might be a different BAUD rate.
 
 ```
-ip link set can0 type can bitrate 500000 listen-only on
+sudo ip link set can0 type can bitrate 500000 listen-only on
 
-ifconfig can0 up
+sudo ifconfig can0 up
 ```
 
 To see actual data, we need to do 2 things: 1. Plug M2/PocketBeagle into your car or an emulator (No need for hub, and WIFI dongle anymore - those can be unplugged) and 2. enter this command to print output to terminal screen:
