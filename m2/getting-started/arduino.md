@@ -47,6 +47,8 @@ Now that you have the Arduino IDE setup and your M2 connected, you can run your 
 
 First, you will make **Macchina M2** the active board.  **_Tools_** > **_Board: "[...]"_** > **_Macchina M2_**.
 
+Next, select the port that your M2 is using. **_Tools_** > **_Port_**.
+
 Next, open the Blink sketch. **_File_** > **_Examples_** > **_01. Basics_** > **_Blink_**.
 
 Finally, in the opened window, upload the sketch to your M2 board.  **_Sketch_** > **_Upload_**.
