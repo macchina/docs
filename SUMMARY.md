@@ -23,3 +23,5 @@
 * Experimental Projects
   * [PocketBeagle Adapter board](pb_adapter/README.md)
 * SuperB Docs
+  * [About SuperB](superB/README.md)
+  * [Getting Started](superB/getting-started/README.md)

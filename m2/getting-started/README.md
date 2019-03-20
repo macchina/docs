@@ -4,7 +4,7 @@
 Inside your box you should find the following:
 
 
-<img src="/images/WIB_UTD.png" width="640" />
+<img src="../../images/WIB_UTD.png" width="640" />
 
 - M2 (UTD or UTH)
 - 26 pin cable harness kit
