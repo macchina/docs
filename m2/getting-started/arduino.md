@@ -66,5 +66,3 @@ If for some reason your M2 cannot be found by your computer, both in the Arduino
 1. Connect the M2 to power.
 2. Hold down the ERASE button.
 3. While still holding the ERASE button down, press the RESET button.
-
-
