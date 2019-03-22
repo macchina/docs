@@ -58,3 +58,13 @@ It will take a few moments for the sketch to be written as firmware to your Macc
 Congratulations!  You have now configured your computer for development on the M2 and run your first program.  As a next step, you may choose to learn the names of the other LEDs on the Macchina M2 using the [pin mapping](/m2/technical-references/pin-mapping).  Then you can practice modifying the sketch to make other LEDs blink.
 
 You may also wish to explore the other sketches under the **_Examples_** menu.  Most libraries include examples which can be accessed by the **_Examples_** menu after the library is installed.  The Macchina M2 Board Configuration you installed includes some libraries which will be listed under the **_Examples for Macchina M2_** section of the **_Examples_** menu.
+
+## Resetting M2
+
+If for some reason your M2 cannot be found by your computer, both in the Arduino IDE and the Device Manager, the M2 can be reset through the following process:
+
+1. Connect the M2 to power.
+2. Hold down the ERASE button.
+3. While still holding the ERASE button down, press the RESET button.
+
+
