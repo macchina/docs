@@ -22,6 +22,7 @@
     * [Schematics and Source](m2/technical-references/open-source.md)
 * Experimental Projects
   * [PocketBeagle Adapter board](pb_adapter/README.md)
+  * [Help Collect Voltage Data](M2VoltageMonitor/README.md)
 * SuperB Docs
   * [About SuperB](superB/README.md)
   * [Getting Started](superB/getting-started/README.md)
