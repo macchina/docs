@@ -25,4 +25,9 @@
   * [Help Collect Voltage Data](M2VoltageMonitor/README.md)
 * SuperB Docs
   * [About SuperB](superB/README.md)
+  * [Hardware](superB/hardware.md)
   * [Getting Started](superB/getting-started/README.md)
+  * Flashing SuperB
+    * [Using ESP Tool](superB/flashing/esp.md)
+    * [Using Arduino IDE](superB/flashing/arduino.md)
+  * [Sending AT Commands](superB/getting-started/atCommands.md)
