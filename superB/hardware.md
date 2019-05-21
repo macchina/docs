@@ -1,10 +1,10 @@
 # The SuperB Hardware
 
-![ESP32 Breakout Overview](/images/SCH-01012_R0_SCHEM_FINAL-1.png)
+![ESP32 Breakout Overview](/images/SCH-01012_R0_SCHEM_FINAL-1.PNG)
 (The SuperB breakout overview, take note of the locations of "EN" and "IO0")
 
 To place SuperB into bootloader mode, EN must be brought low and returned to high while IO0 is held low. Or, in other words, IO0 must be held low during the EN rising edge. (See depiction below)
-![Graph showing EN and IO0](/images/EN_IO0_Graph.png)
+![Graph showing EN and IO0](/images/EN_IO0_Graph.PNG)
 
 # XBee USB Adapter
 For the instructions that follow, the SuperB is connected to the computer with an XBee USB Adapter board (with one modification), available
