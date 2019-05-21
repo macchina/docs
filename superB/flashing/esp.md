@@ -2,6 +2,7 @@
 
 The ESP tool "Flash Download Tools (ESP8266 & ESP32)" can be downloaded [here.](https://www.espressif.com/en/support/download/other-tools)  
 The binary files used can be downloaded [here.](ESP32_AT_Uploader.zip)
+(Right click>Save link as)
 
 1. Open the tool and select "ESP32 DownloadTool".
 ![Image showing tool selection screen, "ESP32 DownloadTool" is selected](/images/ESP_Tool/1.PNG)
