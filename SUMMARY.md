@@ -27,7 +27,9 @@
   * [About SuperB](superB/README.md)
   * [Hardware](superB/hardware.md)
   * [Getting Started](superB/getting-started/README.md)
-  * Flashing SuperB
+  * Flashing SuperB with USB Adapter Board
     * [Using ESP Tool](superB/flashing/esp.md)
     * [Using Arduino IDE](superB/flashing/arduino.md)
+  * Flashing SuperB with M2
+    * [Using Arduino IDE](superB/flashing/arduinoM2.md)
   * [Sending AT Commands](superB/getting-started/atCommands.md)
