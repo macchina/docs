@@ -4,9 +4,10 @@
 [here](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md)
 to set up the board manager for ESP32.
 2. Connect the SuperB with the USB adapter board and select the correct port.
-3. Select "ESP32 Dev Module" as board type.
-4. Upload a sketch. An easy sketch to adapt is the "Blink" sketch found in File>Examples>Basics>Blink.
-5. Change the three instances of "LED_BUILTIN" to "26":
+3. Place the SuperB into bootloader mode by holding down the BOOT button, pressing and releasing the RESET button, and then releasing the BOOT button.
+4. Select "ESP32 Dev Module" as board type.
+5. Upload a sketch. An easy sketch to adapt is the "Blink" sketch found in File>Examples>Basics>Blink.
+6. Change the three instances of "LED_BUILTIN" to "26":
     ```C++
     void setup() {
     // initialize digital pin LED_BUILTIN as an output.
@@ -21,4 +22,4 @@ to set up the board manager for ESP32.
     delay(1000);                       // wait for a second
     }
     ```
-6. Upload the sketch and reset the SuperB with the RESET button.
+7. Upload the sketch and reset the SuperB with the RESET button.
