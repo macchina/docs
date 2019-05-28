@@ -67,7 +67,7 @@ to set up the board manager for ESP32.
 **Flash Frequency:** 40MHz  
 **Flash Mode:** DIO  
 **Flash Size:** 2MB  
-**Core Debug Level:** None
+**Core Debug Level:** None  
 ![Image showing the settings to use in the Arduino IDE](/images/Flash_SuperB_With_M2/2.PNG)
 8. A good example sketch can be found in File>Examples>Examples for ESP32 Dev Module>WiFi>WiFiScan. Upload it.
 9. Close and reopen the serial monitor with "Macchina M2" as the board type. Press RESET (SW1) to begin scanning for access points:
