@@ -3,6 +3,7 @@
 * [Introduction](index.md)
 * M2 Docs
   * [About M2](m2/README.md)
+  * [Versions of M2](m2/versions.md)
   * [Disclaimer](m2/disclaimer.md)
   * [Getting Started](m2/getting-started/README.md)
   * [Arduino IDE Quick Start](m2/getting-started/arduino.md)
