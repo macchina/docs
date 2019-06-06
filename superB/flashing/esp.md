@@ -1,7 +1,7 @@
 # Flashing SuperB with the ESP Tool
 
 The ESP tool "Flash Download Tools (ESP8266 & ESP32)" can be downloaded [here.](https://www.espressif.com/en/support/download/other-tools)  
-The binary files used can be downloaded [here.](ESP32_AT_Uploader.zip)
+The binary files used can be downloaded [here.](https://github.com/macchina/docs/raw/master/superB/flashing/ESP32_AT_Uploader.zip)
 (Right click>Save link as)
 
 1. Open the tool and select "ESP32 DownloadTool".
