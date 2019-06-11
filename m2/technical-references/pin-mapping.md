@@ -130,7 +130,7 @@ A "pin mapping" describes how the different circuits of your M2 are connected to
 | XBEE_MULT3                                 | XB_MULT3             |                  | PC17           | 99                          | 10                          |
 | XBEE_MULT6                                 | XB_MULT6             |                  | PA7            | 26                          | 13                          |
 
-![Image showing pin names of the XBEE socket on M2](/images/XBee_PinNames.png)
+![Image showing pin names of the XBEE socket on M2](/images/XBEE_PinNames.png)
 
 ### 9141/LIN
 
