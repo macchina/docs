@@ -12,6 +12,8 @@ When connecting a _XBee-compatible form factor socket_ to M2, makes sure that is
 
 <img src="/images/XBEE_labels.png" width="640" />
 
+For an image showing the pin names of the XBee socket on M2, click [here.](http://docs.macchina.cc/m2/technical-references/pin-mapping.html#xbee)
+
 ## USB
 
 M2 has a USB connector that can act as either a HOST or DEVICE depending on your code.
