@@ -34,3 +34,4 @@
   * Flashing SuperB with M2
     * [Using Arduino IDE](superB/flashing/arduinoM2.md)
   * [Sending AT Commands](superB/getting-started/atCommands.md)
+  * ["OK Google, start my car!"](superB/projects/ok_google_start_my_car.md)
