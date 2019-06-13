@@ -13,13 +13,10 @@ For the instructions that follow, the SuperB is connected to the computer with a
 Before the board can be used with the SuperB, VREF and DIO11 need to be bridged on the rear of the board as shown below.
 ![Image showing jumper wire soldered between pins labelled "VREF" and "DIO11"](/images/IMG_6664.JPG)  
 At this point the board can be connected to the computer via USB with the RESET and BOOT buttons controlling EN and IO0, respectively.
-![Image showing RESET and BOOT buttons](/images/IMG_6663.JPG)
+![Image showing RESET and BOOT buttons](/images/IMG_6663.JPG)  
+
+* [Flash with the ESP Tool](/superB/flashing/esp.md)  
+* [Flash with the Arduino IDE](/superB/flashing/arduino.md)  
 
 # Use M2 to Flash
-
-# Flashing
-* Flash with USB Adapter Board
-    * [Flash with the ESP Tool](/superB/flashing/esp.md)  
-    * [Flash with the Arduino IDE](/superB/flashing/arduino.md)
-* Flash with M2
-    * [Flash with the Arduino IDE](/superB/flashing/arduinoM2.md)
+* [Flash with the Arduino IDE](/superB/flashing/arduinoM2.md)
