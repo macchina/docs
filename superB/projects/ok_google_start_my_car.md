@@ -54,18 +54,18 @@ Adafruit IO is an easy to use web service that can control internet enabled hard
 2. Update the sketch with your Adafruit IO and Wi-Fi credentials.
     ![image showing where to update credentials in sketch](/images/Ok_Google_Car/SuperB1.PNG)
 3. To flash SuperB with M2 follow the instructions [here.](http://docs.macchina.cc/superB/flashing/arduinoM2.html) Alternatively, if you have an XBee USB adapter board you can flash SuperB using the instructions found [here.](http://docs.macchina.cc/superB/hardware.html#use-xbee-usb-adapter-to-flash)
-4. Power on SuperB (either with an M2 or USB adapter board) and use the Adafruit IO dashboard to test the functionality.
+4. Power on SuperB (either with an M2 or USB adapter board) and use the Adafruit IO dashboard to test the functionality.  
     ![image showing SuperB responding to Adafruit IO dashboard](/images/Ok_Google_Car/SuperB2.gif)
 
 ## Step 3-Set up and Test IFTTT
-1. Create a new applet with Google Assistant as the trigger (the "this").
+1. Create a new applet with Google Assistant as the trigger (the "this").  
     ![image showing Google Assistant in IFTTT](/images/Ok_Google_Car/IFTTT1.PNG)
 2. Select Adafruit IO as the action (the "that"). Connect your Adafruit account to IFTTT if prompted. Select the "LED_Control" feed and enter "ON" (case-sensitive) as the data to save to the feed.  
     ![image showing Adafruit IO in IFTTT](/images/Ok_Google_Car/IFTTT2.PNG)
 3. In the same style create another applet to turn the car off, sending "OFF" instead of "ON".
 4. With these 2 applets you should now be able to control the toggle switch on your IO dashboard via Google Assistant.
     ![image showing the 2 applets just created](/images/Ok_Google_Car/IFTTT3.PNG)
-    ![image showing Google Assistant controlling Adafruit IO and SuperB](/images/Ok_Google_Car/IFTTT4.gif)
+    ![image showing Google Assistant controlling Adafruit IO and SuperB](/images/Ok_Google_Car/IFTTT4.gif)  
 Great! At this point we can toggle a pin on SuperB using Google Assistant. The final step is to have M2 read the pin state and then perform an action on the car accordingly.  
 If you're interested in using more than just one pin the SuperB pinout can be found [here,](http://docs.macchina.cc/superB/hardware.html) and the pinout for the M2's XBee socket can be found [here.](http://docs.macchina.cc/m2/technical-references/pin-mapping.html#xbee)
 
