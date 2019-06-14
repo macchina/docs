@@ -16,7 +16,7 @@ At this point the board can be connected to the computer via USB with the RESET 
 ![Image showing RESET and BOOT buttons](/images/IMG_6663.JPG)  
 
 * [Flash with the ESP Tool](/superB/flashing/esp.md)  
-* [Flash with the Arduino IDE](/superB/flashing/arduino.md)
+* [Flash with the Arduino IDE](/superB/flashing/arduino.md)  
 
 # Use M2 to Flash
 * [Flash with the Arduino IDE](/superB/flashing/arduinoM2.md)
