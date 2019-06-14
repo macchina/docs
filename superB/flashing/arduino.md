@@ -22,4 +22,4 @@ to set up the board manager for ESP32.
     delay(1000);                       // wait for a second
     }
     ```
-6. Upload the sketch and reset the SuperB with the RESET button.
+7. Upload the sketch and reset the SuperB with the RESET button.
