@@ -71,8 +71,8 @@ If you're interested in using more than just one pin the SuperB pinout can be fo
 
 ## Step 4-Flash M2
 1. Download the M2 sketch [here.](https://github.com/kenny-macchina/Ok-Google-Start-My-Car/tree/master/M2_Sketch)
-2. This sketch uses the M2_12VIO library found [here](https://github.com/TDoust/M2_12VIO) and the pwm library found [here,](https://github.com/antodom/pwm_lib) make sure you have them installed.
-3. Determine which version of M2 you have [here.](http://docs.macchina.cc/m2/versions.html) Comment out the V4 specific line shown below if you have V3 or earlier, otherwise leave the code as is.
+2. This sketch uses the M2_12VIO library found [here,](https://github.com/TDoust/M2_12VIO) the pwm library found [here,](https://github.com/antodom/pwm_lib) and the mcp2515 library found [here,](https://github.com/macchina/Single-Wire-CAN-mcp2515) make sure you have them installed.
+3. Determine which version of M2 you have [here.](http://docs.macchina.cc/m2/versions.html) Comment out the V4 specific line in the readBatteryVoltage() function if you have V3 or earlier, otherwise leave the code as is.
     ![image showing code to modify for different versions of M2](/images/Ok_Google_Car/M21.PNG)
-4. Fill in startCarSpecific() and stopCarSpecific() with the commands relevant to your vehicle. (This may take some work to determine!)
+4. The startCarSpecific() and stopCarSpecific() functions are pre-populated with Chevy specific CAN messages. You'll have to determine what CAN messages to send for other cars. (This may take some work to determine!)
     ![image showing start and stop functions](/images/Ok_Google_Car/M22.PNG)
