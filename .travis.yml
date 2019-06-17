@@ -1,6 +1,6 @@
-language: nodejs
+language: node_js
 node_js:
-  - 'lts/*'
+  - '0.8.27'
 sudo: false
 before_script:
   - npm install -g gitbook-cli
