@@ -26,7 +26,7 @@ Remotely start and stop a car using M2 with SuperB!
 * Because the smartphone and SuperB are never directly connected, commands can be sent to the vehicle as long as both devices have an internet connection, regardless of the physical distance between them.
 
 ## Google Assistant
-You'll need either a smartphone capable of accessing Google Assistant or a Google Home device. In either case, make sure you know the credentials of the Google account associated with the device.
+You'll need either a smartphone capable of accessing Google Assistant or a Google Home device. In either case, make sure you know the credentials of the Google account associated with the device. To check which Google account is linked to a Google Home device click [here.](https://support.google.com/googlehome/answer/7552680?hl=en)
 
 ## If This then That (IFTTT)
 If This then That will handle the exchange between Google Assistant and Adafruit IO, and adds the option to use a trigger other than a voice command. Register for an account [here.](https://ifttt.com/join) Make sure to link the same Google account used on your smartphone or Google Home.
