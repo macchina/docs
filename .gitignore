@@ -4,3 +4,5 @@ _site
 _book
 node_modules/
 package-lock.json
+.vscode/arduino.json
+.vscode/c_cpp_properties.json
