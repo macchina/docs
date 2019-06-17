@@ -1,6 +1,6 @@
 language: nodejs
 node_js:
-  - '10'
+  - '8.27'
 sudo: false
 before_script:
   - npm install -g gitbook-cli
