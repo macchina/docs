@@ -1,0 +1,77 @@
+body {
+  border-top: solid 5px #ff6600; }
+
+.main-header {
+  display: block;
+  background: #274287; 
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 5px; }
+  .main-header__title {
+    margin: 0;
+    height: 50px;
+    line-height: 1.75;
+    padding: 5px 15px;
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    color: #fff; }
+  .main-header__logo {
+    height: 100%; }
+  .main-header__link {
+    display: inline-block;
+    margin-right: 10px;
+    height: 40px; }
+
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a {
+  color: #274287; }
+
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a {
+  color: #364149; }
+
+.book-summary {
+  top: 50px; }
+  .book-summary ul.summary li.active > a {
+    color: #274287; }
+
+.book-header {
+  top: 5px;
+  background-color: #274287;
+  color: #fff; }
+  .book-header .btn {
+    color: #fff;
+    transition: color .3s; }
+    .book-header .btn:hover {
+      color: #cccccc; }
+
+.book.color-theme-2 .book-header .btn {
+  color: #bdcadb; }
+
+.markdown-section a {
+  color: #274287; }
+
+#book-search-results .search-results .has-results .search-results-item p {
+  color: #364149; }
+#book-search-results .search-results .has-results .search-results-item a {
+  color: #274287; }
+
+.color-theme-2 #book-search-results .search-results .has-results .search-results-item p {
+  color: #bdcadb; }
+
+.summary .divider {
+  display: none; }
+.summary > li:last-child {
+  display: none; }
+
+.markdown-section table {
+  display: block;
+  overflow-x: auto; }
+
+footer {
+  max-width: 800px;
+  padding: 0 15px;
+  margin: 0 auto 15px; }
+  footer a {
+    color: #364149; }

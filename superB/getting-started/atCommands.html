@@ -1,0 +1,757 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Sending AT Commands · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../projects/ok_google_start_my_car.html" />
+    
+    
+    <link rel="prev" href="../flashing/arduinoM2.html" />
+    
+
+    </head>
+    <body>
+        
+<header class="main-header">
+    <h1 class="main-header__title"><a href="https://macchina.cc" class="main-header__link"><img src="/images/logo.svg" alt="Macchina logo" class="main-header__logo"></a> Docs</h1>
+</header>
+
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    M2 Docs
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../m2/">
+            
+                <a href="../../m2/">
+            
+                    
+                    About M2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../m2/versions.html">
+            
+                <a href="../../m2/versions.html">
+            
+                    
+                    Versions of M2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../m2/disclaimer.html">
+            
+                <a href="../../m2/disclaimer.html">
+            
+                    
+                    Disclaimer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../m2/getting-started/">
+            
+                <a href="../../m2/getting-started/">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../m2/getting-started/arduino.html">
+            
+                <a href="../../m2/getting-started/arduino.html">
+            
+                    
+                    Arduino IDE Quick Start
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" >
+            
+                <span>
+            
+                    
+                    Detailed Reference
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1" data-path="../../m2/technical-references/installation.html">
+            
+                <a href="../../m2/technical-references/installation.html">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.2" data-path="../../m2/technical-references/processor.html">
+            
+                <a href="../../m2/technical-references/processor.html">
+            
+                    
+                    Processor
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.2.1" data-path="../../m2/technical-references/pin-mapping.html">
+            
+                <a href="../../m2/technical-references/pin-mapping.html">
+            
+                    
+                    Pin Mapping
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3" data-path="../../m2/technical-references/interfaces.html">
+            
+                <a href="../../m2/technical-references/interfaces.html">
+            
+                    
+                    Automotive Interfaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.4" data-path="../../m2/technical-references/communication.html">
+            
+                <a href="../../m2/technical-references/communication.html">
+            
+                    
+                    Communication
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.4.1" data-path="../../m2/build-something/cellular.html">
+            
+                <a href="../../m2/build-something/cellular.html">
+            
+                    
+                    Cellular
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.5" data-path="../../m2/technical-references/power.html">
+            
+                <a href="../../m2/technical-references/power.html">
+            
+                    
+                    Power
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.6" data-path="../../m2/technical-references/memory.html">
+            
+                <a href="../../m2/technical-references/memory.html">
+            
+                    
+                    Storage/Memory
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.7" data-path="../../m2/technical-references/12vio.html">
+            
+                <a href="../../m2/technical-references/12vio.html">
+            
+                    
+                    12V IO
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.8" data-path="../../m2/technical-references/leds-buttons.html">
+            
+                <a href="../../m2/technical-references/leds-buttons.html">
+            
+                    
+                    LEDS/Buttons
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.9" data-path="../../m2/technical-references/enclosures.html">
+            
+                <a href="../../m2/technical-references/enclosures.html">
+            
+                    
+                    Enclosures
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.10" data-path="../../m2/technical-references/byob.html">
+            
+                <a href="../../m2/technical-references/byob.html">
+            
+                    
+                    Breakout Board
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.11" data-path="../../m2/technical-references/open-source.html">
+            
+                <a href="../../m2/technical-references/open-source.html">
+            
+                    
+                    Schematics and Source
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Experimental Projects
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../pb_adapter/">
+            
+                <a href="../../pb_adapter/">
+            
+                    
+                    PocketBeagle Adapter board
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../M2VoltageMonitor/">
+            
+                <a href="../../M2VoltageMonitor/">
+            
+                    
+                    Help Collect Voltage Data
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    SuperB Docs
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    About SuperB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../hardware.html">
+            
+                <a href="../hardware.html">
+            
+                    
+                    Hardware
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" >
+            
+                <span>
+            
+                    
+                    Flashing SuperB with USB Adapter Board
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.4.1" data-path="../flashing/esp.html">
+            
+                <a href="../flashing/esp.html">
+            
+                    
+                    Using ESP Tool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4.2" data-path="../flashing/arduino.html">
+            
+                <a href="../flashing/arduino.html">
+            
+                    
+                    Using Arduino IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" >
+            
+                <span>
+            
+                    
+                    Flashing SuperB with M2
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.5.1" data-path="../flashing/arduinoM2.html">
+            
+                <a href="../flashing/arduinoM2.html">
+            
+                    
+                    Using Arduino IDE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.6" data-path="atCommands.html">
+            
+                <a href="atCommands.html">
+            
+                    
+                    Sending AT Commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../projects/ok_google_start_my_car.html">
+            
+                <a href="../projects/ok_google_start_my_car.html">
+            
+                    
+                    "OK Google, start my car!"
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Sending AT Commands</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="sending-at-commands-to-superb">Sending AT Commands to SuperB</h1>
+<ol>
+<li>First, follow the instructions <a href="../flashing/esp.html">here</a> to flash SuperB with the ESP tool.</li>
+<li>Follow instructions 1-3 <a href="../flashing/arduino.html">here</a> to setup the Arduino IDE for ESP32.</li>
+<li>Open the serial monitor, with baud equal to 115200 and both NL and CR set.
+<img src="../../images/ESP_Serial_Monitor/1.PNG" alt="Image showing the settings in the serial monitor window"></li>
+<li>Hit RESET on the USB adapter board, the SuperB should report back ready.
+<img src="../../images/ESP_Serial_Monitor/2.PNG" alt="Image showing the serial output after a reset"></li>
+<li>Try the following two commands sequentially to get a list of access points visible to the SuperB:<pre><code> AT+CWMODE=3
+ AT+CWLAP
+</code></pre> <img src="../../images/ESP_Serial_Monitor/3.PNG" alt="Image showing available access points"></li>
+</ol>
+<p>For a full list of available AT commands click <a href="https://www.espressif.com/sites/default/files/documentation/esp32_at_instruction_set_and_examples_en.pdf" target="_blank">here.</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+<footer>
+    Can't find what your are looking for?  <a href="https://github.com/macchina/docs/issues">Open an Issue on GitHub</a> or <a href="https://forum.macchina.cc/">ask on the Forum</a>.
+    <br/><br/>
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+    All code samples in this work are released to the public domain using the <a href="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 Public Domain Dedication</a>.
+</footer>
+
+            </div>
+
+            
+                
+                <a href="../flashing/arduinoM2.html" class="navigation navigation-prev " aria-label="Previous page: Using Arduino IDE">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../projects/ok_google_start_my_car.html" class="navigation navigation-next " aria-label="Next page: "OK Google, start my car!"">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Sending AT Commands","level":"1.4.6","depth":2,"next":{"title":"\"OK Google, start my car!\"","level":"1.4.7","depth":2,"path":"superB/projects/ok_google_start_my_car.md","ref":"superB/projects/ok_google_start_my_car.md","articles":[]},"previous":{"title":"Using Arduino IDE","level":"1.4.5.1","depth":3,"path":"superB/flashing/arduinoM2.md","ref":"superB/flashing/arduinoM2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["ga","custom-favicon","edit-link","page-toc"],"pluginsConfig":{"search":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"images/favicon.ico","custom-favicon":{},"ga":{"configuration":"auto","token":"UA-75126303-1"},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/macchina/docs/edit/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"index.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"./styles/website.css"}},"file":{"path":"superB/getting-started/atCommands.md","mtime":"2019-06-18T12:52:39.332Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-18T12:53:45.619Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
