@@ -15,8 +15,6 @@ Before the board can be used with the SuperB, VREF and DIO11 need to be bridged 
 At this point the board can be connected to the computer via USB with the RESET and BOOT buttons controlling EN and IO0, respectively.
 ![Image showing RESET and BOOT buttons](/images/IMG_6663.JPG)
 
-# Use M2 to Flash
-
 # Flashing
 * Flash with USB Adapter Board
     * [Flash with the ESP Tool](/superB/flashing/esp.md)  
