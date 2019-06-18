@@ -7,6 +7,7 @@ Remotely start and stop a car using M2 with SuperB!
 * [M2](https://www.macchina.cc/catalog/m2-boards/m2-under-dash)
 * [SuperB](https://www.macchina.cc/catalog/m2-accessories/superb)
 * Smartphone with Google Assistant
+* GM Vehicle \(GM CAN messages provided, you'll need to find your own for non-GM vehicles\)
 
 **Services Needed:**
 

@@ -17,7 +17,7 @@
     AT+CWLAP
    ```
 
-    ![Image showing available access points](../.gitbook/assets/3.PNG)
+   ![Image showing available access points](../.gitbook/assets/3.PNG)
 
 For a full list of available AT commands click [here.](https://www.espressif.com/sites/default/files/documentation/esp32_at_instruction_set_and_examples_en.pdf)
 
