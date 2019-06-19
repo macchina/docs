@@ -14,3 +14,5 @@ The binary files used can be downloaded [here.](https://github.com/macchina/docs
 3. Place the SuperB into bootloader mode by holding down the BOOT button, pressing and releasing the RESET button, and then releasing the BOOT button.
 4. Press start to begin flashing. \(~10sec\)
 
+![](../../.gitbook/assets/2%20%281%29.PNG)
+
