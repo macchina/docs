@@ -1,27 +1,34 @@
-# Test File
+# TestFile
 
-```md
+```text
     ![](/images/logo.png)
 ```
-![](/images/logo.png)
 
+![](.gitbook/assets/logo.png)
 
-```md
+```text
     <img src="./images/logo.png">
 ```
-<img src="./images/logo.png">
 
-```md
+![](.gitbook/assets/logo.png)
+
+```text
     <img src="./images/logo.png" width="300">
 ```
-<img src="./images/logo.png" width="300">
 
-```md
+![](.gitbook/assets/logo.png)
+
+```text
     <img src="./images/logo.png" width="400" height="400">
 ```
-<img src="./images/logo.png" width="400" height="400">
 
-```md
+![](.gitbook/assets/logo.png)
+
+```text
     ![](/images/logo.png)
 ```
-![](/images/logo.png)
+
+![](.gitbook/assets/logo%20%282%29.png)
+
+![](.gitbook/assets/logo%20%282%29.png)
+
