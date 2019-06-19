@@ -12,7 +12,7 @@ When connecting a _XBee-compatible form factor socket_ to M2, makes sure that is
 
 ![](../../../.gitbook/assets/xbee_labels.png)
 
-For an image showing the pin names of the XBee socket on M2, click [here.](http://docs.macchina.cc/m2/technical-references/pin-mapping.html#xbee)
+For an image showing the pin names of the XBee socket on M2, click [here.](../processor/pin-mapping.md#xbee)
 
 ## USB
 
