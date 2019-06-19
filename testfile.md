@@ -20,3 +20,8 @@
     <img src="./images/logo.png" width="400" height="400">
 ```
 <img src="./images/logo.png" width="400" height="400">
+
+```md
+    ![](/images/logo.png)
+```
+![](/images/logo.png)
