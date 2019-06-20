@@ -40,9 +40,12 @@ At this point the board can be connected to the computer via USB with the RESET 
 
 1. [ ] **6\)** Select "Macchina M2" as board type and upload the sketch below:  
 
+{% code-tabs %}
+{% code-tabs-item title="M2\_Transport.ino" %}
 ```cpp
 int buttonState1 = 0;
 int buttonState2 = 0;
+
 
  void setup() {
  pinMode(DS2, OUTPUT);
@@ -88,6 +91,8 @@ int buttonState2 = 0;
  }
  }
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 1. [ ] **7\)** Open the serial monitor. Place the SuperB into bootloader mode by holding down the   BOOT \(SW2\) button, pressing and releasing the RESET \(SW1\) button, and then releasing the BOOT \(SW2\) button. The serial monitor output should look like the one below:
 
