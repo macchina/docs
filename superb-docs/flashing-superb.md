@@ -36,60 +36,60 @@ At this point the board can be connected to the computer via USB with the RESET 
 4. Restart the IDE.
 5. Plug SuperB into M2 with the antenna trace/U.FL connector towards the USB port and then plug M2 into computer. \(Note the button nomenclature and board orientation\)  
 
-    ![](../.gitbook/assets/4.JPG)
+![](../.gitbook/assets/4.JPG)
 
-6. Select "Macchina M2" as board type and upload the sketch below: 
+   6. Select "Macchina M2" as board type and upload the sketch below: 
 
-    ```cpp
-    int buttonState1 = 0;
-    int buttonState2 = 0;
+```cpp
+int buttonState1 = 0;
+int buttonState2 = 0;
 
-    void setup() {
-    pinMode(DS2, OUTPUT);
-    pinMode(DS3, OUTPUT);
-    pinMode(XBEE_RST, OUTPUT);
-    pinMode(XBEE_MULT4, OUTPUT);
-    pinMode(Button1, INPUT);
-    pinMode(Button2, INPUT);
-    SerialUSB.begin(115200);
-    Serial.begin(115200);
-    }
+ void setup() {
+ pinMode(DS2, OUTPUT);
+ pinMode(DS3, OUTPUT);
+ pinMode(XBEE_RST, OUTPUT);
+ pinMode(XBEE_MULT4, OUTPUT);
+ pinMode(Button1, INPUT);
+ pinMode(Button2, INPUT);
+ SerialUSB.begin(115200);
+ Serial.begin(115200);
+ }
 
-    char rx_byte = 0;
+ char rx_byte = 0;
 
-    void loop() {
-    if (SerialUSB.available() > 0) {
-        rx_byte = SerialUSB.read();
-        Serial.write(rx_byte);
-    }
-    if (Serial.available() > 0) {
-        rx_byte = Serial.read();
-        SerialUSB.write(rx_byte);
-    }
+ void loop() {
+ if (SerialUSB.available() > 0) {
+     rx_byte = SerialUSB.read();
+     Serial.write(rx_byte);
+ }
+ if (Serial.available() > 0) {
+     rx_byte = Serial.read();
+     SerialUSB.write(rx_byte);
+ }
 
-    buttonState1 = digitalRead(Button1);
+ buttonState1 = digitalRead(Button1);
 
-    if (buttonState1 == LOW) {
-        digitalWrite(DS2, LOW);
-        digitalWrite(XBEE_RST, LOW);
-    } else {
-        digitalWrite(DS2, HIGH);
-        digitalWrite(XBEE_RST, HIGH);
-    }
+ if (buttonState1 == LOW) {
+     digitalWrite(DS2, LOW);
+     digitalWrite(XBEE_RST, LOW);
+ } else {
+     digitalWrite(DS2, HIGH);
+     digitalWrite(XBEE_RST, HIGH);
+ }
 
-    buttonState2 = digitalRead(Button2);
+ buttonState2 = digitalRead(Button2);
 
-    if (buttonState2 == LOW) {
-        digitalWrite(DS3, LOW);
-        digitalWrite(XBEE_MULT4, LOW);
-    } else {
-        digitalWrite(DS3, HIGH);
-        digitalWrite(XBEE_MULT4, HIGH);
-    }
-    }
-    ```
+ if (buttonState2 == LOW) {
+     digitalWrite(DS3, LOW);
+     digitalWrite(XBEE_MULT4, LOW);
+ } else {
+     digitalWrite(DS3, HIGH);
+     digitalWrite(XBEE_MULT4, HIGH);
+ }
+ }
+```
 
-7. Open the serial monitor. Place the SuperB into bootloader mode by holding down the   BOOT \(SW2\) button, pressing and releasing the RESET \(SW1\) button, and then releasing the BOOT \(SW2\) button. The serial monitor output should look like the one below:
+   7. Open the serial monitor. Place the SuperB into bootloader mode by holding down the   BOOT \(SW2\) button, pressing and releasing the RESET \(SW1\) button, and then releasing the BOOT \(SW2\) button. The serial monitor output should look like the one below:
 
 8. Select "SuperB on M2"
 {% endtab %}
