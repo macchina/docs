@@ -27,6 +27,7 @@
 * [SuperB Docs](superb-docs/README.md)
   * [About SuperB](superb-docs/superb.md)
   * [Hardware](superb-docs/hardware.md)
+  * [Flashing SuperB](superb-docs/flashing-superb.md)
   * [Getting Started](superb-docs/getting-started.md)
   * [Flashing SuperB with USB Adapter Board](superb-docs/flashing-superb-with-usb-adapter-board/README.md)
     * [Using ESP Tool](superb-docs/flashing-superb-with-usb-adapter-board/esp.md)
