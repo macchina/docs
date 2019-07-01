@@ -7,6 +7,7 @@
   * [Disclaimer](m2-docs/disclaimer.md)
   * [Getting Started](m2-docs/getting-started.md)
   * [Arduino IDE Quick Start](m2-docs/arduino.md)
+  * [Use M2 with SavvyCAN](m2-docs/use-m2-with-savvycan.md)
   * [Detailed Reference](m2-docs/detailed-reference/README.md)
     * [Installation](m2-docs/detailed-reference/installation.md)
     * [Processor](m2-docs/detailed-reference/processor/README.md)
