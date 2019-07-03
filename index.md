@@ -8,7 +8,7 @@ Here you will find everything there is to know about Macchina projects, includin
 
 [PocketBeagle + M2 + Adapter \(BETA\)](experimental-projects/pb_adapter.md) - Adapter board that replaces M2 processor board with PocketBeagle.
 
-This is an evolving resource that will continue to grow and improve. In an effort to have the best documentation possible, we encourage you to give us feedback or contribute changes directly. If something looks unclear, is spelled wrong, missing, or whatever -- please feel free to let us know via the [documentation repository issue tracker on Github](https://github.com/macchina/docs/issues). There is also an "EDIT THIS PAGE" link on the top of every page.
+This is an evolving resource that will continue to grow and improve. In an effort to have the best documentation possible, we encourage you to give us feedback or contribute changes directly. If something looks unclear, is spelled wrong, missing, or whatever -- please feel free to let us know via the [documentation repository issue tracker on Github](https://github.com/macchina/docs/issues).
 
 [Click here to access documentation for the Macchina M2](m2-docs/m2.md)
 
