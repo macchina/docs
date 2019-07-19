@@ -1,3 +1,7 @@
+---
+description: Determine if your M2 processor board is V4 or V3
+---
+
 # Versions of M2
 
 ![Image showing differences between M2 versions 3 and earlier and version 4](../.gitbook/assets/m2_version_differences.JPG)
