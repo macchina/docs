@@ -22,9 +22,8 @@
     * [Enclosures](m2-docs/detailed-reference/enclosures.md)
     * [Breakout Board](m2-docs/detailed-reference/byob.md)
     * [Schematics and Source](m2-docs/detailed-reference/open-source.md)
-* [Experimental Projects](experimental-projects/README.md)
-  * [PocketBeagle Adapter board](experimental-projects/pb_adapter.md)
-  * [Help Collect Voltage Data](experimental-projects/m2voltagemonitor.md)
+* [PocketBeagle Docs](pocketbeagle-docs/README.md)
+  * [Getting Started](pocketbeagle-docs/pb_adapter.md)
 * [SuperB Docs](superb-docs/README.md)
   * [About SuperB](superb-docs/superb.md)
   * [Hardware](superb-docs/hardware.md)
@@ -37,4 +36,6 @@
     * [Using Arduino IDE](superb-docs/flashing-superb-with-m2/arduinom2.md)
   * [Sending AT Commands](superb-docs/atcommands.md)
   * ["OK Google, start my car!"](superb-docs/ok_google_start_my_car.md)
+* [Experimental Projects](experimental-projects/README.md)
+  * [Help Collect Voltage Data](experimental-projects/m2voltagemonitor.md)
 

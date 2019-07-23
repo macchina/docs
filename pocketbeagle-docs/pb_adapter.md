@@ -1,4 +1,8 @@
-# PocketBeagle Adapter board
+---
+description: Set up PocketBeagle with M2 and begin reading CAN messages
+---
+
+# Getting Started
 
 This project shows how to interface the PocketBeagle to your car's OBD port through the Macchina M2 interface and an adapter board.
 
