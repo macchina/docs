@@ -1,5 +1,5 @@
 ---
-description: Determine if your M2 processor board is V4 or V3
+description: Determine if your M2 processor board is V4 or V3.
 ---
 
 # Versions of M2

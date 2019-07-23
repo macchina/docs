@@ -1,5 +1,5 @@
 ---
-description: Set up PocketBeagle with M2 and begin reading CAN messages
+description: Set up PocketBeagle with M2 and begin reading CAN messages.
 ---
 
 # Getting Started

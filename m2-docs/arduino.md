@@ -1,3 +1,7 @@
+---
+description: Begin programming M2 with its first sketch.
+---
+
 # Arduino IDE Quick Start
 
 By completing this guide you will configure the Arduino IDE for developing on the Macchina M2 and run your first sketch on the M2. This will verify both your Arduino IDE setup and your M2 device.
