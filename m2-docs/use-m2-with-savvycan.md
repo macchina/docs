@@ -6,7 +6,7 @@ description: >-
 
 # M2 and SavvyCAN, the Basics
 
-## Hardware Needed
+Hardware Needed
 
 * [Macchina M2](https://www.macchina.cc/catalog/m2-boards/m2-under-dash)
 * [USB Cable \(The longer the better\)](https://www.macchina.cc/catalog/cables/usb-micro-b-20-cable-5-pin-2824awg-gold-plated-black-15ft)
@@ -27,11 +27,11 @@ Extract "M2RET\_FLASH.zip" and follow the instructions in the "HOWTO.txt" file r
 {% endtab %}
 
 {% tab title="OSX" %}
-osx test
+
 {% endtab %}
 
 {% tab title="Linux" %}
-linux test
+
 {% endtab %}
 {% endtabs %}
 
@@ -42,8 +42,6 @@ Download the SavvyCAN version appropriate for your operating system [here.](http
 {% hint style="info" %}
 Disconnecting and reconnecting M2 to the computer after flashing can fix some issues where M2 cannot connect to SavvyCAN
 {% endhint %}
-
-
 
 * **1\)** Open the connection window.
 
