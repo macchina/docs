@@ -27,11 +27,11 @@ Extract "M2RET\_FLASH.zip" and follow the instructions in the "HOWTO.txt" file r
 {% endtab %}
 
 {% tab title="OSX" %}
-
+osx test
 {% endtab %}
 
 {% tab title="Linux" %}
-
+linux test
 {% endtab %}
 {% endtabs %}
 
