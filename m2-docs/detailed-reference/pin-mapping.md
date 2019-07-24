@@ -1,3 +1,7 @@
+---
+description: Use these pin names when programming in the Arduino IDE.
+---
+
 # Pin Mapping
 
 **NOTE!** This table is only applicable when using the M2 board as selected from the Tools -&gt; Board menu from the Arduino IDE. See more information [here.](https://github.com/macchina/arduino-boards-sam)
@@ -131,7 +135,7 @@ A "pin mapping" describes how the different circuits of your M2 are connected to
 | XBEE\_MULT3 | XB\_MULT3 |  | PC17 | 99 | 10 |
 | XBEE\_MULT6 | XB\_MULT6 |  | PA7 | 26 | 13 |
 
-![Image showing pin names of the XBEE socket on M2](../../../.gitbook/assets/xbee_pinnames.png)
+![Image showing pin names of the XBEE socket on M2](../../.gitbook/assets/xbee_pinnames.png)
 
 ## 9141/LIN
 

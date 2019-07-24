@@ -1,3 +1,7 @@
+---
+description: BYOB - Bring Your Own microcontroller Board
+---
+
 # Breakout Board
 
 The Macchina M2 was designed to be modular to give you the option of using your own microcontroller board in place of our Arduino-based processor board. We've built a [breakout board](https://www.macchina.cc/catalog) to make it easy to connect a Raspberry PI, Edison, Particle, or whatever your favorite microcontroller may be.

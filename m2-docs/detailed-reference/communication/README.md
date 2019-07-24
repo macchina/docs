@@ -1,3 +1,7 @@
+---
+description: M2 features an XBee socket and micro USB.
+---
+
 # Communication
 
 ## XBee-compatible socket
@@ -12,7 +16,7 @@ When connecting a _XBee-compatible form factor socket_ to M2, makes sure that is
 
 ![](../../../.gitbook/assets/xbee_labels.png)
 
-For an image showing the pin names of the XBee socket on M2, click [here.](../processor/pin-mapping.md#xbee)
+For an image showing the pin names of the XBee socket on M2, click [here.](../pin-mapping.md#xbee)
 
 ## USB
 

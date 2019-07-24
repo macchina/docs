@@ -102,7 +102,7 @@ Adafruit IO is an easy to use web service that can control internet enabled hard
 
    Great! At this point we can toggle a pin on SuperB using Google Assistant. The final step is to have M2 read the pin state and then perform an action on the car accordingly.  
 
-   If you're interested in using more than just one pin the SuperB pinout can be found [here,](hardware.md) and the pinout for the M2's XBee socket can be found [here.](../m2-docs/detailed-reference/processor/pin-mapping.md#xbee)
+   If you're interested in using more than just one pin the SuperB pinout can be found [here,](hardware.md) and the pinout for the M2's XBee socket can be found [here.](../m2-docs/detailed-reference/pin-mapping.md#xbee)
 
 ## Step 4-Flash M2
 

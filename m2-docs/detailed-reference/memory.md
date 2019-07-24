@@ -1,3 +1,7 @@
+---
+description: Storage available either via EEPROM or microSD
+---
+
 # Storage/Memory
 
 The Macchina M2 offers non-volatile memory or data storage via EEPROM and microSD card. Non-volatile means this data will not be erased when power is cut to M2.

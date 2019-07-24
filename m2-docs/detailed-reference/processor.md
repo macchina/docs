@@ -6,7 +6,7 @@ description: Details on the processor board and its components
 
 The processor board of M2 contains the brains and the communication circuitry. It features 6 LEDs \(5 one-color and 1 RGB LED\), 4 switches \(2 user switches, RESET and ERASE\), an EEPROM, an SD car socket, a Native USB port \(that can act as both a USB device or host\), and a XBee form factor socket,
 
-![](../../../.gitbook/assets/processor7f72.png)
+![](../../.gitbook/assets/processor7f72.png)
 
 M2 uses the same processor as the Arduino Due.
 

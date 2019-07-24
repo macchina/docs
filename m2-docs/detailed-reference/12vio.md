@@ -1,3 +1,7 @@
+---
+description: Want to learn more about the 12V IO available? Here's the ins and outs...
+---
+
 # 12V IO
 
 M2 has several built-in driver circuits that works at your car's 12 volt system. We've designed these circuits to make it easy to connect up both 12 volt inputs AND outputs. This would include things like LEDs, buzzers, sensors, gauges, switches, and solenoids.
