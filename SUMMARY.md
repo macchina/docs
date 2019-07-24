@@ -22,7 +22,7 @@
     * [Enclosures](m2-docs/detailed-reference/enclosures.md)
     * [Breakout Board](m2-docs/detailed-reference/byob.md)
     * [Schematics and Source](m2-docs/detailed-reference/open-source.md)
-* [PocketBeagle Docs](pocketbeagle-docs/README.md)
+* [P1 Docs](pocketbeagle-docs/README.md)
   * [Getting Started](pocketbeagle-docs/pb_adapter.md)
 * [SuperB Docs](superb-docs/README.md)
   * [About SuperB](superb-docs/superb.md)
