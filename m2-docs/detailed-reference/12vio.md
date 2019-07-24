@@ -1,5 +1,5 @@
 ---
-description: Want to learn more about the 12V IO available? Here's the ins and outs...
+description: Want to learn more about the 12V IO available? Here are the ins and outs...
 ---
 
 # 12V IO
