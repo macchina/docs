@@ -1,3 +1,9 @@
+---
+description: >-
+  Currently being written, see "Flashing SuperB with M2" or "Flashing SuperB
+  with USB Adapter Board"
+---
+
 # Flashing SuperB
 
 ## Overview
