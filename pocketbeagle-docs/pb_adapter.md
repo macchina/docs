@@ -19,7 +19,7 @@ Note: this project is early in development. This page contains documentation for
 The following parts are common and can be found from many sources/manufacturers. Links shown are the parts we used for this project.
 
 * [4GB SD card](https://www.amazon.com/dp/B001FXZTIY/ref=psdc_3015433011_t4_B00MHZ6UDC)
-* [Powered USB hub](https://www.amazon.com/gp/product/B00DQFGH80/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
+* [Powered USB hub](https://www.amazon.com/gp/product/B00DQFGH80/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) \(no longer necessary if using just WiFi dongle\)
 * [WIFI dongle](https://www.amazon.com/Edimax-EW-7811Un-150Mbps-Raspberry-Supports/dp/B003MTTJOY/ref=sr_1_1?ie=UTF8&qid=1513258750&sr=8-1&keywords=Edimax+Network+EW-7811UN)
 * [OTG adapter](https://www.amazon.com/UGREEN-Adapter-Samsung-Controller-Smartphone/dp/B00LN3LQKQ/ref=sr_1_5?s=electronics&ie=UTF8&qid=1513361808&sr=1-5&keywords=usb+otg+adapter)
 
@@ -39,7 +39,9 @@ PCB files are found at these links:
 
 Plug the adapter PCB into the M2 interface board and plug the PocketBeagle into the adapter board. If you have a new PocketBeagle, you'll need to solder some headers onto it. Since the PocketBeagle is not keyed, be sure to plug it in so that the USB ports are on the same side.
 
-Plug the OTG adapter into the Adapter board and the powered USB hub into that adapter. Plug the WIFI dongle into the hub. Your setup should look like this:
+{% hint style="warning" %}
+The wireless adapter can be plugged directly into the board, no powered USB hub required.
+{% endhint %}
 
 ![](../.gitbook/assets/20171215_130917.jpg)
 
@@ -98,37 +100,7 @@ ifconfig
 
 You should now see an IP address under wlan0 and you can now connect to this IP address in the future to program your PocketBeagle.
 
-### Step 4: Install updates and CAN tools.
-
-Now we run a few commands to update the system and install CAN tools. Type this into the terminal:
-
-```text
-sudo apt update ; sudo apt upgrade
-```
-
-Follow directions during install - should take a couple minutes.
-
-```text
-sudo /opt/scripts/tools/update_kernel.sh
-```
-
-Follow directions during install - should take a couple minutes.
-
-```text
-sudo reboot
-```
-
-Now that everything is updated to latest versions, we'll install CAN tools:
-
-```text
-sudo apt-get update && sudo apt-get install git
-cd /tmp
-git clone https://github.com/linux-can/can-utils.git
-cd can-utils/
-make
-sudo make install
-cd ~
-```
+### Step 4: Set up pins
 
 Next we make sure the pins on the PocketBeagle are set up correctly as shown at this link:
 
@@ -172,6 +144,4 @@ candump -l any,0:0,#FFFFFFFF
 ### Step 6: Going further.
 
 Next steps for this program is setting up and using more sophisticated analysis tools.
-
-_Note: At the time of writing this, we were not able to get the WIFI adapter to work without the powered hub in place. Perhaps the USB port on PocketBeagle does not output enough current? M2 Interface board should supply up to 3A at 5V, so more investigation on this subject to follow_
 
