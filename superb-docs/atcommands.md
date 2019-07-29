@@ -4,13 +4,14 @@ description: Test your SuperB by having it scan for nearby access points.
 
 # Sending AT Commands
 
-* **1\)** First, follow the instructions [here](flashing-superb-with-usb-adapter-board/esp.md) to flash SuperB with the ESP tool.
-* **2\)** Follow instructions 1-3 [here](flashing-superb-with-usb-adapter-board/arduino.md) to set up the Arduino IDE for ESP32.
-* **3\)** Open the serial monitor, with baud equal to 115200 and both NL and CR set.
+* **1\)** First, follow the instructions [here](flashing-superb.md) to flash SuperB with the ESP tool.
+* **2\)** Follow the instructions [here](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md) to set up the board manager for ESP32.
+* **3\)** Connect the SuperB with the USB adapter board and select the correct port.
+* **4\)** Open the serial monitor, with baud equal to 115200 and both NL and CR set.
 
 ![](../.gitbook/assets/1%20%282%29.PNG)
 
-* **4\)** Hit RESET on the USB adapter board, the SuperB should report back ready.
+* **5\)** Hit RESET on the USB adapter board, the SuperB should report back ready.
 
 ![Image showing serial output after a reset](../.gitbook/assets/2.PNG)
 
