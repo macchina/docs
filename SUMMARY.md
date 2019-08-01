@@ -8,6 +8,7 @@
   * [Getting Started](m2-docs/getting-started.md)
   * [Arduino IDE Quick Start](m2-docs/arduino.md)
   * [M2 and SavvyCAN, the Basics](m2-docs/use-m2-with-savvycan.md)
+  * [Next Steps with M2](m2-docs/next-steps-with-m2.md)
   * [Detailed Reference](m2-docs/detailed-reference/README.md)
     * [Installation](m2-docs/detailed-reference/installation.md)
     * [Processor](m2-docs/detailed-reference/processor.md)
