@@ -47,11 +47,13 @@ The wireless adapter can be plugged directly into the board, no powered USB hub 
 
 ### Step 2: Create a bootable SD card
 
-Follow instructions [here](https://beagleboard.org/getting-started) to create a bootable SD card. Once you have a bootable SD card, plug it into the PocketBeagle.
+Follow instructions [here](https://beagleboard.org/getting-started) to create a bootable SD card with the [BeagleBoard.org Debian 9.9 \(Stretch\) IoT image from 2018-08-03](https://rcn-ee.com/rootfs/bb.org/testing/2019-08-03/stretch-iot/bone-debian-9.9-iot-armhf-2019-08-03-4gb.img.xz). Once you have a bootable SD card, plug it into the PocketBeagle.
 
-Plug a microUSB cable into the PocketBeagle and your computer. After a minute or so, use your favorite terminal to ssh to 192.168.7.2
+Plug a microUSB cable into the PocketBeagle and your computer. After a minute or so, use your favorite terminal to ssh to beagle.local or 192.168.7.2:
 
 Login: _debian_ Password: _temppwd_
+
+[NOTE: if 192.168.7.2 does not work then try 192.168.6.2](https://beagleboard.org/static/beaglebone/latest/README.htm#step2)
 
 ### Step 2.5: Change your password \(optional but recommended\)
 
@@ -67,6 +69,8 @@ First thing we'll want to do is connect to the internet to be able to download t
 
 ```text
 sudo connmanctl
+connmanctl> disable wifi
+Disabled wifi
 connmanctl> enable wifi
 Enabled wifi
 connmanctl> scan wifi
@@ -100,25 +104,69 @@ ifconfig
 
 You should now see an IP address under wlan0 and you can now connect to this IP address in the future to program your PocketBeagle.
 
+If you have trouble with the WiFi connection after initial setup, then [ssh over the USB cable to the BeagleBone](https://beagleboard.org/static/beaglebone/latest/README.htm#step2) and run:
+
+```text
+sudo connmanctl disable wifi
+sudo connmanctl enable wifi
+iwconfig wlan0
+ifconfig wlan0 
+```
+
 ### Step 4: Set up pins
 
 Next we make sure the pins on the PocketBeagle are set up correctly as shown at this link:
 
 [https://github.com/beagleboard/pocketbeagle/wiki/Peripherals\#can](https://github.com/beagleboard/pocketbeagle/wiki/Peripherals#can)
 
-Type this into terminal:
+The following steps only need to be performed once.  The correct pin configuration will then persist across reboots.
 
 ```text
-config-pin P1_28 can
-config-pin P1_26 can
+cd /opt/source/bb.org-overlays/
+git pull
+make
+sudo make install
 ```
+
+Verify that that these files exist:
+
+```text
+ls -lt /lib/firmware/PB-CAN0-00A0.dtbo
+ls -la /lib/firmware/PB-CAN1-00A0.dtbo
+```
+
+Edit the boot configuration so the CAN0 and CAN1 pins will be configured automatically:
+
+```text
+sudo nano /boot/uEnv.txt
+```
+
+replace these lines:
+
+```text
+#uboot_overlay_addr4=/lib/firmware/<file4>.dtbo
+#uboot_overlay_addr5=/lib/firmware/<file5>.dtbo
+```
+
+with these lines:
+
+```text
+uboot_overlay_addr4=/lib/firmware/PB-CAN0-00A0.dtbo
+uboot_overlay_addr5=/lib/firmware/PB-CAN1-00A0.dtbo
+```
+
+save the file \(ctrl-o\) and exit \(ctrl-x\) and then reboot:
+
+```text
+sudo reboot
+```
+
+Next, we set up the CAN interface and turn it on. Note that we are setting rate at 250Kb/s here. Your car might be a different BAUD rate.
 
 ### Step 5: print out CAN messages
 
-Next, we set up the CAN interface and turn it on. Note that we are setting rate at 500Kb/s here. Your car might be a different BAUD rate.
-
 ```text
-sudo ip link set can0 type can bitrate 500000 listen-only on
+sudo ip link set can0 type can bitrate 250000 listen-only on
 
 sudo ifconfig can0 up
 ```
@@ -141,7 +189,31 @@ Logging CAN data to a file makes it easier to analyze the data. To do that, use 
 candump -l any,0:0,#FFFFFFFF
 ```
 
-### Step 6: Going further.
+For CAN1, use these commands to enable the interface:
+
+```text
+sudo ip link set can1 type can bitrate 250000 listen-only on
+
+sudo ifconfig can1 up
+
+candump -cae can1,0:0,#FFFFFFFF
+```
+
+### Step 6: Sending CAN messages
+
+This should be used for testing purposes only and caution should be taken before sending messages to a real car.  Here are instructions how to send CAN messages on the can0 interface.  
+
+```text
+sudo ip link set can0 type can bitrate 250000
+
+sudo ip link set up can0
+
+cansend can0 01a#11223344AABBCCDD
+```
+
+You can test sending and receiving using two PocketBeagle P1 adapters and the Macchina ODB2 cable with termination resistors and 12V power supply. The instructions from Step 5 can be on the second PocketBeagle to view the messages with candump that the first PocketBeagle is sending.
+
+### Step 7: Going further.
 
 Next steps for this program is setting up and using more sophisticated analysis tools.
 
