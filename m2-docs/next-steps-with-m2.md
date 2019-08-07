@@ -4,6 +4,10 @@ description: 'Your M2 can blink its LED, now what?'
 
 # Next Steps with M2
 
+## SavvyCAN
+
+[Visit the dedicated SavvyCAN page.](use-m2-with-savvycan.md)
+
 ## Can-Utils
 
 If you want to use it with Can-Utils check out our socket-can guide and the Can-Utils GitHub [https://github.com/linux-can/can-utils](https://github.com/linux-can/can-utils) to install this Linux program.
