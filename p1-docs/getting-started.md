@@ -1,53 +1,66 @@
 ---
-description: Set up PocketBeagle with M2 and begin reading CAN messages.
+description: Setting up P1 and sending/reading CAN messages.
 ---
 
 # Getting Started
 
-This project shows how to interface the PocketBeagle to your car's OBD port through the Macchina M2 interface and an adapter board.
+This page shows how to set up P1 and interface with your car's OBD port. 
 
-Note: this project is early in development. This page contains documentation for basic setup of PocketBeagle + M2 Interface board + Adapter board\)
-
-![](../.gitbook/assets/img_6524_docs.png)
+![](../.gitbook/assets/img_6758.JPG)
 
 ## Parts:
 
-* [PocketBeagle](https://beagleboard.org/pocket)
-* [M2 Interface board](https://www.macchina.cc/content/interface-board-utd)
-* PocketBeagle/M2 Adapter board \(limited availability - contact us if interested in this project\)
+* [P1](https://www.macchina.cc/catalog/p1-boards/p1-under-dash) \(consists of PocketBeagle, Adapter board and interface board used on M2\)
 
-The following parts are common and can be found from many sources/manufacturers. Links shown are the parts we used for this project.
+The following parts are common and can be found from many sources/manufacturers. 
 
-* [4GB SD card](https://www.amazon.com/dp/B001FXZTIY/ref=psdc_3015433011_t4_B00MHZ6UDC)
-* [Powered USB hub](https://www.amazon.com/gp/product/B00DQFGH80/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) \(no longer necessary if using just WiFi dongle\)
-* [WIFI dongle](https://www.amazon.com/Edimax-EW-7811Un-150Mbps-Raspberry-Supports/dp/B003MTTJOY/ref=sr_1_1?ie=UTF8&qid=1513258750&sr=8-1&keywords=Edimax+Network+EW-7811UN)
-* [OTG adapter](https://www.amazon.com/UGREEN-Adapter-Samsung-Controller-Smartphone/dp/B00LN3LQKQ/ref=sr_1_5?s=electronics&ie=UTF8&qid=1513361808&sr=1-5&keywords=usb+otg+adapter)
+* microSD card \(included in kit\)
+* WIFI dongle \(included in kit\)
+* [USB cable](https://www.macchina.cc/catalog/cables/usb-micro-b-20-cable-5-pin-2824awg-gold-plated-black-15ft)
 
 ## Adapter board:
 
-The adapter board plugs directly into the M2 Interface board and provides: 1. Routing of power and signals from M2 Interface board to PocketBeagle. 2. Battery connector for standard 2Pin JST battery connector and single cell lithium battery. 3. USB host port \(with ESD protection\). 4. Voltage scaling for 6 Analog inputs. 5. Several 0 ohm jumpers to route signals as needed.
+The adapter board plugs directly into the M2 Interface board and provides: 
+
+1. Routing of power and signals from M2 Interface board to PocketBeagle. 
+
+2. Battery connector for standard 2-Pin JST battery connector and single cell lithium battery. \(Optional\)
+
+3. USB A host port with ESD protection. 
+
+4. Voltage scaling for 6 Analog inputs. 
+
+5. Several 0 ohm jumpers to route signals as needed.
+
+
 
 PCB files are found at these links:
 
-* [Schematic](https://github.com/macchina/pocketbeagle-adapter-hardware/blob/master/SCH-01010%20R0%20SCHEM_RELEASE.PDF)
-* [Part location file](https://github.com/macchina/pocketbeagle-adapter-hardware/blob/master/PCB-01010%20R0%20STUFFCHARTS.PDF)
-* [Pin number file](https://github.com/macchina/pocketbeagle-adapter-hardware/blob/master/PCB-01010%20R0%20PIN%20NUMBER%20CHART.PDF)
+* [Schematic](https://github.com/macchina/p1-hardware/blob/master/SCH-01010%20R1%20SCHEM.PDF)
+* [Part location file](https://github.com/macchina/p1-hardware/blob/master/PCB-01010%20R1%20COMPONENT%20LOCATOR%20CLOSE%20UP.PDF)
+* [Pin number file](https://github.com/macchina/p1-hardware/blob/master/PCB-01010%20R1%20PIN%20NUMBER%20CHART.PDF)
 
-## PocketBeagle Setup:
+## P1 Setup:
 
 ### Step 1: Hook stuff up.
 
-Plug the adapter PCB into the M2 interface board and plug the PocketBeagle into the adapter board. If you have a new PocketBeagle, you'll need to solder some headers onto it. Since the PocketBeagle is not keyed, be sure to plug it in so that the USB ports are on the same side.
+The adapter PCB is pre-installed onto the M2 interface board. The PocketBeagle is also pre-installed onto the adapter board. Since the PocketBeagle is not keyed, if you remove, be sure to plug it in so that the USB ports are on the same side.
 
 {% hint style="warning" %}
-The wireless adapter can be plugged directly into the board, no powered USB hub required.
+A USB wireless adapter can be plugged directly into the board, no powered USB hub required.
 {% endhint %}
 
-![](../.gitbook/assets/20171215_130917.jpg)
+
+
+![](../.gitbook/assets/img_6754.JPG)
 
 ### Step 2: Create a bootable SD card
 
 Follow instructions [here](https://beagleboard.org/getting-started) to create a bootable SD card with the [BeagleBoard.org Debian 9.9 \(Stretch\) IoT image from 2018-08-03](https://rcn-ee.com/rootfs/bb.org/testing/2019-08-03/stretch-iot/bone-debian-9.9-iot-armhf-2019-08-03-4gb.img.xz). Once you have a bootable SD card, plug it into the PocketBeagle.
+
+{% hint style="success" %}
+Note: The P1 kit ships with pre-installed image on SD card!
+{% endhint %}
 
 Plug a microUSB cable into the PocketBeagle and your computer. After a minute or so, use your favorite terminal to ssh to beagle.local or 192.168.7.2:
 
@@ -114,6 +127,14 @@ ifconfig wlan0
 ```
 
 ### Step 4: Set up pins
+
+{% hint style="danger" %}
+#### Step 4 section in flux. For now, run these commands to configure CAN0 and move to Step 5 : 
+
+config-pin P1\_28 can 
+
+config-pin P1\_26 can
+{% endhint %}
 
 Next we make sure the pins on the PocketBeagle are set up correctly as shown at this link:
 

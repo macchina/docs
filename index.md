@@ -1,5 +1,7 @@
 # Introduction
 
+![](.gitbook/assets/dsc02835.JPG)
+
 Here you will find everything there is to know about Macchina projects, including instructions for setting things up, diagrams, explanation of features, tutorials, etc. Some especially useful links:
 
 [Community Showcase](http://showcase.macchina.cc/) - For example code and community projects.
