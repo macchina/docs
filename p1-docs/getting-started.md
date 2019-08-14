@@ -56,7 +56,7 @@ A USB wireless adapter can be plugged directly into the board, no powered USB hu
 
 ### Step 2: Create a bootable SD card
 
-Follow instructions [here](https://beagleboard.org/getting-started) to create a bootable SD card with the [BeagleBoard.org Debian 9.9 \(Stretch\) IoT image from 2018-08-03](https://rcn-ee.com/rootfs/bb.org/testing/2019-08-03/stretch-iot/bone-debian-9.9-iot-armhf-2019-08-03-4gb.img.xz). Once you have a bootable SD card, plug it into the PocketBeagle.
+Follow instructions [here](https://beagleboard.org/getting-started) to create a bootable SD card with the [BeagleBoard.org Debian 9.9 \(Stretch\) IoT image from 2018-08-11](https://rcn-ee.net/rootfs/bb.org/testing/2019-08-11/stretch-iot/bone-debian-9.9-iot-armhf-2019-08-11-4gb.img.xz). Once you have a bootable SD card, plug it into the PocketBeagle.
 
 {% hint style="success" %}
 Note: The P1 kit ships with pre-installed image on SD card!
@@ -140,16 +140,7 @@ Next we make sure the pins on the PocketBeagle are set up correctly as shown at 
 
 [https://github.com/beagleboard/pocketbeagle/wiki/Peripherals\#can](https://github.com/beagleboard/pocketbeagle/wiki/Peripherals#can)
 
-The following steps only need to be performed once.  The correct pin configuration will then persist across reboots.
-
-```text
-cd /opt/source/bb.org-overlays/
-git pull
-make
-sudo make install
-```
-
-Verify that that these files exist:
+The following steps only need to be performed once.  The correct pin configuration will then persist across reboots.  Verify that that these files exist:
 
 ```text
 ls -lt /lib/firmware/PB-CAN0-00A0.dtbo
