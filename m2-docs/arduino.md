@@ -61,7 +61,7 @@ Finally, in the opened window, upload the sketch to your M2 board. _**Sketch**_ 
 
 It will take a few moments for the sketch to be written as firmware to your Macchina M2. You can watch the progress at the bottom of the IDE window. When the upload has completed, you should see a flashing LED on your Macchina M2.
 
-Congratulations! You have now configured your computer for development on the M2 and run your first program. As a next step, you may choose to learn the names of the other LEDs on the Macchina M2 using the [pin mapping](https://github.com/kenny-macchina/docs/tree/306ccc81a873f9c8cfe2e05a0cbffb8ff395906b/m2/technical-references/pin-mapping/README.md). Then you can practice modifying the sketch to make other LEDs blink.
+Congratulations! You have now configured your computer for development on the M2 and run your first program. As a next step, you may choose to learn the names of the other LEDs on the Macchina M2 using the [pin mapping](detailed-reference/pin-mapping.md). Then you can practice modifying the sketch to make other LEDs blink.
 
 You may also wish to explore the other sketches under the _**Examples**_ menu. Most libraries include examples which can be accessed by the _**Examples**_ menu after the library is installed. The Macchina M2 Board Configuration you installed includes some libraries which will be listed under the _**Examples for Macchina M2**_ section of the _**Examples**_ menu.
 
