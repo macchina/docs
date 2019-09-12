@@ -32,8 +32,8 @@
   * [Flashing SuperB](superb-docs/flashing-superb.md)
   * [Getting Started](superb-docs/getting-started.md)
   * [Sending AT Commands](superb-docs/atcommands.md)
-  * ["OK Google, start my car!"](superb-docs/ok_google_start_my_car.md)
-* [Experimental Projects](experimental-projects/README.md)
-  * [Help Collect Voltage Data](experimental-projects/m2voltagemonitor.md)
 * [A0 Docs](a0-docs.md)
+* [Projects](projects/README.md)
+  * ["OK Google, start my car!"](projects/ok_google_start_my_car.md)
+  * [Help Collect Voltage Data](projects/m2voltagemonitor.md)
 
