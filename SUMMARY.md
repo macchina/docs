@@ -16,6 +16,7 @@
     * [Pin Mapping](m2-docs/detailed-reference/pin-mapping.md)
     * [Automotive Interfaces](m2-docs/detailed-reference/interfaces.md)
     * [Communication](m2-docs/detailed-reference/communication/README.md)
+      * [M2 Bee-Compatible Add-ons](m2-docs/detailed-reference/communication/m2-bee-compatible-add-ons.md)
       * [Cellular](m2-docs/detailed-reference/communication/cellular.md)
     * [Power](m2-docs/detailed-reference/power.md)
     * [Storage/Memory](m2-docs/detailed-reference/memory.md)

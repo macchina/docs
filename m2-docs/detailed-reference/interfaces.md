@@ -11,9 +11,11 @@ To find libraries for any M2 interfaces, try the [Macchina Community Showcase](h
 
 ![](../../.gitbook/assets/interface_0d024.png)
 
-## 26-pin "Expansion" connector
+## 26-pin **general purpose** connector
 
-Every M2 has a 26 pin "expansion" connector that provides even more connection options. For example: UART, SPI, I2C, six general purpose 12V drivers and six 12V analog inputs. See the [schematic](https://github.com/macchina/m2-hardware) for actual pinout details.
+Every M2 has a 26-pin general purpose "expansion" connector that provides even more connection options. For example: UART, SPI, I2C, six general purpose 12V drivers and six 12V analog inputs. See the [schematic](https://github.com/macchina/m2-hardware) for actual pinout details.
+
+Part number for this 2mm pitch connector is: [Hirose DF11-26DP-2DS\(52\)](https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DF11-26DP-2DS-52/H2876-ND/524308)
 
 Refer to the following diagram for pin 1 location. Note that the **ODD** pins are on the **TOP** row and the **EVEN** pins are on the **BOTTOM** row.
 

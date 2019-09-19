@@ -31,5 +31,5 @@ SuperB will come preloaded with [AT Command code](https://github.com/espressif/e
 
 **Built-in 'trace' antenna:** This is the original SuperB design. It uses the ESP32-WROOM-32D module, and the antenna is built into the device.
 
-**U.FL for external antenna:** This option uses the ESP32-WROOM-32U module, and allows you to connect your external antenna via U.FL connector. This option works well when you plan to enclose your SuperB in a metal box, tin foil hat or other material that interferes with antenna reception. Please note that backers need to provide their own antenna solution for this option.
+**U.FL for external antenna:** This option uses the ESP32-WROOM-32U module, and allows you to connect your external antenna via U.FL connector. This option works well when you plan to enclose your SuperB in a metal box, tin foil hat or other material that interferes with antenna reception. Please note that users need to provide their own antenna solution for this option.
 
