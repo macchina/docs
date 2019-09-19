@@ -1,5 +1,7 @@
 # M2 Bee-Compatible Add-ons
 
+![](../../../.gitbook/assets/img_6796.png)
+
 Below is a list of Bee-compatible add-ons along with compatibility notes. 
 
 {% hint style="danger" %}
