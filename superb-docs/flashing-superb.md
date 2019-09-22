@@ -140,13 +140,17 @@ The binary files used can be downloaded [here.](https://github.com/macchina/docs
 
 {% tab title="M2 + Arduino IDE" %}
 * **1\)** Follow the instructions [here](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md) to set up the board manager for ESP32.
-* **2\)** Modify the file "platform.txt" found at: C:\Users\**YourUsername**\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.2\platform.txt
+* **2\)** Modify the file "platform.txt" found at:
+(Windows) C:\Users\**YourUsername**\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.2\platform.txt
+(MacOS) /Users/*you*/Library/Arduino15/packages/esp32/hardware/esp32/1.0.3/platform.txt
 
   Replace "default\_reset" with "no\_reset" once on line 100 and once on line 101.
 
 * **3\)** Replace the file "boards.txt" found at:
 
   C:\Users\**YourUsername**\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.2\boards.txt
+  (Windows) C:\Users\**YourUsername**\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.2\boards.txt
+  (MacOS) /Users/*you*/Library/Arduino15/packages/esp32/hardware/esp32/1.0.3/boards.txt
 
   Replace the existing "boards.txt" file with the one available [here.](https://github.com/kenny-macchina/docs/tree/306ccc81a873f9c8cfe2e05a0cbffb8ff395906b/superB/flashing/boards.txt)\*\*\*\*
 
