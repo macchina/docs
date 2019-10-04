@@ -5,7 +5,6 @@
 * [M2 Docs](m2-docs/README.md)
   * [About M2](m2-docs/m2.md)
   * [Versions of M2](m2-docs/versions.md)
-  * [Disclaimer](m2-docs/disclaimer.md)
   * [Getting Started](m2-docs/getting-started.md)
   * [Arduino IDE Quick Start](m2-docs/arduino.md)
   * [M2 and SavvyCAN, the Basics](m2-docs/use-m2-with-savvycan.md)
@@ -37,4 +36,5 @@
 * [Projects](projects/README.md)
   * ["OK Google, start my car!"](projects/ok_google_start_my_car.md)
   * [Help Collect Voltage Data](projects/m2voltagemonitor.md)
+* [Disclaimer](disclaimer.md)
 
