@@ -8,48 +8,8 @@ description: Use these pin names when programming in the Arduino IDE.
 
 **Use the names in the "Mapped Pin Name" column in your Arduino Sketch.**
 
-A "pin mapping" describes how the different circuits of your M2 are connected to the processor. For example, the Green LED \(DS6 on the schematic\) is connected to pin 7 \(AKA PA14\) of the processor. To make things easier from a programming standpoint, we can map this to a pin name, in this case, the green LED is mapped to the name `DS6` \(which is compiled to the value 18\).
+A "pin mapping" describes how the different circuits of your P1 are connected to the PocketBeagle. 
 
-## LEDs
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| DS2 | DS2 \(RED\) | LED ON = LOW | PD10 | 32 | 14 |
-| DS3 | DS3 \(YELLOW\) | LED ON = LOW | PA5 | 25 | 15 |
-| DS4 | DS4 \(YELLOW\) | LED ON = LOW | PD2 | 15 | 16 |
-| DS5 | DS5 \(YELLOW\) | LED ON = LOW | PA15 | 8 | 17 |
-| DS6 | DS6 \(GREEN\) | LED ON = LOW | PA14 | 7 | 18 |
-| DS7\_BLUE or RGB\_BLUE | RGB BLUE | LED ON = LOW | PC25 | 136 | 19 |
-| DS7\_RED or RGB\_RED | RGB RED | LED ON = LOW | PD7 | 20 | 20 |
-| DS7\_GREEN or RGB\_GREEN | RGB GREEN | LED ON = LOW | PD8 | 21 | 21 |
-
-## Buttons
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Button1 | TACT SW1 | Button pressed = LOW | PC27 | 138 | 22 |
-| Button2 | TACT SW2 | Button pressed = LOW | PB6 | 121 | 23 |
-
-## SD Card
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| SD\_SW | SD\_SW | Card is inserted = LOW | PC30 | 103 | 36 |
-| MCCK | MCCK |  | PA19 | 71 | 37 |
-| MCCDA | MCCDA |  | PA20 | 72 | 38 |
-| MCDA0 | MCDA0 |  | PA21 | 107 | 39 |
-| MCDA1 | MCDA1 |  | PA22 | 81 | 40 |
-| MCDA2 | MCDA2 |  | PA23 | 80 | 41 |
-| MCDA3 | MCDA3 |  | PA24 | 79 | 42 |
-
-## SD Card SPI
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| SPI0\_CS1 | SPI0\_nCS1 | Not connected by default | PA29 | 112 | 46 |
-| SPI0\_MOSI | SPI0 MOSI | Not connected by default | PA26 | 109 | 44 |
-| SPI0\_CLK | SPI0 CLK | Not connected by default | PA27 | 110 | 45 |
-| SPI0\_MISO | SPI0 MISO | Not connected by default | PA25 | 108 | 43 |
 
 ## 12-volt Outputs
 
@@ -116,26 +76,6 @@ A "pin mapping" describes how the different circuits of your M2 are connected to
 | J1850P\_TX | J1850+\_TX |  | PC18 | 100 | 53 |
 | J1850N\_TX | J1850-\_TX |  | PC23 | 134 | 54 |
 
-## XBEE
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| XBEE\_RX or RX0 | XB\_UART RX | UART serial URXD | PA8 | 27 | 0 |
-| XBEE\_TX or TX0 | XB\_UART TX | UART serial UTXD | PA9 | 2 | 1 |
-| XBEE\_RST | XB\_nRST |  | PC11 | 93 | 4 |
-| XBEE\_PWM | XB\_RSSI\_PWM |  | PB3 | 118 | 7 |
-| XBEE\_MULT4 | XB\_MULT4 |  | PD6 | 19 | 11 |
-| XBEE\_MULT5 | XB\_MULT5 |  | PD9 | 22 | 12 |
-| XBEE\_MULT1 | XB\_MULT1 |  | PC12 | 94 | 8 |
-| XBEE\_CTS | XB\_nCTS |  | PB26 | 1 | 3 |
-| XBEE\_STAT | XB\_STAT |  | PC13 | 95 | 5 |
-| XBEE\_VREF | XB\_Vref |  | PC14 | 96 | 6 |
-| XBEE\_MULT2 | XB\_MULT2 |  | PC15 | 97 | 9 |
-| XBEE\_RTS | XB\_nRTS |  | PB25 | 144 | 2 |
-| XBEE\_MULT3 | XB\_MULT3 |  | PC17 | 99 | 10 |
-| XBEE\_MULT6 | XB\_MULT6 |  | PA7 | 26 | 13 |
-
-![Image showing pin names of the XBEE socket on M2](../../.gitbook/assets/xbee_pinnames.png)
 
 ## 9141/LIN
 
@@ -160,102 +100,3 @@ A "pin mapping" describes how the different circuits of your M2 are connected to
 | SWC\_INT | SWC nINT |  | PC16 | 98 | 67 |
 | SWC\_RX0 | SWC nRX0BF |  | PB1 | 114 | 61 |
 | SWC\_RX1 | SWC nRX1BF |  | PB2 | 115 | 62 |
-
-## SPI0
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| SPI0\_MISO | SPI0 MISO | Optionally connected to SD Card | PA25 | 108 | 43 |
-| SPI0\_MOSI | SPI0 MOSI | Optionally connected to SD Card | PA26 | 109 | 44 |
-| SPI0\_CLK | SPI0 CLK | Optionally connected to SD Card | PA27 | 110 | 45 |
-| SPI0\_CS1 | SPI0\_nCS1 | Optionally connected to SD Card | PA29 | 112 | 46 |
-| SPI0\_CS0 | SPI0\_nCS0 |  | PA28 | 111 | 47 |
-
-## 26-Pin GPIO Connector \(J5\)
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| TXD3 | UART3 TX | J5 Pin 7 \(3.3V UART\) | PD4 | 17 | 77 |
-| RXD3 | UART3 RX | J5 Pin 8 \(3.3V UART\) | PD5 | 18 | 78 |
-| SDA0 | SDA0 | J5 Pin 4 | PA17 | 9 | 79 |
-| SCL0 | SCL0 | J5 Pin 3 | PA18 | 70 | 80 |
-| SPI\_CS2 | USART2RX | J5 Pin 15 | PB21 | 92 | 83 |
-
-## Misc.
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| V\_SENSE | AD3 | Analogue input Vehicle Volts | PA6 | 82 | 92 |
-| CPU\_TEMP or A15 | Internal | CPU Temperature | PD5 | Internal | 94 |
-
-## EEPROM Memory
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| SDA1 | SDA1 | Eeprom | PB12 | 86 | 81 |
-| SCL1 | SCL1 | Eeprom | PB13 | 87 | 82 |
-
-## CPU Test Point
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| USART2TX | USART2TX | TP5 U2TX | PB20 | 91 | 84 |
-|  | unconnected | not connected | PC1 | 55 | 85 |
-|  | UOTGVBOF |  | PB10 | 128 |  |
-|  | UOTGID |  | PB11 | 129 |  |
-|  | ERASE\_S |  | PC0 | 130 |  |
-|  | USART2 CK |  | PB24 | 143 |  |
-
-## CPU System Pins
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-|  | VDDOUT |  | VDDCORE5 | 124 |  |
-|  | +3.3V |  | VDDIO1 | 11 |  |
-|  | +3.3V |  | VDDIO2 | 62 |  |
-|  | +3.3V |  | VDDIO3 | 105 |  |
-|  | +3.3V |  | VDDIO4 | 125 |  |
-|  | DGND |  | GND1 | 12 |  |
-|  | DGND |  | GND2 | 58 |  |
-|  | DGND |  | GND3 | 106 |  |
-|  | DGND |  | GND4 | 126 |  |
-|  | DGND |  | GNDPLL | 33 |  |
-|  | DGND |  | GNDANA | 74 |  |
-|  | VDDPLL |  | VDDPLL | 34 |  |
-|  | XOUT | Crystal | XOUT | 35 |  |
-|  | XIN | Crystal | XIN | 36 |  |
-|  | D+ | Micro USB pin3 | DHSDP | 37 |  |
-|  | D- | Micro USB pin2 | DHSDM | 38 |  |
-|  | VBUS | Micro USB pin1 +5Volts | XUSB | 39 |  |
-|  | VBG |  | VBG | 40 |  |
-|  | VDDUTMI |  | VDDUTMI | 41 |  |
-|  | DFSDP |  | DFSDP | 42 |  |
-|  | DFSDM |  | DFSDM | 43 |  |
-|  | DGND | Grounded pin | GNDUTMI | 44 |  |
-|  | VDDOUT |  | GNDUTMI | 45 |  |
-|  | DGND | Grounded pin | JTAGSEL | 46 |  |
-|  | M\_nRST/SWC nRESET | MCP2515 Reset | NRSTB | 47 |  |
-|  | XIN32 | N/C | XIN32 | 48 |  |
-|  | XOUT32 | N/C | XOUT32 | 49 |  |
-|  |  | N/C | SHDN | 50 |  |
-|  |  | Grounded via Resistor | TST | 51 |  |
-|  |  | +3.3V via Resistor | VDDBU | 52 |  |
-|  |  | +3.3V via Resistor | FWUP | 53 |  |
-|  |  | Grounded pin | GNDBU | 54 |  |
-|  | VDDOUT |  | VDDOUT | 56 |  |
-|  | +3.3V |  | VDDIN | 57 |  |
-|  | TP5 |  | NRST | 69 |  |
-|  | VDDANA | VoltageAnalogue | VDDANA | 73 |  |
-|  | DGND | Ground Analogue | GNDANA | 74 |  |
-|  | DGND | Analogue Digital Volt ref | ADVREF | 75 |  |
-|  |  |  | PB9 | 127 |  |
-
-## JTAG
-
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-|  | JTAG-TCK | TP1 | PB28 | 28 |  |
-|  | JTAG-TDI | TP2 | PB29 | 29 |  |
-|  | JTAG\_TDO | TP3 | PB30 | 30 |  |
-|  | JTAG-TMS | TP4 | PB31 | 31 |  |
-
