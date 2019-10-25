@@ -13,7 +13,7 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## 12-volt Outputs
 
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | GPIO1 | GPIO1 A | SOURCE \(J5, Pin 2\) | PC3 \(PWMH0\) | 60 | 24 |
 | GPIO2 | GPIO2 A | SOURCE \(J5, Pin 2\) | PC5 \(PWMH1\) | 63 | 25 |
@@ -30,7 +30,7 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## Analog Inputs \(0-12V analog input\)
 
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | ANALOG\_1 | ANA 1 | J5 Pin 1 | PB19 | 90 | 86 |
 | ANALOG\_2 | ANA 2 | J5 Pin 5 | PB18 | 89 | 87 |
@@ -41,7 +41,7 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## GPIO Power Supply Current Sense
 
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | I\_SENSE\_EN | 12Vio\_EN | GPIO Power Supply Enable | PC24 | 135 | 75 |
 | I\_SENSE | I SENSE 12V | GPIO Power Supply Analog Current Sense | PB17 | 88 | 93 |
@@ -50,7 +50,7 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## CAN
 
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | CANRX0 | CANRX0 |  | PA1 | 24 | 69 |
 | CANTX0 | CANTX0 |  | PA0 | 23 | 70 |
@@ -61,14 +61,14 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## Power Supplies
 
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | PS\_BUCK or BUCK\_DIS | BUCK\_nDIS |  | PC10 | 117 | 48 |
 | PS\_J1850\_9141 | J1850 9141 ON | Bring LOW for LOW power | PB5 | 120 | 49 |
 
 ## J1850
 
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | J1850\_PWM\_VPW | J1850\_PWM\_nVPW |  | PB8 | 123 | 50 |
 | J1850\_PWM\_RX | J1850\_PWM\_RX |  | PC28 | 139 | 51 |
@@ -79,7 +79,7 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## 9141/LIN
 
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | LIN\_KTX | 9141 K TX | Serial1 | PA11 | 4 | 55 |
 | LIN\_KRX | 9141 K RX |  | PA10 | 3 | 56 |
@@ -90,7 +90,7 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## Single-wire CAN
 
-| Mapped Pin Name \(use these in your sketch\) | M2 Board Signal Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | SWC\_M1 | SWC M1 |  | PB0 | 113 | 65 |
 | SWC\_M0 | SWC M0 |  | PB27 | 68 | 64 |
