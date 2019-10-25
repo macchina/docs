@@ -79,14 +79,14 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## 9141/LIN
 
-| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| LIN\_KTX | 9141 K TX | Serial1 | PA11 | 4 | 55 |
-| LIN\_KRX | 9141 K RX |  | PA10 | 3 | 56 |
-| LIN\_KSLP | 9141 K SLP |  | PB4 | 119 | 57 |
-| LIN\_LTX | 9141 L TX | Serial2 | PA13 | 6 | 58 |
-| LIN\_LRX | 9141 L RX |  | PA12 | 5 | 59 |
-| LIN\_LSLP | 9141 L SLP |  | PB7 | 122 | 60 |
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | Test |
+| :--- | :--- | :--- | :--- |
+| LIN\_KTX | 9141 K TX | LIN1 TX |  P2_7 |
+| LIN\_KRX | 9141 K RX | LIN1 RX | P2_5 | 
+| LIN\_KSLP | 9141 K SLP |  |  | 
+| LIN\_LTX | 9141 L TX | LIN2 TX | P1_30 | 
+| LIN\_LRX | 9141 L RX | LIN2 RX | P1_32 | 
+| LIN\_LSLP | 9141 L SLP |  |  | 
 
 ## Single-wire CAN
 
