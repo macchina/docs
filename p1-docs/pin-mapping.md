@@ -61,10 +61,10 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## Power Supplies
 
-| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| PS\_BUCK or BUCK\_DIS | BUCK\_nDIS |  | PC10 | 117 | 48 |
-| PS\_J1850\_9141 | J1850 9141 ON | Bring LOW for LOW power | PB5 | 120 | 49 |
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | 
+| :--- | :--- | :--- |
+| PS\_BUCK or BUCK\_DIS | BUCK\_nDIS | |
+| PS\_J1850\_9141 | P2_19 | Bring LOW for LOW power |
 
 ## J1850
 
@@ -83,7 +83,7 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 | :--- | :--- | :--- | :--- |
 | LIN\_KTX | 9141 K TX | LIN1 TX |  P2_7 |
 | LIN\_KRX | 9141 K RX | LIN1 RX | P2_5 | 
-| LIN\_KSLP | 9141 K SLP |  |  | 
+| LIN\_KSLP | 9141 K SLP | LIN1 Sleep  | P2_22 | 
 | LIN\_LTX | 9141 L TX | LIN2 TX | P1_30 | 
 | LIN\_LRX | 9141 L RX | LIN2 RX | P1_32 | 
 | LIN\_LSLP | 9141 L SLP |  |  | 
