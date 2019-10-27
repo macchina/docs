@@ -1,19 +1,19 @@
 # Automotive Interfaces
 
-The M2 Inferface Board contains both the power supply circuitry and the automotive interfaces required to communicate with your car. This includes:
+The P1 Inferface Board contains both the power supply circuitry and the automotive interfaces required to communicate with your car. This includes:
 
 * 2x CAN bus
 * 1x SWCAN \(Single-Wire CAN\)
 * 2x LIN/9141
 * J1850 VPW/PWM
 
-To find libraries for any M2 interfaces, try the [Macchina Community Showcase](http://showcase.macchina.cc/libraries.html).
+To find libraries for any P1 interfaces, try the [Macchina Community Showcase](http://showcase.macchina.cc/libraries.html).
 
 ![](../../.gitbook/assets/interface_0d024.png)
 
 ## 26-pin **general purpose** connector
 
-Every M2 has a 26-pin general purpose "expansion" connector that provides even more connection options. For example: UART, SPI, I2C, six general purpose 12V drivers and six 12V analog inputs. See the [schematic](https://github.com/macchina/m2-hardware) for actual pinout details.
+Every P1 has a 26-pin general purpose "expansion" connector that provides even more connection options. For example: UART, SPI, I2C, six general purpose 12V drivers and six 12V analog inputs. See the [schematic](https://github.com/macchina/P1-hardware) for actual pinout details.
 
 Part number for this 2mm pitch connector is: [Hirose DF11-26DP-2DS\(52\)](https://www.digikey.com/product-detail/en/hirose-electric-co-ltd/DF11-26DP-2DS-52/H2876-ND/524308)
 
@@ -60,29 +60,29 @@ Find more about six 12V source/sink driver circuits [here](12vio.md).
 
 CAN bus is a vehicle bus standard used in most cars built after 2006. It is a message-based protocol that allows modules within a car to communicate with one another. While the physical layer is understood and open, the actual meaning of the messages sent over the bus are not. While some messages are legislated to be "standard", the majority of CAN messages in your typical car are not well documented.
 
-The M2 has 2 CAN channels \(in addition to the single-wire CAN channel\) that can interface directly to the CAN bus network of your car. The M2 uses the 2 built-in CAN controllers found in the SAM3X and 2 external TJA1051 transceivers. Here is a typical example:
+The P1 has 2 CAN channels \(in addition to the single-wire CAN channel\) that can interface directly to the CAN bus network of your car. The P1 uses the 2 built-in CAN controllers found in the SAM3X and 2 external TJA1051 transceivers. Here is a typical example:
 
 ![](../../.gitbook/assets/can_schematic.png)
 
 Here is the link to the datasheet: [http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf](http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf)
 
-CAN bus connections can be found on either the 16-pin OBD2 connector on the under-the-dash M2 or the 24-pin connector used by the under-the-hood M2.
+CAN bus connections can be found on either the 16-pin OBD2 connector on the under-the-dash P1 or the 24-pin connector used by the under-the-hood P1.
 
 ## Single-wire CAN
 
-The Macchina M2 provides single-wire CAN support using a MCP2515 CAN controller.
+The Macchina P1 provides single-wire CAN support using a MCP2515 CAN controller.
 
 ## LIN
 
 [Local Interconnect Network](https://en.wikipedia.org/wiki/Local_Interconnect_Network) bus is an inexpensive, single wire, serial network protocol used in many modern cars. Typically, LIN would be used to control and monitor lower-priority devices such as seat positions, door locks, radio and illumination.
 
-The M2 has 2 LIN channels that can interface directly to the LIN bus network of your car. Your M2 uses 2 external TJA1027 transceivers connected via UART to the processor.
+The P1 has 2 LIN channels that can interface directly to the LIN bus network of your car. Your P1 uses 2 external TJA1027 transceivers connected via UART to the processor.
 
 Here is the link to the datasheet: [https://www.nxp.com/docs/en/data-sheet/TJA1027.pdf](https://www.nxp.com/docs/en/data-sheet/TJA1027.pdf)
 
 Note that the TJA1027 transceiver is used for both LIN and ISO9141 \(K-LINE/L-LINE\) for a total of 2 channels.
 
-LIN bus connections can be found on either the 16-pin OBD2 connector on the under-the-dash M2 or the 24-pin connector used by the under-the-hood M2.
+LIN bus connections can be found on either the 16-pin OBD2 connector on the under-the-dash P1 or the 24-pin connector used by the under-the-hood P1.
 
 ## K-line \(aka ISO9141, KWP2000\)
 
@@ -90,9 +90,9 @@ ISO9141/K-line is typically found in Chrysler, European, and Asian vehicles buil
 
 Some cars require a secondary line \(sometimes referred to as L-Line\).
 
-M2 has two K-line channels and uses the TJA1027 transceiver to interface the 12-volt single bidirectional line from the vehicle to a 3.3V UART connection. While this part is designed for LIN, it is also K-line compatible. Here is typical interface circuit showing a channel of ISO9141/LIN connected to the UART channel of the processor.
+P1 has two K-line channels and uses the TJA1027 transceiver to interface the 12-volt single bidirectional line from the vehicle to a 3.3V UART connection. While this part is designed for LIN, it is also K-line compatible. Here is typical interface circuit showing a channel of ISO9141/LIN connected to the UART channel of the processor.
 
-K-line connections can be found on either the 16-pin OBD2 connector on the under-the-dash M2 or the 24-pin connector used by the under-the-hood M2.
+K-line connections can be found on either the 16-pin OBD2 connector on the under-the-dash P1 or the 24-pin connector used by the under-the-hood P1.
 
 ![](../../.gitbook/assets/iso9141_schematic.png)
 
@@ -100,7 +100,7 @@ Here is the link to the datasheet: [https://www.nxp.com/docs/en/data-sheet/TJA10
 
 ## J1850
 
-M2 supports both J1850 PWM \(Pulse-width-modulation\) and VPW \(Variable Pulse width\).
+P1 supports both J1850 PWM \(Pulse-width-modulation\) and VPW \(Variable Pulse width\).
 
 **J1850 PWM** is typically found in older Ford vehicles and operates at 41.6 kb/s. The bus is active when `J1850+_BUS` is pulled HIGH to 5V and `J1850-_BUS` is pulled LOW to 0V.
 
@@ -108,7 +108,7 @@ M2 supports both J1850 PWM \(Pulse-width-modulation\) and VPW \(Variable Pulse w
 
 The voltage range for each protocol is different \(0-7V for VPW and 0-5V for PWM\). To change between the levels required for PWM and VPW variants of J1850, use this signal:
 
-`J1850_PWM_VPW` \(M2 board signal name "J1850\_PWM\_nVPW"\)
+`J1850_PWM_VPW` \(P1 board signal name "J1850\_PWM\_nVPW"\)
 
 This signal is connected to physical pin 123 \(PB8\) of the SAM3X. Make this pin HIGH for PWM and LOW for VPW
 
@@ -138,12 +138,12 @@ These signals originate from the vehicle:
 
 These signals connect to the processor as OUTPUTS:
 
-`J1850P_TX` \(M2 board signal name "J1850+\_TX"\) is an OUTPUT from the processor used for BOTH J1850 PWM and VPW. "J1850+\_TX" is connected to pin 45 or PC18. This corresponds to the **PWMH6** on peripheral B.
+`J1850P_TX` \(P1 board signal name "J1850+\_TX"\) is an OUTPUT from the processor used for BOTH J1850 PWM and VPW. "J1850+\_TX" is connected to pin 45 or PC18. This corresponds to the **PWMH6** on peripheral B.
 
 * _With J1850\_PWM\_VPW = HIGH \(i.e. PWM mode\):_ When this signal goes HIGH , pin 2 of the OBD2 connector is 5.5V. When this pin is LOW, pin 2 of the OBD2 connector is 0V.
 * _With J1850\_PWM\_VPW = LOW \(i.e. VPW mode\):_ When this signal goes HIGH , pin 2 of the OBD2 connector is 7.5V. When this pin is LOW, pin 2 of the OBD2 connector is 0V.
 
-`J1850N_TX` \(M2 board signal name "J1850-\_TX"\) is an OUTPUT from the processor and is used for J1850 PWM. "J1850-\_TX" is connected to pin 7 or PC23. This corresponds to the **PWML6** on peripheral B.
+`J1850N_TX` \(P1 board signal name "J1850-\_TX"\) is an OUTPUT from the processor and is used for J1850 PWM. "J1850-\_TX" is connected to pin 7 or PC23. This corresponds to the **PWML6** on peripheral B.
 
 * _With J1850\_PWM\_VPW = HIGH \(i.e. PWM mode\):_ When this signal goes HIGH , pin 10 of the OBD2 connector is 0V. When this pin is LOW, pin 10 of the OBD2 connector is 5V.
 
