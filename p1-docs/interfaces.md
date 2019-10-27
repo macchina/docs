@@ -84,6 +84,12 @@ Note that the TJA1027 transceiver is used for both LIN and ISO9141 \(K-LINE/L-LI
 
 LIN bus connections can be found on either the 16-pin OBD2 connector on the under-the-dash P1 or the 24-pin connector used by the under-the-hood P1.
 
+Use following Commands to init the LIN-Bus:
+```
+config-pin P2_22 hi # Enable LIN-Bus1
+config-pin P2_19 hi # Enable Power for LIN
+```
+
 ## K-line \(aka ISO9141, KWP2000\)
 
 ISO9141/K-line is typically found in Chrysler, European, and Asian vehicles built before around 2005. This protocol is similar to RS-232 but at different voltage levels and on a single, bidirectional line.
