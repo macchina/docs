@@ -36,12 +36,22 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## GPIO Power Supply Current Sense
 
+
+| Mapped Pin Name | Notes | PocketBeagle Pin Name |
+| :--- | :--- | :--- |
+| 12Vio\_EN | GPIO Power Supply Enable | P1_31
+| SENSE 12V | GPIO Power Supply Analog Current Sense | 
+| OVER\_CURRENT | GPIO Power Supply Interrupt |
+| DAC1 | GPIO Power Supply Analog Output to Comparator | 
+
+
+
 | Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| I\_SENSE\_EN | 12Vio\_EN | GPIO Power Supply Enable | PC24 | 135 | 75 |
-| I\_SENSE | I SENSE 12V | GPIO Power Supply Analog Current Sense | PB17 | 88 | 93 |
-| I-SENSE\_INT | OVER\_CURRENT | GPIO Power Supply Interrupt | PD1 | 14 | 76 |
-| I-SENSE\_DAC | DAC1 | GPIO Power Supply Analog Output to Comparator | PB16 | 77 | 95 |
+| I\_SENSE\_EN | 12Vio\_EN |  | PC24 | 135 | 75 |
+| I\_SENSE | I SENSE 12V |  | PB17 | 88 | 93 |
+| I-SENSE\_INT | OVER\_CURRENT |  | PD1 | 14 | 76 |
+| I-SENSE\_DAC | DAC1 |  | PB16 | 77 | 95 |
 
 ## CAN
 
