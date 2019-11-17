@@ -91,7 +91,7 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 | LIN\_KSLP | 9141 K SLP | LIN1 Sleep  | P2_22 | 
 | LIN\_LTX | 9141 L TX | LIN2 TX | P1_30 | 
 | LIN\_LRX | 9141 L RX | LIN2 RX | P1_32 | 
-| LIN\_LSLP | 9141 L SLP |  |  | 
+| LIN\_LSLP | 9141 L SLP | LIN2 Sleep | P2_28 | 
 
 ## Single-wire CAN
 
