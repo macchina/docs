@@ -8,8 +8,7 @@ description: Use these pin names when programming in the Arduino IDE.
 
 **Use the names in the "Mapped Pin Name" column in your Arduino Sketch.**
 
-A "pin mapping" describes how the different circuits of your P1 are connected to the PocketBeagle. 
-
+A "pin mapping" describes how the different circuits of your P1 are connected to the PocketBeagle.
 
 ## 12-volt Outputs
 
@@ -61,10 +60,10 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## Power Supplies
 
-| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | 
+| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes |
 | :--- | :--- | :--- |
-| PS\_BUCK or BUCK\_DIS | BUCK\_nDIS | |
-| PS\_J1850\_9141 | P2_19 | Bring LOW for LOW power |
+| PS\_BUCK or BUCK\_DIS | BUCK\_nDIS |  |
+| PS\_J1850\_9141 | P2\_19 | Bring LOW for LOW power |
 
 ## J1850
 
@@ -76,17 +75,16 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 | J1850P\_TX | J1850+\_TX |  | PC18 | 100 | 53 |
 | J1850N\_TX | J1850-\_TX |  | PC23 | 134 | 54 |
 
-
 ## 9141/LIN
 
 | Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | Test |
 | :--- | :--- | :--- | :--- |
-| LIN\_KTX | 9141 K TX | LIN1 TX |  P2_7 |
-| LIN\_KRX | 9141 K RX | LIN1 RX | P2_5 | 
-| LIN\_KSLP | 9141 K SLP | LIN1 Sleep  | P2_22 | 
-| LIN\_LTX | 9141 L TX | LIN2 TX | P1_30 | 
-| LIN\_LRX | 9141 L RX | LIN2 RX | P1_32 | 
-| LIN\_LSLP | 9141 L SLP |  |  | 
+| LIN\_KTX | 9141 K TX | LIN1 TX | P2\_7 |
+| LIN\_KRX | 9141 K RX | LIN1 RX | P2\_5 |
+| LIN\_KSLP | 9141 K SLP | LIN1 Sleep | P2\_22 |
+| LIN\_LTX | 9141 L TX | LIN2 TX | P1\_30 |
+| LIN\_LRX | 9141 L RX | LIN2 RX | P1\_32 |
+| LIN\_LSLP | 9141 L SLP |  |  |
 
 ## Single-wire CAN
 
@@ -100,3 +98,4 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 | SWC\_INT | SWC nINT |  | PC16 | 98 | 67 |
 | SWC\_RX0 | SWC nRX0BF |  | PB1 | 114 | 61 |
 | SWC\_RX1 | SWC nRX1BF |  | PB2 | 115 | 62 |
+
