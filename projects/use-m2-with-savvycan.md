@@ -6,7 +6,11 @@ description: >-
 
 # M2 and SavvyCAN, the Basics
 
-Hardware Needed
+{% embed url="https://www.youtube.com/watch?v=bqI\_Usv77XU" %}
+
+
+
+## Hardware Needed
 
 * [Macchina M2](https://www.macchina.cc/catalog/m2-boards/m2-under-dash)
 * [USB Cable \(The longer the better\)](https://www.macchina.cc/catalog/cables/usb-micro-b-20-cable-5-pin-2824awg-gold-plated-black-15ft)
@@ -34,6 +38,12 @@ Extract "M2RET\_FLASH.zip" and follow the instructions in the "HOWTO.txt" file r
 
 {% endtab %}
 {% endtabs %}
+
+
+
+Source code for M2RET is here: 
+
+{% embed url="https://github.com/collin80/SavvyCAN" %}
 
 ## Connect M2 with SavvyCAN
 

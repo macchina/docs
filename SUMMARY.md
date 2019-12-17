@@ -7,7 +7,10 @@
   * [Versions of M2](m2-docs/versions.md)
   * [Getting Started](m2-docs/getting-started.md)
   * [Arduino IDE Quick Start](m2-docs/arduino.md)
-  * [M2 and SavvyCAN, the Basics](m2-docs/use-m2-with-savvycan.md)
+  * [M2 Code libraries](m2-docs/m2-code-libraries/README.md)
+    * [CAN bus](m2-docs/m2-code-libraries/can-bus.md)
+    * [Single-wire CAN](m2-docs/m2-code-libraries/single-wire-can.md)
+    * [LIN](m2-docs/m2-code-libraries/lin.md)
   * [Next Steps with M2](m2-docs/next-steps-with-m2.md)
   * [Detailed Reference](m2-docs/detailed-reference/README.md)
     * [Installation](m2-docs/detailed-reference/installation.md)
@@ -35,8 +38,13 @@
   * [Getting Started](superb-docs/getting-started.md)
   * [Sending AT Commands](superb-docs/atcommands.md)
 * [A0 Docs](a0-docs.md)
-* [Projects](projects/README.md)
-  * ["OK Google, start my car!"](projects/ok_google_start_my_car.md)
-  * [Help Collect Voltage Data](projects/m2voltagemonitor.md)
+
+## Projects
+
+* ["OK Google, start my car!"](projects/ok_google_start_my_car.md)
+* [M2 and SavvyCAN, the Basics](projects/use-m2-with-savvycan.md)
+* [Help Collect Voltage Data](projects/m2voltagemonitor.md)
+* [Community Projects](projects/community-projects.md)
+* [Show off your project!](projects/savvycan-m2ret.md)
 * [Disclaimer](disclaimer.md)
 

@@ -12,38 +12,34 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## 12-volt Outputs
 
-| Mapped Pin Name | Function |  Notes | PocketBeagle Pin Name |
+| Mapped Pin Name | Function | Notes | PocketBeagle Pin Name |
 | :--- | :--- | :--- | :--- |
-| OUT 1 | SRC | J5 Pin 2 | P1_36
-| OUT 2 | SRC | J5 Pin 6 | P2_3
-| OUT 3 | SRC | J5 Pin 10 | P2_2
-| OUT 4 | SINK | J5 Pin 14 | P2_4
-| OUT 5 | SINK | J5 Pin 18 | P1_33
-| OUT 6 | SINK | J5 Pin 22 | P2_10
-
+| OUT 1 | SRC | J5 Pin 2 | P1\_36 |
+| OUT 2 | SRC | J5 Pin 6 | P2\_3 |
+| OUT 3 | SRC | J5 Pin 10 | P2\_2 |
+| OUT 4 | SINK | J5 Pin 14 | P2\_4 |
+| OUT 5 | SINK | J5 Pin 18 | P1\_33 |
+| OUT 6 | SINK | J5 Pin 22 | P2\_10 |
 
 ## Analog Inputs \(0-12V analog input\)
 
 | Mapped Pin Name | Notes | PocketBeagle Pin Name |
 | :--- | :--- | :--- |
-| IN 1 | J5 Pin 1 | P1_19
-| IN 2 | J5 Pin 5 | P1_21
-| IN 3 | J5 Pin 9 | P1_23
-| IN 4 | J5 Pin 13 | P1_25
-| IN 5 | J5 Pin 17 | P1_27
-| IN 6 | J5 Pin 21 | P2_36
+| IN 1 | J5 Pin 1 | P1\_19 |
+| IN 2 | J5 Pin 5 | P1\_21 |
+| IN 3 | J5 Pin 9 | P1\_23 |
+| IN 4 | J5 Pin 13 | P1\_25 |
+| IN 5 | J5 Pin 17 | P1\_27 |
+| IN 6 | J5 Pin 21 | P2\_36 |
 
 ## GPIO Power Supply Current Sense
 
-
 | Mapped Pin Name | Notes | PocketBeagle Pin Name |
 | :--- | :--- | :--- |
-| 12Vio\_EN | GPIO Power Supply Enable | P1_31
-| SENSE 12V | GPIO Power Supply Analog Current Sense | 
-| OVER\_CURRENT | GPIO Power Supply Interrupt |
-| DAC1 | GPIO Power Supply Analog Output to Comparator | 
-
-
+| 12Vio\_EN | GPIO Power Supply Enable | P1\_31 |
+| SENSE 12V | GPIO Power Supply Analog Current Sense |  |
+| OVER\_CURRENT | GPIO Power Supply Interrupt |  |
+| DAC1 | GPIO Power Supply Analog Output to Comparator |  |
 
 | Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -82,15 +78,14 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 
 ## 9141/LIN
 
-| Mapped Pin Name  |  Pin name | Notes | PocketBeagle Pin Name \(use these in your sketch\)|
+| Mapped Pin Name | Pin name | Notes | PocketBeagle Pin Name \(use these in your sketch\) |
 | :--- | :--- | :--- | :--- |
-| LIN\_KTX | 9141 K TX | LIN1 TX |  P2_7 |
-| LIN\_KRX | 9141 K RX | LIN1 RX | P2_5 | 
-| LIN\_KSLP | 9141 K SLP | LIN1 Sleep  | P2_22 | 
-| LIN\_LTX | 9141 L TX | LIN2 TX | P1_30 | 
-| LIN\_LRX | 9141 L RX | LIN2 RX | P1_32 | 
-| LIN\_LSLP | 9141 L SLP | LIN2 Sleep | P2_28 | 
-
+| LIN\_KTX | 9141 K TX | LIN1 TX | P2\_7 |
+| LIN\_KRX | 9141 K RX | LIN1 RX | P2\_5 |
+| LIN\_KSLP | 9141 K SLP | LIN1 Sleep | P2\_22 |
+| LIN\_LTX | 9141 L TX | LIN2 TX | P1\_30 |
+| LIN\_LRX | 9141 L RX | LIN2 RX | P1\_32 |
+| LIN\_LSLP | 9141 L SLP | LIN2 Sleep | P2\_28 |
 
 ## Single-wire CAN
 

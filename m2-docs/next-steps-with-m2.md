@@ -6,7 +6,7 @@ description: 'Your M2 can blink its LED, now what?'
 
 ## SavvyCAN
 
-[Visit the dedicated SavvyCAN page.](use-m2-with-savvycan.md)
+[Visit the dedicated SavvyCAN page.](../projects/use-m2-with-savvycan.md)
 
 ## Can-Utils
 
@@ -14,7 +14,9 @@ If you want to use it with Can-Utils check out our socket-can guide and the Can-
 
 ## OBDII Scanner Sketch
 
-If you want to quire the ECU all you need to do is upload this scanner sketch [https://github.com/collin80/OBD2Scan](https://github.com/collin80/OBD2Scan)  This will tell you what services your ECU has. If you have any trouble or want to post your results go over to [https://github.com/collin80/OBD2Scan](https://github.com/collin80/OBD2Scan)
+If you want to query the ECU, all you need to do is upload this scanner sketch to M2: 
+
+{% embed url="https://github.com/collin80/OBD2Scan" %}
 
 ## CanCat
 

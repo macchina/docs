@@ -92,18 +92,14 @@ config-pin P2_28 hi # Enable LIN-Bus2
 config-pin P2_19 hi # Enable Power for LIN
 ```
 
-
-
 Use following Commands to see if the Lin-Busses are working:
-```
+
+```text
 cat /tty/ttyS4 # Lin1
 cat /tty/ttyS0 # Lin2
-
 ```
 
-Attention: To use the LIN2 Bus, you will need to solder bridges on the R06 and R07 which are not soldered on the Board.
-Refer here for Instructions: https://github.com/macchina/p1-hardware/blob/master/PCB-01010%20R1%20COMPONENT%20LOCATOR%20CLOSE%20UP.PDF
-
+Attention: To use the LIN2 Bus, you will need to solder bridges on the R06 and R07 which are not soldered on the Board. Refer here for Instructions: [https://github.com/macchina/p1-hardware/blob/master/PCB-01010 R1 COMPONENT LOCATOR CLOSE UP.PDF](https://github.com/macchina/p1-hardware/blob/master/PCB-01010%20R1%20COMPONENT%20LOCATOR%20CLOSE%20UP.PDF)
 
 ## K-line \(aka ISO9141, KWP2000\)
 
