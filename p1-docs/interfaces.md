@@ -68,6 +68,15 @@ Here is the link to the datasheet: [http://www.nxp.com/docs/en/data-sheet/TJA105
 
 CAN bus connections can be found on either the 16-pin OBD2 connector on the under-the-dash P1 or the 24-pin connector used by the under-the-hood P1.
 
+
+Use following Commands to set the Can-Bus to write mode:
+```
+config-pin P1_20 lo # Enable CAN0
+config-pin P2_30 lo # Enable CAN1
+```
+
+
+
 ## Single-wire CAN
 
 The Macchina P1 provides single-wire CAN support using a MCP2515 CAN controller.
@@ -97,11 +106,14 @@ Use following Commands to see if the Lin-Busses are working:
 ```
 cat /tty/ttyS4 # Lin1
 cat /tty/ttyS0 # Lin2
-
 ```
 
 Attention: To use the LIN2 Bus, you will need to solder bridges on the R06 and R07 which are not soldered on the Board.
 Refer here for Instructions: https://github.com/macchina/p1-hardware/blob/master/PCB-01010%20R1%20COMPONENT%20LOCATOR%20CLOSE%20UP.PDF
+
+Add in boot/uEnv.txt the console option to redirect output to ttyS2
+:
+console=ttyO2,115200n8
 
 
 ## K-line \(aka ISO9141, KWP2000\)
