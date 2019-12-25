@@ -1,4 +1,4 @@
-# Automotive Interfaces
+# Interfaces
 
 The P1 Inferface Board contains both the power supply circuitry and the automotive interfaces required to communicate with your car. This includes:
 
@@ -9,7 +9,7 @@ The P1 Inferface Board contains both the power supply circuitry and the automoti
 
 To find libraries for any P1 interfaces, try the [Macchina Community Showcase](http://showcase.macchina.cc/libraries.html).
 
-![](../../.gitbook/assets/interface_0d024.png)
+![](../.gitbook/assets/interface_0d024.png)
 
 ## 26-pin **general purpose** connector
 
@@ -19,7 +19,7 @@ Part number for this 2mm pitch connector is: [Hirose DF11-26DP-2DS\(52\)](https:
 
 Refer to the following diagram for pin 1 location. Note that the **ODD** pins are on the **TOP** row and the **EVEN** pins are on the **BOTTOM** row.
 
-![](../../.gitbook/assets/26pin_connector.png)
+![](../.gitbook/assets/26pin_connector.png)
 
 The following table shows what the function for each pin:
 
@@ -52,7 +52,7 @@ The following table shows what the function for each pin:
 | 25 | GND | Ground |
 | 26 | GND | Ground |
 
-Find more about six 12V source/sink driver circuits [here](12vio.md).
+Find more about six 12V source/sink driver circuits [here](https://github.com/macchina/docs/tree/d20d1f6a346698c869e2e41805ca67fb908b7fb5/p1-docs/12vio.md).
 
 ## CAN
 
@@ -62,7 +62,7 @@ CAN bus is a vehicle bus standard used in most cars built after 2006. It is a me
 
 The P1 has 2 CAN channels \(in addition to the single-wire CAN channel\) that can interface directly to the CAN bus network of your car. The P1 uses the 2 built-in CAN controllers found in the SAM3X and 2 external TJA1051 transceivers. Here is a typical example:
 
-![](../../.gitbook/assets/can_schematic.png)
+![](../.gitbook/assets/can_schematic.png)
 
 Here is the link to the datasheet: [http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf](http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf)
 
@@ -94,7 +94,8 @@ Note that the TJA1027 transceiver is used for both LIN and ISO9141 \(K-LINE/L-LI
 LIN bus connections can be found on either the 16-pin OBD2 connector on the under-the-dash P1 or the 24-pin connector used by the under-the-hood P1.
 
 Use following Commands to init the LIN-Bus:
-```
+
+```text
 config-pin P2_22 hi # Enable LIN-Bus1
 config-pin P2_28 hi # Enable LIN-Bus2
 config-pin P2_19 hi # Enable Power for LIN
@@ -126,7 +127,7 @@ P1 has two K-line channels and uses the TJA1027 transceiver to interface the 12-
 
 K-line connections can be found on either the 16-pin OBD2 connector on the under-the-dash P1 or the 24-pin connector used by the under-the-hood P1.
 
-![](../../.gitbook/assets/iso9141_schematic.png)
+![](../.gitbook/assets/iso9141_schematic.png)
 
 Here is the link to the datasheet: [https://www.nxp.com/docs/en/data-sheet/TJA1027.pdf](https://www.nxp.com/docs/en/data-sheet/TJA1027.pdf)
 
@@ -150,14 +151,11 @@ The following code that will both turn on power to J1850 circuit AND set level f
 void setup() {
   pinMode(PS_J1850_9141, OUTPUT);
   pinMode(J1850_PWM_VPW, OUTPUT);
-
   digitalWrite(PS_J1850_9141, HIGH);  // LOW  = no power at +12V_SW/+5V_SW
                                       // HIGH = power at +12V_SW/+5V_SW
-
   digitalWrite(J1850_PWM_VPW, HIGH);       // LOW  = ~7.9v (VPW)
                                       // HIGH = ~5.9V (PWM)
 }
-
 void loop() {
 }
 ```

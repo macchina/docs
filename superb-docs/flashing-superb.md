@@ -32,8 +32,6 @@ At this point the board can be connected to the computer via USB with the RESET 
 
 * **2\)** Select "Macchina M2" as board type and upload the sketch below: 
 
-{% code-tabs %}
-{% code-tabs-item title="M2\_Transport.ino" %}
 ```cpp
 int buttonState1 = 0;
 int buttonState2 = 0;
@@ -83,8 +81,6 @@ int buttonState2 = 0;
  }
  }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
 
@@ -92,8 +88,6 @@ int buttonState2 = 0;
 
 {% tabs %}
 {% tab title="USB Adapter Board + Arduino IDE" %}
-
-
 * **1\)** Follow the instructions [here](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md) to set up the board manager for ESP32.
 * **2\)** Connect the SuperB with the USB adapter board and select the correct port.
 * **3\)** Place the SuperB into bootloader mode by holding down the BOOT button, pressing and releasing the RESET button, and then releasing the BOOT button.
@@ -120,8 +114,6 @@ int buttonState2 = 0;
 {% endtab %}
 
 {% tab title="USB Adapter Board + ESP Tool" %}
-
-
 The ESP tool "Flash Download Tools \(ESP8266 & ESP32\)" can be downloaded [here.](https://www.espressif.com/en/support/download/other-tools)  
 The binary files used can be downloaded [here.](https://github.com/macchina/docs/raw/master/superB/flashing/ESP32_AT_Uploader.zip) \(Right click&gt;Save link as\)
 
@@ -140,15 +132,15 @@ The binary files used can be downloaded [here.](https://github.com/macchina/docs
 
 {% tab title="M2 + Arduino IDE" %}
 * **1\)** Follow the instructions [here](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md) to set up the board manager for ESP32.
-* **2\)** Modify the file "platform.txt" found at: C:\Users\**YourUsername**\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.2\platform.txt
+* **2\)** Modify the file "platform.txt" found at:                                                                                  **\(Windows\)** C:\Users\**YourUsername**\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.2\platform.txt                                                                                                                                             __**\(MacOS\)**             /Users/**you**/Library/Arduino15/packages/esp32/hardware/esp32/1.0.3/platform.txt
 
-  Replace "default\_reset" with "no\_reset" once on line 100 and once on line 101.
+Replace "default\_reset" with "no\_reset" once on line 100 and once on line 101.
 
 * **3\)** Replace the file "boards.txt" found at:
 
-  C:\Users\**YourUsername**\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.2\boards.txt
+  **\(Windows\)** C:\Users\_**YourUsername**_\AppData\Local\Arduino15\packages\esp32\hardware\esp32\1.0.2\boards.txt                                                                                                                                        **\(MacOS\)**          /Users/_**you**_/Library/Arduino15/packages/esp32/hardware/esp32/1.0.3/boards.txt
 
-  Replace the existing "boards.txt" file with the one available [here.](https://github.com/kenny-macchina/docs/tree/306ccc81a873f9c8cfe2e05a0cbffb8ff395906b/superB/flashing/boards.txt)\*\*\*\*
+Replace the existing "boards.txt" file with the one available [here.](https://github.com/kenny-macchina/docs/tree/306ccc81a873f9c8cfe2e05a0cbffb8ff395906b/superB/flashing/boards.txt)\*\*\*\*
 
 * **4\)** Restart the IDE.
 * **5\)** Open the serial monitor. Place the SuperB into bootloader mode by holding down the   BOOT \(SW2\) button, pressing and releasing the RESET \(SW1\) button, and then releasing the BOOT \(SW2\) button. The serial monitor output should look like the one below:

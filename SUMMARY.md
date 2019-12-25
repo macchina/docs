@@ -26,6 +26,8 @@
     * [Schematics and Source](m2-docs/detailed-reference/open-source.md)
 * [P1 Docs](p1-docs/README.md)
   * [Getting Started](p1-docs/getting-started.md)
+  * [Interfaces](p1-docs/interfaces.md)
+  * [Pin Mapping](p1-docs/pin-mapping.md)
 * [SuperB Docs](superb-docs/README.md)
   * [About SuperB](superb-docs/superb.md)
   * [Hardware](superb-docs/hardware.md)
