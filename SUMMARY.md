@@ -38,6 +38,7 @@
   * [Getting Started](superb-docs/getting-started.md)
   * [Sending AT Commands](superb-docs/atcommands.md)
 * [A0 Docs](a0-docs.md)
+* [OBD2 test board - BETA](obd2-test-board.md)
 
 ## Projects
 
