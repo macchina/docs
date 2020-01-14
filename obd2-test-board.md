@@ -74,7 +74,7 @@ Connect 2 OBD2 dongles together for desktop development purposes. Typically, one
 
 The OBD2 test board has several modes and many configurations - all of which can be made using standard jumper wires. For example, breakout or splitter modes are easy to do with the OBD2 test board. 
 
-**5. Schematics and board files:**
+## **Schematic and board files**
 
 We've put the schematics and board files into a Github repo. Feel free to create an issue with suggestions, bugs, etc. here: 
 
