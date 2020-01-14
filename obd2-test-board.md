@@ -64,15 +64,21 @@ In our case, if we wanted to intercept, change or better understand a CAN conver
 
 ![](.gitbook/assets/mitm%20%281%29.png)
 
-#### 3. Emulator
+#### 3. Emulator:
 
 Connect 2 OBD2 dongles together for desktop development purposes. Typically, one of the devices would be set up to be an Emulator and the other a scanner, etc. In many cases, you'd need to ensure the CAN bus is terminated as shown below
 
 ![](.gitbook/assets/terminate%20%282%29.png)
 
-#### 4. Other: 
+#### 4. Other:
 
 The OBD2 test board has several modes and many configurations - all of which can be made using standard jumper wires. For example, breakout or splitter modes are easy to do with the OBD2 test board. 
+
+**5. Schematics and board files:**
+
+We've put the schematics and board files into a Github repo. Feel free to create an issue with suggestions, bugs, etc. here: 
+
+{% embed url="https://github.com/macchina/OBD2-TEST-BOARD-hardware" %}
 
 
 
