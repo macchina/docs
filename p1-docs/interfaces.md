@@ -97,6 +97,23 @@ cat /tty/ttyS0 # Lin2
 
 Attention: To use the LIN2 Bus, you will need to solder bridges on the R06 and R07 which are not soldered on the Board. Refer here for Instructions: [https://github.com/macchina/p1-hardware/blob/master/PCB-01010 R1 COMPONENT LOCATOR CLOSE UP.PDF](https://github.com/macchina/p1-hardware/blob/master/PCB-01010%20R1%20COMPONENT%20LOCATOR%20CLOSE%20UP.PDF)
 
+
+
+{% tabs %}
+{% tab title="Plain Text" %}
+```text
+Add in boot/uEnv.txt the console option to redirect output to ttyS2:
+console=ttyO2,115200n8
+
+
+```
+{% endtab %}
+{% endtabs %}
+
+
+
+
+
 ## K-line \(aka ISO9141, KWP2000\)
 
 ISO9141/K-line is typically found in Chrysler, European, and Asian vehicles built before around 2005. This protocol is similar to RS-232 but at different voltage levels and on a single, bidirectional line.
