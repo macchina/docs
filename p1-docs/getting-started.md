@@ -10,7 +10,7 @@ This page shows how to set up P1 and interface with your car's OBD port.
 
 ## Parts:
 
-* [P1](https://www.macchina.cc/catalog/p1-boards/p1-under-dash) \(consists of PocketBeagle, Adapter board and interface board used on M2\)
+* [P1](https://www.macchina.cc/catalog/p1-boards/p1-under-dash) \(consists of PocketBeagle, Adapter board and Interface board\) Note: the Interface board is same as used on M2.
 
 The following parts are common and can be found from many sources/manufacturers. 
 
@@ -34,7 +34,7 @@ The adapter board plugs directly into the M2 Interface board and provides:
 
 
 
-PCB files are found at these links:
+Adapter PCB files are found at these links:
 
 * [Schematic](https://github.com/macchina/p1-hardware/blob/master/SCH-01010%20R1%20SCHEM.PDF)
 * [Part location file](https://github.com/macchina/p1-hardware/blob/master/PCB-01010%20R1%20COMPONENT%20LOCATOR%20CLOSE%20UP.PDF)
@@ -109,7 +109,7 @@ connected wifi_xxxxxx_xxxxxx_managed_psk
 connmanctl> quit
 ```
 
-You should now be connected to your local wifi. You can check that you have an IP address by typing the following in the terminal window:
+You should now be connected to your local WiFi. You can check that you have an IP address by typing the following in the terminal window:
 
 ```text
 ifconfig
@@ -201,9 +201,14 @@ Logging CAN data to a file makes it easier to analyze the data. To do that, use 
 candump -l any,0:0,#FFFFFFFF
 ```
 
-For CAN1, use these commands to enable the interface:
+**Optional:**
+
+Run these commands to enable the CAN1 interface and print anything received to the terminal:
 
 ```text
+config-pin P2_09 can
+config-pin P2_11 can
+
 sudo ip link set can1 type can bitrate 250000 listen-only on
 
 sudo ifconfig can1 up
@@ -223,9 +228,11 @@ sudo ip link set up can0
 cansend can0 01a#11223344AABBCCDD
 ```
 
-You can test sending and receiving using two PocketBeagle P1 adapters and the Macchina ODB2 cable with termination resistors and 12V power supply. The instructions from Step 5 can be on the second PocketBeagle to view the messages with candump that the first PocketBeagle is sending.
-
 ### Step 7: Going further.
 
-Next steps for this program is setting up and using more sophisticated analysis tools.
+You can test sending and receiving CAN a couple ways: 
+
+* Loopback test using a single P1.
+* Use two sets of P1 and the Macchina ODB2 cable with termination resistors and 12V power supply. 
+* A real car! \(More to follow\)
 

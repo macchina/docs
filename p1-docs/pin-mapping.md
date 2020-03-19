@@ -1,38 +1,59 @@
 ---
-description: Use these pin names when programming in the Arduino IDE.
+description: >-
+  This page will describe how the names of the pins on the PocketBeagle/OSD3358
+  coorespond to signals on the rest of P1.
 ---
 
 # Pin Mapping
 
-**NOTE!** This table is only applicable when using the M2 board as selected from the Tools -&gt; Board menu from the Arduino IDE. See more information [here.](https://github.com/macchina/arduino-boards-sam)
+P1 consists of 3 PCBs all stacked together through headers. Each board has its own schematic and each header and signal may have different names on each board.
 
-**Use the names in the "Mapped Pin Name" column in your Arduino Sketch.**
+## P1 boards:
 
-A "pin mapping" describes how the different circuits of your P1 are connected to the PocketBeagle.
+**PocketBeagle** \(schematic [here](https://github.com/beagleboard/pocketbeagle/blob/master/PocketBeagle_sch.pdf)\). This is the brains of the operation. 
 
-## 12-volt Outputs
+**Adapter board** \(schematic [here](https://github.com/macchina/p1-hardware/blob/master/SCH-01010%20R1%20SCHEM.PDF)\). This board acts connects PocketBeagle to the M2 interface board, adds a battery connector and full-sized USB A connector. 
+
+**Interface board** \(schematic [here](https://github.com/macchina/m2-hardware/blob/master/M2/Interface%20Board%20Schematic.pdf)\). This is the same interface board used with M2. This board has all of the automotive interfaces and power supply. 
+
+## P1 headers:
+
+Headers connect throughout P1 as follows:
+
+| PocketBeagle Headers | Adapter board headers | Interface board headers |
+| :--- | :--- | :--- |
+| **P1**    connects to: | **J5** | - |
+| **P2**    connects to: | **J6** | - |
+| - | **J2**    connects to: | J3 |
+| - | **J3**    connects to: | J4 |
+| - | - | **J5** \(26 pin connector\) |
+| - | - | **J1** \(UTD\) or **J2** \(UTH\) |
+
+## Mappings: 
+
+### 12-volt Outputs
 
 | Mapped Pin Name | Function | Notes | PocketBeagle Pin Name |
 | :--- | :--- | :--- | :--- |
-| OUT 1 | SRC | J5 Pin 2 | P1\_36 |
-| OUT 2 | SRC | J5 Pin 6 | P2\_3 |
-| OUT 3 | SRC | J5 Pin 10 | P2\_2 |
-| OUT 4 | SINK | J5 Pin 14 | P2\_4 |
-| OUT 5 | SINK | J5 Pin 18 | P1\_33 |
-| OUT 6 | SINK | J5 Pin 22 | P2\_10 |
+| OUT 1 | SRC | J5 Pin 2 \(26 pin connector\) | P1\_36 |
+| OUT 2 | SRC | J5 Pin 6 \(26 pin connector\) | P2\_3 |
+| OUT 3 | SRC | J5 Pin 10 \(26 pin connector\) | P2\_2 |
+| OUT 4 | SINK | J5 Pin 14 \(26 pin connector\) | P2\_4 |
+| OUT 5 | SINK | J5 Pin 18 \(26 pin connector\) | P1\_33 |
+| OUT 6 | SINK | J5 Pin 22 \(26 pin connector\) | P2\_10 |
 
-## Analog Inputs \(0-12V analog input\)
+### Analog Inputs \(0-12V analog input\)
 
 | Mapped Pin Name | Notes | PocketBeagle Pin Name |
 | :--- | :--- | :--- |
-| IN 1 | J5 Pin 1 | P1\_19 |
-| IN 2 | J5 Pin 5 | P1\_21 |
-| IN 3 | J5 Pin 9 | P1\_23 |
-| IN 4 | J5 Pin 13 | P1\_25 |
-| IN 5 | J5 Pin 17 | P1\_27 |
-| IN 6 | J5 Pin 21 | P2\_36 |
+| IN 1 | J5 Pin 1 \(26 pin connector\) | P1\_19 |
+| IN 2 | J5 Pin 5 \(26 pin connector\) | P1\_21 |
+| IN 3 | J5 Pin 9 \(26 pin connector\) | P1\_23 |
+| IN 4 | J5 Pin 13 \(26 pin connector\) | P1\_25 |
+| IN 5 | J5 Pin 17 \(26 pin connector\) | P1\_27 |
+| IN 6 | J5 Pin 21 \(26 pin connector\) | P2\_36 |
 
-## GPIO Power Supply Current Sense
+### GPIO Power Supply Current Sense
 
 | Mapped Pin Name | Notes | PocketBeagle Pin Name |
 | :--- | :--- | :--- |
@@ -41,44 +62,37 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 | OVER\_CURRENT | GPIO Power Supply Interrupt |  |
 | DAC1 | GPIO Power Supply Analog Output to Comparator |  |
 
-| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| I\_SENSE\_EN | 12Vio\_EN |  | PC24 | 135 | 75 |
-| I\_SENSE | I SENSE 12V |  | PB17 | 88 | 93 |
-| I-SENSE\_INT | OVER\_CURRENT |  | PD1 | 14 | 76 |
-| I-SENSE\_DAC | DAC1 |  | PB16 | 77 | 95 |
+### CAN
 
-## CAN
-
-| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| CANRX0 | CANRX0 |  | PA1 | 24 | 69 |
-| CANTX0 | CANTX0 |  | PA0 | 23 | 70 |
-| CAN0\_CS or HS\_CS | HSC\_S |  | PD3 | 16 | 71 |
-| CANRX1 | CANRX1 |  | PB15 | 76 | 72 |
-| CANTX1 | CANTX1 |  | PB14 | 140 | 73 |
-| CAN1\_CS or MS\_CS | MSC\_S |  | PD0 | 13 | 25 |
-
-## Power Supplies
-
-| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes |
+| Mapped Pin Name | Notes | PocketBeagle Pin Name |
 | :--- | :--- | :--- |
-| PS\_BUCK or BUCK\_DIS | BUCK\_nDIS |  |
-| PS\_J1850\_9141 | P2\_19 | Bring LOW for LOW power |
+| CANRX0 | CANRX0 | 1\_28 |
+| CANTX0 | CANTX0 | 1\_26 |
+| CAN0\_CS or HS\_CS | HSC\_S | 1\_20 |
+| CANRX1 | CANRX1 | 2\_09 |
+| CANTX1 | CANTX1 | 2\_11 |
+| CAN1\_CS or MS\_CS | MSC\_S | 2\_30 |
 
-## J1850
+### Power Supplies
 
-| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| J1850\_PWM\_VPW | J1850\_PWM\_nVPW |  | PB8 | 123 | 50 |
-| J1850\_PWM\_RX | J1850\_PWM\_RX |  | PC28 | 139 | 51 |
-| J1850\_VPW\_RX | J1850\_VPW\_RX |  | PC26 | 137 | 52 |
-| J1850P\_TX | J1850+\_TX |  | PC18 | 100 | 53 |
-| J1850N\_TX | J1850-\_TX |  | PC23 | 134 | 54 |
+| Mapped Pin Name  | Notes | PocketBeagle Pin Name |
+| :--- | :--- | :--- |
+| PS\_BUCK or BUCK\_DIS |  |  |
+| PS\_J1850\_9141 | Bring LOW for LOW power | P2\_19 |
 
-## 9141/LIN
+### J1850
 
-| Mapped Pin Name | Pin name | Notes | PocketBeagle Pin Name \(use these in your sketch\) |
+| Mapped Pin Name  | Notes | PocketBeagle Pin Name |
+| :--- | :--- | :--- |
+| J1850\_PWM\_VPW |  |  |
+| J1850\_PWM\_RX |  |  |
+| J1850\_VPW\_RX |  |  |
+| J1850P\_TX |  |  |
+| J1850N\_TX |  |  |
+
+### 9141/LIN
+
+| Mapped Pin Name | Pin name | Notes | PocketBeagle Pin Name |
 | :--- | :--- | :--- | :--- |
 | LIN\_KTX | 9141 K TX | LIN1 TX | P2\_7 |
 | LIN\_KRX | 9141 K RX | LIN1 RX | P2\_5 |
@@ -87,16 +101,16 @@ A "pin mapping" describes how the different circuits of your P1 are connected to
 | LIN\_LRX | 9141 L RX | LIN2 RX | P1\_32 |
 | LIN\_LSLP | 9141 L SLP | LIN2 Sleep | P2\_28 |
 
-## Single-wire CAN
+### Single-wire CAN
 
-| Mapped Pin Name \(use these in your sketch\) | PocketBeagle Pin Name | Notes | SAM3X Pin Name | Processor CHIP physical PIN | PinDescription Array Number |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| SWC\_M1 | SWC M1 |  | PB0 | 113 | 65 |
-| SWC\_M0 | SWC M0 |  | PB27 | 68 | 64 |
-| SWC\_SOF | SWC SOF |  | PC29 | 102 | 68 |
-| SWC\_CLK | SWC CLK |  | PB22 | 141 | 66 |
-| SPI0\_CS3 | SPI0\_nCS3 |  | PB23 | 142 | 63 |
-| SWC\_INT | SWC nINT |  | PC16 | 98 | 67 |
-| SWC\_RX0 | SWC nRX0BF |  | PB1 | 114 | 61 |
-| SWC\_RX1 | SWC nRX1BF |  | PB2 | 115 | 62 |
+| Mapped Pin Name | Pin Name | Notes | PocketBeagle Pin Name |
+| :--- | :--- | :--- | :--- |
+| SWC\_M1 | SWC M1 |  |  |
+| SWC\_M0 | SWC M0 |  |  |
+| SWC\_SOF | SWC SOF |  |  |
+| SWC\_CLK | SWC CLK |  |  |
+| SPI0\_CS3 | SPI0\_nCS3 |  |  |
+| SWC\_INT | SWC nINT |  |  |
+| SWC\_RX0 | SWC nRX0BF |  |  |
+| SWC\_RX1 | SWC nRX1BF |  |  |
 
