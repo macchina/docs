@@ -8,7 +8,9 @@ In our case, we connect the CAN0 channel to the CAN1 channel to confirm each can
 
 CAN0H to CAN1H and CAN0L to CAN1L and place a termination resistor across these connections. 
 
-\(Image to follow showing test board set up as loopback test\)
+![Loopback with CAN termination](../.gitbook/assets/20200330_132910.jpg)
+
+![Close up of connections](../.gitbook/assets/20200330_133003.jpg)
 
 ### Test via terminal:
 
