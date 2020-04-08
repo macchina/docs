@@ -2,11 +2,17 @@
 description: Multipurpose OBD2 development test board
 ---
 
-# OBD2 test board - BETA
+# OBD2 test board - BETA 🧪
 
 The OBD2 test board is designed to simplify OBD2 device development. 
 
 ![Typical setup: M2 is acting as an emulator while developing A0 code.](.gitbook/assets/img_6914.JPG)
+
+{% hint style="info" %}
+To purchase, click here:
+
+[https://www.macchina.cc/catalog/tools/obd2-test-board-beta](https://www.macchina.cc/catalog/tools/obd2-test-board-beta)
+{% endhint %}
 
 ## Components
 

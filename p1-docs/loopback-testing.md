@@ -10,7 +10,7 @@ CAN0H to CAN1H and CAN0L to CAN1L and place a termination resistor across these 
 
 ![Loopback with CAN termination](../.gitbook/assets/20200330_132910.jpg)
 
-![Close up of connections](../.gitbook/assets/20200330_133003.jpg)
+![Close up of connections - not ideal, but it works.](../.gitbook/assets/20200330_133003.jpg)
 
 ### Test via terminal:
 

@@ -11,15 +11,13 @@ description: >-
 
 
 
-{% hint style="info" %}
+{% hint style="success" %}
 This is an evolving resource that will continue to grow and improve. In an effort to have the best documentation possible, we encourage you to give us feedback or contribute changes directly!
 
 If you find any **issues, misinformation, or typos** with any of the articles, click _**Edit on GitHub**_ at the top and submit an _Issue_, or submit your proposed changes via _Pull Request_. We appreciate the help!
 {% endhint %}
 
 ## Some especially useful links:
-
-[Community Showcase](http://showcase.macchina.cc/) - For example code and community projects.
 
 Loading your first Arduino Sketch on your M2:
 

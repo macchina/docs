@@ -2,7 +2,7 @@
 description: How to flash your SuperB using either a USB adapter board or an M2
 ---
 
-# Flashing SuperB
+# Getting Started
 
 ## Overview
 
