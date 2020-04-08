@@ -6,15 +6,13 @@ description: >-
 
 # Community Projects
 
-## CanCat
+{% embed url="https://github.com/atlas0fd00m/CanCat" caption="Swiss army knife of Controller Area Networks \(CAN\) running on M2" %}
 
-Swiss army knife of Controller Area Networks \(CAN\) often used in cars and building automation that can run on the Macchina M2
+{% embed url="https://github.com/tmkdev/oppdr" caption="Turn vehicle canbus logs into linked HTML based performance charts." %}
 
-{% embed url="https://github.com/atlas0fd00m/CanCat" %}
+{% embed url="https://github.com/atlas0fd00m/TruckDevil" caption="J1939 tool using M2" %}
 
-## Open P**ython Performance Data Recorder**
+{% embed url="https://github.com/EliasKotlyar/E46Clusterdriver" caption="Driving the E46 Cluster with Macchina P1" %}
 
-Turn vehicle canbus logs into linked HTML based performance charts.
 
-{% embed url="https://github.com/tmkdev/oppdr" %}
 

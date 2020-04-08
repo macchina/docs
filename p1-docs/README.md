@@ -1,4 +1,4 @@
-# P1 Docs 🏎
+# P1 Docs 🚙
 
 P1 is a fully featured Linux computer that conveniently plugs into the OBD2 port of your car. Combining the [PocketBeagle](https://beagleboard.org/pocket) single-board computer with an [M2-UTD Interface Board](https://www.macchina.cc/catalog/m2-boards/interface-board-utd) gives you the unprecedented power of running Linux apps directly on P1.
 

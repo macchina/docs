@@ -29,7 +29,7 @@
     * [Breakout Board](m2-docs/detailed-reference/byob.md)
     * [Schematics and Source](m2-docs/detailed-reference/open-source.md)
   * [Versions of M2](m2-docs/versions.md)
-* [P1 Docs 🏎](p1-docs/README.md)
+* [P1 Docs 🚙](p1-docs/README.md)
   * [Getting Started](p1-docs/getting-started.md)
   * [Pin Mapping](p1-docs/pin-mapping.md)
   * [Interfaces](p1-docs/interfaces.md)
@@ -40,7 +40,7 @@
   * [Sending AT Commands](superb-docs/atcommands.md)
 * [OBD2 test board - BETA 🧪](obd2-test-board.md)
 
-## Projects
+## 🔨 Projects
 
 * ["OK Google, start my car!"](projects/ok_google_start_my_car.md)
 * [M2 and SavvyCAN, the Basics](projects/use-m2-with-savvycan.md)
