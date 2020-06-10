@@ -39,6 +39,7 @@
   * [Hardware](superb-docs/hardware.md)
   * [Sending AT Commands](superb-docs/atcommands.md)
 * [OBD2 test board - BETA 🧪](obd2-test-board.md)
+* [Common Issues](common-issues.md)
 
 ## 🔨 Projects
 
