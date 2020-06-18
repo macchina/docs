@@ -2,7 +2,7 @@
 description: Multipurpose OBD2 development test board
 ---
 
-# OBD2 test board - BETA 🧪
+# OBD3way Docs 🚦
 
 The OBD2 test board is designed to simplify OBD2 device development. 
 

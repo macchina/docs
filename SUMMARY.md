@@ -38,11 +38,16 @@
   * [Getting Started](superb-docs/flashing-superb.md)
   * [Hardware](superb-docs/hardware.md)
   * [Sending AT Commands](superb-docs/atcommands.md)
-* [OBD2 test board - BETA 🧪](obd2-test-board.md)
+* [OBD3way Docs 🚦](obd2-test-board.md)
 * [Common Issues](common-issues.md)
 
 ## 🔨 Projects
 
+* [Mini-Project Tutorials](projects/mini-project-tutorials/README.md)
+  * [M2 CAN Loopback](projects/mini-project-tutorials/m2-can-loopback.md)
+  * [M2 CAN Point to Point](projects/mini-project-tutorials/m2-can-point-to-point.md)
+  * [A0 CAN Point to Point](projects/mini-project-tutorials/a0-can-point-to-point.md)
+  * [A0 CAN Vehicle Data](projects/mini-project-tutorials/a0-can-vehicle-data.md)
 * ["OK Google, start my car!"](projects/ok_google_start_my_car.md)
 * [M2 and SavvyCAN, the Basics](projects/use-m2-with-savvycan.md)
 * [Help Collect Voltage Data](projects/m2voltagemonitor.md)
