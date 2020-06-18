@@ -6,7 +6,7 @@ description: Multipurpose OBD2 development test board
 
 The OBD2 test board is designed to simplify OBD2 device development. 
 
-![Typical setup: M2 is acting as an emulator while developing A0 code.](.gitbook/assets/img_6914.JPG)
+![Typical setup: M2 is acting as an emulator while developing A0 code.](.gitbook/assets/img_7198.jpg)
 
 {% hint style="info" %}
 To purchase, click here:
@@ -18,7 +18,7 @@ To purchase, click here:
 
 The OBD2 test board has several components as shown below: 
 
-![](.gitbook/assets/overall.png)
+![](.gitbook/assets/annotated1.jpg)
 
 **INPUT OBD2 Connector:** 1 input OBD2 connector \(MALE pins\). This connector would plug into an OBD2 extension cable and eventually into a car's OBD2 port. 
 
@@ -48,6 +48,12 @@ The row farthest from the OBD2 connector goes directly to the INPUT OBD2 connect
 
 Note: Ground is already connected between the 3 OBD2 connects, but also available on junction blocks for convenience. 
 
+## CAN Termination Blocks
+
+The two CAN termination blocks allow termination and connection of two different CAN networks simultaneously.
+
+![Wiring schematic for each CAN termination block](.gitbook/assets/annotated5.jpg)
+
 ## Modes
 
 The OBD2 test board can function in several "modes" by rearranging how the signals route throughout the board. For example: 
@@ -56,7 +62,7 @@ The OBD2 test board can function in several "modes" by rearranging how the signa
 
 This mode allows you to use external test equipment to watch traffic. In the example below, the CAN0 channel is being "Sniffed". 
 
-![](.gitbook/assets/sniff.png)
+![](.gitbook/assets/annotated2.jpg)
 
 
 
@@ -68,13 +74,13 @@ Put an OBD2 device \(i.e. M2\) in between the host and another OBD2 device \(i.e
 
 In our case, if we wanted to intercept, change or better understand a CAN conversation, we'd use the connections shown below. The CAN traffic _to_ and _from_ "Scanner" would need to go _though_ our device \(shown in the middle as "man" below\). 
 
-![](.gitbook/assets/mitm%20%281%29.png)
+![](.gitbook/assets/annotated3.jpg)
 
 #### 3. Emulator:
 
 Connect 2 OBD2 dongles together for desktop development purposes. Typically, one of the devices would be set up to be an Emulator and the other a scanner, etc. In many cases, you'd need to ensure the CAN bus is terminated as shown below
 
-![](.gitbook/assets/terminate%20%282%29.png)
+![](.gitbook/assets/annotated4.jpg)
 
 #### 4. Other:
 
