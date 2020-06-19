@@ -53,5 +53,8 @@
 * [Help Collect Voltage Data](projects/m2voltagemonitor.md)
 * [Community Projects](projects/community-projects.md)
 * [Show off your project!](projects/savvycan-m2ret.md)
+
+---
+
 * [Disclaimer](disclaimer.md)
 

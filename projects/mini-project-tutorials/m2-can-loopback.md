@@ -6,12 +6,12 @@ description: 'Send a CAN frame on CAN0 and receive it on CAN1, and vice versa.'
 
 #### Items Used
 
-* 1x M2
-* 1x OBD3way board
+* 1x [M2](https://www.macchina.cc/catalog/m2-boards/m2-under-dash)
+* 1x [OBD3way board](https://www.macchina.cc/catalog/tools/obd3way)
 
 #### M2 Sketch
 
-Upload [this sketch](https://gist.github.com/kenny-macchina/690d95b6c260b15f794510dccb4950c8) to your M2, which sends a CAN frame on CAN0 or CAN1 when you push switch 1 or 2, respectively. M2 will also blink a light when it receives a CAN frame on either channel.
+Upload [THIS SKETCH](https://gist.github.com/kenny-macchina/690d95b6c260b15f794510dccb4950c8) to your M2, which sends a CAN frame on CAN0 or CAN1 when you push switch 1 or 2, respectively. M2 will also blink a light when it receives a CAN frame on either channel.
 
 #### OBD3way Setup
 
