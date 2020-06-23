@@ -126,15 +126,16 @@ iwconfig wlan0
 ifconfig wlan0 
 ```
 
-### Step 4: Set up pins
+### Step 4: Update
 
-{% hint style="danger" %}
-#### Step 4 section in flux. For now, run these commands to configure CAN0 and move to Step 5 : 
+After connecting to internet, we can update the PocketBeagle by running these two commands, this should take a few minutes.
 
-config-pin P1\_28 can 
+```text
+sudo apt update
+sudo apt upgrade
+```
 
-config-pin P1\_26 can
-{% endhint %}
+### Step 5: Set up pins
 
 Next we make sure the pins on the PocketBeagle are set up correctly as shown at this link:
 
@@ -175,7 +176,7 @@ sudo reboot
 
 Next, we set up the CAN interface and turn it on. Note that we are setting rate at 250Kb/s here. Your car might be a different BAUD rate.
 
-### Step 5: print out CAN messages
+### Step 6: print out CAN messages
 
 ```text
 sudo ip link set can0 type can bitrate 250000 listen-only on
@@ -203,12 +204,9 @@ candump -l any,0:0,#FFFFFFFF
 
 **Optional:**
 
-Run these commands to enable the CAN1 interface and print anything received to the terminal:
+Run these commands to enable the CAN1 interface and print anything received to the terminal: 
 
 ```text
-config-pin P2_09 can
-config-pin P2_11 can
-
 sudo ip link set can1 type can bitrate 250000 listen-only on
 
 sudo ifconfig can1 up
@@ -216,9 +214,9 @@ sudo ifconfig can1 up
 candump -cae can1,0:0,#FFFFFFFF
 ```
 
-### Step 6: Sending CAN messages
+### Step 7: Sending CAN messages
 
-This should be used for testing purposes only and caution should be taken before sending messages to a real car.  Here are instructions how to send CAN messages on the can0 interface.  
+This should be used for testing purposes only and caution should be taken before sending messages to a real car.  Here are instructions on how to send CAN messages on the CAN0 interface.  
 
 ```text
 sudo ip link set can0 type can bitrate 250000
@@ -228,7 +226,7 @@ sudo ip link set up can0
 cansend can0 01a#11223344AABBCCDD
 ```
 
-### Step 7: Going further.
+### Step 8: Going further.
 
 You can test sending and receiving CAN a couple ways: 
 

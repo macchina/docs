@@ -1,4 +1,4 @@
-# Loopback testing
+# P1 CAN Loopback
 
 A quick way to confirm that CAN communication on both channels is working on P1 is a [loopback](https://en.wikipedia.org/wiki/Loopback) test. 
 
@@ -8,15 +8,15 @@ In our case, we connect the CAN0 channel to the CAN1 channel to confirm each can
 
 CAN0H to CAN1H and CAN0L to CAN1L and place a termination resistor across these connections. 
 
-![Loopback with CAN termination](../.gitbook/assets/20200330_132910.jpg)
+![Loopback with CAN termination](../../.gitbook/assets/20200330_132910.jpg)
 
-![Close up of connections - not ideal, but it works.](../.gitbook/assets/20200330_133003.jpg)
+![Close up of connections - not ideal, but it works.](../../.gitbook/assets/20200330_133003.jpg)
 
 ### Test via terminal:
 
 Once everything is hooked up, we power up P1, and SSH into P1 in two windows at: 192.168.7.2 to control each CAN channel at the same time. 
 
-![](../.gitbook/assets/loopback.png)
+![](../../.gitbook/assets/loopback.png)
 
 Below you can see each session. Note that you'll want to send the "candump ..." command before sending the "cansend ..." command in the other window. 
 
@@ -42,8 +42,6 @@ individual files in /usr/share/doc/*/copyright.
 
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
-debian@beaglebone:~$ config-pin P1_28 can
-debian@beaglebone:~$ config-pin P1_26 can
 debian@beaglebone:~$ sudo ip link set can0 type can bitrate 250000
 [sudo] password for debian:
 debian@beaglebone:~$ sudo ifconfig can0 up
@@ -96,8 +94,6 @@ individual files in /usr/share/doc/*/copyright.
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
 Last login: Sun Aug  4 02:11:40 2019 from 192.168.7.1
-debian@beaglebone:~$ config-pin P2_09 can
-debian@beaglebone:~$ config-pin P2_11 can
 debian@beaglebone:~$ sudo ip link set can1 type can bitrate 250000
 [sudo] password for debian:
 debian@beaglebone:~$ sudo ifconfig can1 up
