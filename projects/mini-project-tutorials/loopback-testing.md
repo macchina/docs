@@ -1,18 +1,26 @@
+---
+description: >-
+  Send a CAN frame on CAN0 and receive it on CAN1, and vice versa, but this time
+  with P1!
+---
+
 # P1 CAN Loopback
 
-A quick way to confirm that CAN communication on both channels is working on P1 is a [loopback](https://en.wikipedia.org/wiki/Loopback) test. 
+#### Items Used
 
-In our case, we connect the CAN0 channel to the CAN1 channel to confirm each can send and receive CAN messages. 
+* 1x [P1](https://www.macchina.cc/catalog/p1-boards/p1-under-dash)
+* 1x [OBD3way board](https://www.macchina.cc/catalog/tools/obd3way)
+* 1x 12V power supply
 
-### Hook things up:
+#### OBD3way Setup
 
-CAN0H to CAN1H and CAN0L to CAN1L and place a termination resistor across these connections. 
+CAN0H to CAN1H and CAN0L to CAN1L and place a termination resistor across these connections; see photos below for setup. 
 
-![Loopback with CAN termination](../../.gitbook/assets/20200330_132910.jpg)
+![](../../.gitbook/assets/img_7207.jpg)
 
-![Close up of connections - not ideal, but it works.](../../.gitbook/assets/20200330_133003.jpg)
+![](../../.gitbook/assets/img_7209.jpg)
 
-### Test via terminal:
+#### Test
 
 Once everything is hooked up, we power up P1, and SSH into P1 in two windows at: 192.168.7.2 to control each CAN channel at the same time. 
 
@@ -20,8 +28,8 @@ Once everything is hooked up, we power up P1, and SSH into P1 in two windows at:
 
 Below you can see each session. Note that you'll want to send the "candump ..." command before sending the "cansend ..." command in the other window. 
 
-CAN0 terminal:
-
+{% tabs %}
+{% tab title="CAN0 Terminal" %}
 ```text
 login as: debian
 Pre-authentication banner message from server:
@@ -70,10 +78,10 @@ debian@beaglebone:~$ cansend can0 01a#11223344AABBCCDD
 debian@beaglebone:~$ cansend can0 01a#11223344AABBCCDD
 debian@beaglebone:~$
 ```
+{% endtab %}
 
-CAN1 terminal:
-
-```text
+{% tab title="CAN1 Terminal" %}
+```
 login as: debian
 Pre-authentication banner message from server:
 | Debian GNU/Linux 9
@@ -93,7 +101,6 @@ individual files in /usr/share/doc/*/copyright.
 
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
-Last login: Sun Aug  4 02:11:40 2019 from 192.168.7.1
 debian@beaglebone:~$ sudo ip link set can1 type can bitrate 250000
 [sudo] password for debian:
 debian@beaglebone:~$ sudo ifconfig can1 up
@@ -121,6 +128,7 @@ debian@beaglebone:~$ candump can1
   can1  01A   [8]  11 22 33 44 AA BB CC DD
   can1  01A   [8]  11 22 33 44 AA BB CC DD
 
-
 ```
+{% endtab %}
+{% endtabs %}
 
