@@ -33,6 +33,7 @@
   * [Getting Started](p1-docs/getting-started.md)
   * [Pin Mapping](p1-docs/pin-mapping.md)
   * [Interfaces](p1-docs/interfaces.md)
+  * [Power Supply Note](p1-docs/power-supply-note.md)
 * [SuperB Docs 🐝](superb-docs/README.md)
   * [Getting Started](superb-docs/flashing-superb.md)
   * [Hardware](superb-docs/hardware.md)
