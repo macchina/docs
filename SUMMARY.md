@@ -49,6 +49,7 @@
   * [A0 CAN Point to Point](projects/mini-project-tutorials/a0-can-point-to-point.md)
   * [A0 CAN Vehicle Data](projects/mini-project-tutorials/a0-can-vehicle-data.md)
   * [P1 CAN Loopback](projects/mini-project-tutorials/loopback-testing.md)
+  * [P1 CAN Vehicle Data](projects/mini-project-tutorials/p1-can-vehicle-data.md)
 * ["OK Google, start my car!"](projects/ok_google_start_my_car.md)
 * [M2 and SavvyCAN, the Basics](projects/use-m2-with-savvycan.md)
 * [Help Collect Voltage Data](projects/m2voltagemonitor.md)
