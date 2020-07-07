@@ -176,6 +176,10 @@ sudo reboot
 
 Next, we set up the CAN interface and turn it on. Note that we are setting rate at 250Kb/s here. Your car might be a different BAUD rate.
 
+{% hint style="success" %}
+P1 is now set up! Step 6 and beyond are for testing and becoming more familiar with CAN on P1, try them if you'd like, or check out the P1 Mini-Projects.
+{% endhint %}
+
 ### Step 6: print out CAN messages
 
 ```text
@@ -230,7 +234,7 @@ cansend can0 01a#11223344AABBCCDD
 
 You can test sending and receiving CAN a couple ways: 
 
-* Loopback test using a single P1.
-* Use two sets of P1 and the Macchina ODB2 cable with termination resistors and 12V power supply. 
-* A real car! \(More to follow\)
+* [_**Loopback test using a single P1.**_](../projects/mini-project-tutorials/loopback-testing.md)_\*\*\*\*_
+* Use two sets of P1 and the OBD3way and 12V power supply. 
+* _\*\*\*\*_[_**A real car!**_](../projects/mini-project-tutorials/p1-can-vehicle-data.md) \(More to follow\)
 
