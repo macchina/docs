@@ -11,7 +11,7 @@ description: Use A0 to read vehicle data.
 
 #### A0 Sketch
 
-Upload [THIS SKETCH](https://gist.github.com/kenny-macchina/f87e4c39e29a39562e168b9869d64ef8) to your A0, which queries the vehicle for speed, engine RPM, and coolant temperature, and prints the results to the serial monitor. It requires two libraries, which can be found [here](https://github.com/collin80/esp32_can) and [here](https://github.com/collin80/can_common).
+Upload👉[THIS SKETCH](https://gist.github.com/kenny-macchina/f87e4c39e29a39562e168b9869d64ef8) to your A0, which queries the vehicle for speed, engine RPM, and coolant temperature, and prints the results to the serial monitor. It requires two libraries, which can be found👉[here](https://github.com/collin80/esp32_can) and👉[here](https://github.com/collin80/can_common).
 
 #### Vehicle Setup
 
