@@ -1,6 +1,12 @@
 # A0 Projects
 
-Below are several projects specific to A0. The goal here is to help you get started and get inspired! These are community-developed, open source projects, so we encourage you to get involved.
+Below are several longer-term projects specific to A0. The goal here is to help you get started and get inspired! These are community-developed, open source projects, so we encourage you to get involved.
+
+{% hint style="info" %}
+For basic tutorials, check out our mini tutorial section including several A0 specific projects:
+
+[projects/mini-project-tutorials](../projects/mini-project-tutorials/)
+{% endhint %}
 
 ## CAN Reverse engineering using A0 and SavvyCAN  🤓 
 

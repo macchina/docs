@@ -1,6 +1,4 @@
 # Schematics and Source
 
-​[The schematics for the M2 boards are open source on GitHub](https://github.com/macchina/m2-hardware)​
-
-#### NEED THE A0 REPO LINK
+​[The schematics for the A0 boards are open source on GitHub](https://github.com/macchina/a0-hardware)​
 

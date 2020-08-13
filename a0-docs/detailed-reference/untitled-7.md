@@ -1,16 +1,10 @@
 # Communication
 
-## ADD SOMETHING ABOUT WIFI & BT?  <a id="usb"></a>
+## WIFI and Bluetooth <a id="usb"></a>
+
+ESP32 offers both WIFI and Bluetooth as wireless communication. More information here to follow.
 
 ## USB <a id="usb"></a>
 
-A0 has a USB connector that can act as either a HOST or DEVICE depending on your code. 
-
-A0 uses Native USB port only. To print something to the Serial monitor, you'd need to use this command:
-
-```text
-SerialUSB.print("Something");
-```
-
-## IS ANY OF THAT TRUE OF A0?
+A0 has a USB connector that will provide communication to the ESP32 processor AND power to A0. Reflashing ESP32 can be done through the USB port. More information here to follow.
 

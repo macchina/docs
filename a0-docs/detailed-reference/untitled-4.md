@@ -1,6 +1,6 @@
 # Enclosures
 
-We share all of our 3D models so you can print your own enclosure: [Macchina M2 Enclosures on GitHub](https://github.com/macchina/m2-enclosures)​
+A0 ships with a simple injection molded enclosure. Eventually, we'll model this up in CAD and post some files in case you want to modify and print your own.
 
-#### NEED A0 LINK
+
 
