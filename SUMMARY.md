@@ -54,6 +54,7 @@
 
 ## 🔨 Projects
 
+* [A0RET](projects/a0ret.md)
 * [Mini-Project Tutorials](projects/mini-project-tutorials/README.md)
   * [M2 CAN Loopback](projects/mini-project-tutorials/m2-can-loopback.md)
   * [M2 CAN Point to Point](projects/mini-project-tutorials/m2-can-point-to-point.md)
