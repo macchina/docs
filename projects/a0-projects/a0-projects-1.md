@@ -43,8 +43,6 @@ Put your data in the cloud. We'll be posting more information here about some cl
 ## Other Projects ideas:
 
 1. BLE beacon 
-2. Bluetooth to phone connection. 
-3. more to follow...
-
-
+2. Bluetooth to phone connection.
+3. [OBD-II emulation on ESP32 ](https://hackaday.com/2018/04/11/emulating-obd-ii-on-the-esp32/)
 
