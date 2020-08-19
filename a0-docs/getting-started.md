@@ -1,4 +1,8 @@
-# Getting Started
+# Re-Flashing A0
+
+_Why would you want to re-flash?_
+
+_Update with Board Definitions info._ 
 
 ## Flashing A0
 
