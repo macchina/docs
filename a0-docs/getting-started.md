@@ -1,5 +1,11 @@
 # Re-Flashing A0
 
+{% hint style="danger" %}
+Are you trying to reinstall A0RET on your A0? Go here:
+{% endhint %}
+
+{% page-ref page="a0ret.md" %}
+
 _Why would you want to re-flash?_
 
 _Update with Board Definitions info._ 
