@@ -9,6 +9,10 @@ description: Use A0 to read vehicle data.
 * 1x [A0](https://www.macchina.cc/catalog/a0-boards/a0-under-dash)
 * 1x Car with OBD-II port
 
+{% hint style="info" %}
+This project should also be natively supported on M2, however you could also add functionality to write the results to a .CSV file via the onboard SD slot, giving similar functionality to the P1 version of this project!
+{% endhint %}
+
 #### A0 Sketch
 
 Upload👉[THIS SKETCH](https://gist.github.com/kenny-macchina/f87e4c39e29a39562e168b9869d64ef8) to your A0, which queries the vehicle for speed, engine RPM, and coolant temperature, and prints the results to the serial monitor. It requires two libraries, which can be found👉[here](https://github.com/collin80/esp32_can) and👉[here](https://github.com/collin80/can_common).
