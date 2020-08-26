@@ -61,6 +61,7 @@
 * [Mini-Project Tutorials](projects/mini-project-tutorials/README.md)
   * [M2 CAN Loopback](projects/mini-project-tutorials/m2-can-loopback.md)
   * [M2 CAN Point to Point](projects/mini-project-tutorials/m2-can-point-to-point.md)
+  * [M2 SWCAN Point to Point](projects/mini-project-tutorials/m2-swcan-point-to-point.md)
   * [M2 VIN Extraction](projects/mini-project-tutorials/m2-vin-extraction.md)
   * [P1 CAN Loopback](projects/mini-project-tutorials/loopback-testing.md)
   * [P1 CAN Vehicle Data](projects/mini-project-tutorials/p1-can-vehicle-data.md)
