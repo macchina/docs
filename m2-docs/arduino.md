@@ -40,7 +40,7 @@ In the board manager, install **Arduino SAM Boards \(32-bit ARM Cortex-M3\) by A
 Note: If for any reason you cannot use the Board Manager to install the board configuration files, you have the option to do a [manual install](https://github.com/macchina/arduino-boards-sam/blob/master/CONTRIBUTING.md#local-install-recommended) but will not benefit from the updates notification provided by the Board Manager when new versions are released.
 
 {% hint style="warning" %}
-Having an issue with the Boards Manager? See a common issue and its fix [HERE.](../common-issues.md#arduino-ide-board-manager-issue)
+Having an issue with the Boards Manager? See a common issue and its fix [HERE.](../common-issues/#arduino-ide-board-manager-issue)
 {% endhint %}
 
 ## Drivers

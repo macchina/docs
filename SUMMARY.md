@@ -50,7 +50,8 @@
   * [Hardware](superb-docs/hardware.md)
   * [Sending AT Commands](superb-docs/atcommands.md)
 * [OBD3way Docs 🚦](obd2-test-board.md)
-* [Common Issues](common-issues.md)
+* [Common Issues](common-issues/README.md)
+  * [Why doesn't my SD card work? It may be fake.](common-issues/why-doesnt-my-sd-card-work-it-may-be-fake..md)
 
 ## 🔨 Projects
 
