@@ -1,12 +1,16 @@
 # Common Issues
 
-## Arduino IDE Board Manager Issue
+In this section, we are collecting all of the common issues users come across, along with explanations and hopefully, solutions. 
 
-#### Description:
+If you don't see you answer here, we encourage you to post a message to our forum here: 
 
-After entering a new board manager URL in File-&gt;Preferences, going to Tools-&gt;Boards Manager causes a Java error. Upon closing, Arduino IDE will be unable to reopen until it is either reinstalled or the folder ...AppData/Local/Arduino15 is deleted.
+{% embed url="https://forum.macchina.cc/" %}
 
-#### Solution:
+or, if the issue has to do with a specific library or code base, raise an issue in the appropriate repo here: 
 
-Ensure that Java is allowed network access in your computer's firewall settings.
+{% embed url="https://github.com/macchina" %}
+
+
+
+
 
