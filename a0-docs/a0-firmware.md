@@ -111,6 +111,12 @@ A0RET is the firmware shipped pre-loaded on A0, follow these steps to return it 
 
 {% file src="../.gitbook/assets/a0-production.zip" caption="A0 Firmware Flash File" %}
 
+To compile your self find everything for A0RET\(aka esp32RET\) here: 
+
+{% embed url="https://github.com/collin80/A0RET" %}
+
+
+
 ## A0RET Alternative \(Arduino\) 
 
 {% hint style="danger" %}
