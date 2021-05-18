@@ -1,16 +1,18 @@
 ---
-description: A look at A0's preloaded firmware "A0RET" (sometimes called ESP32RET)
+description: A look at A0's preloaded firmware "ESP32RET"
 ---
 
 # Firmware Reference
 
-## Introduction to A0RET
+## Introduction to ESP32RET
 
-#### What is A0RET?
+#### What is ESP32RET?
 
-A0RET is the name of the firmware that comes pre-loaded on your new Macchina A0. A0RET stands for A0 Reverse Engineering Tool and provides two primary functionalities\*: ELM327 emulation for use with apps like Torque, and Wi-Fi based connection to SavvyCAN.
+ESP32RET is the name of the firmware that comes pre-loaded on your new Macchina A0. ESP32RET stands for ESP32 \(based\) Reverse Engineering Tool and provides two primary functionalities\*: ELM327 emulation for use with apps like Torque, and Wi-Fi based connection to SavvyCAN.
 
 _\*These functionalities are current as of version 0.1, however future versions may have expanded features._
+
+_Note: there was a pervious version called A0RET that you might still see references to in code, documentation, etc._ 
 
 #### ELM327 Emulation, Explained Extra Efficiently 
 
@@ -47,7 +49,7 @@ Search the google play store for more options.
 
 #### Other ELM based software
 
-{% embed url="https://www.elmelectronics.com/help/obd/software/" caption="Visit this page for an extensive list of software compatible with ELM327, and by extension A0RET." %}
+{% embed url="https://www.elmelectronics.com/help/obd/software/" caption="Visit this page for an extensive list of software compatible with ELM327, and by extension ESP32RET." %}
 
 ## System Menu
 
@@ -96,9 +98,9 @@ On the left is the current state. On the right in parentheses are the options. F
 
 
 
-## Re-Flashing A0RET 
+## Re-Flashing ESP32RET 
 
-A0RET is the firmware shipped pre-loaded on A0, follow these steps to return it back to that state. 
+ESP32RET is the firmware shipped pre-loaded on A0, follow these steps to return it back to that state. 
 
 1. Download the below Zip file
 2. Extract the files
@@ -111,16 +113,16 @@ A0RET is the firmware shipped pre-loaded on A0, follow these steps to return it 
 
 {% file src="../.gitbook/assets/a0-production.zip" caption="A0 Firmware Flash File" %}
 
-To compile your self find everything for A0RET\(aka esp32RET\) here: 
+To compile your self find everything for ESP32RET\(aka A0RET\) here: 
 
 {% embed url="https://github.com/collin80/A0RET" %}
 
 
 
-## A0RET Alternative \(Arduino\) 
+## ESP32RET Alternative \(Arduino\) 
 
 {% hint style="danger" %}
-This removes the preinstalled A0RET
+This removes the preinstalled ESP32RET
 {% endhint %}
 
 #### Using Arduino to install your own sketch
