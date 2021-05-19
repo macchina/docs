@@ -12,7 +12,9 @@ ESP32RET is the name of the firmware that comes pre-loaded on your new Macchina 
 
 _\*These functionalities are current as of version 0.1, however future versions may have expanded features._
 
-_Note: there was a pervious version called A0RET that you might still see references to in code, documentation, etc._ 
+{% hint style="info" %}
+_Note: there was a previous version called A0RET that you might still see references to in code, documentation, etc._
+{% endhint %}
 
 #### ELM327 Emulation, Explained Extra Efficiently 
 
@@ -22,7 +24,7 @@ Another answer is that now you can take advantage of the numerous existing, \(se
 
 #### SavvyCAN 
 
-is a CAN bus reverse engineering and capture tool. 
+A _Super Powerful_ CAN bus reverse engineering and capture tool written by Collin Kidder. Wireless Car Hacking!
 
 ## LED Color Codes
 
@@ -39,7 +41,7 @@ A0 should be compatible with any ELM327 based app.
 
 {% embed url="https://play.google.com/store/apps/details?id=org.prowl.torquefree&hl=en\_US" %}
 
-Search the google play store for more options. 
+Search the Google play store for more options. 
 
 **iOS** - Software version 14 of iOS breaks support for A0. We are working to regain iOS support. For those interested in testing on 13 or older make sure your app settings are: 
 
@@ -51,36 +53,50 @@ Search the google play store for more options.
 
 {% embed url="https://www.elmelectronics.com/help/obd/software/" caption="Visit this page for an extensive list of software compatible with ELM327, and by extension ESP32RET." %}
 
-## System Menu
+## A0 System Menu
 
-**Options:** 
+Many low level configurations can be done via a Serial Terminal \(Real-Term, Tera Term, Arduino Serial Monitor, etc\). This includes turning ON and OFF WIFI and Bluetooth, setting CAN speed, and setting the WIFI password. 
 
-Short Commands: h = help \(displays this message\) R = reset to factory defaults s = Start logging to file S = Stop logging to file
+Here is the system menu:
 
-Config Commands \(enter command=newvalue\). Current values shown in parenthesis:
+```text
+Short Commands: 
+h = help (displays this message) 
+R = reset to factory defaults 
+s = Start logging to file 
+S = Stop logging to file
 
-SYSTYPE=0 - Set board type \(0 = Macchina A0, 1 = EVTV ESP32 Board LOGLEVEL=1 - set log level \(0=debug, 1=info, 2=warn, 3=error, 4=off\)
+Config Commands (enter command=newvalue). Current values shown in parenthesis:
 
-CAN0EN=1 - Enable/Disable CAN0 \(0 = Disable, 1 = Enable\) CAN0SPEED=500000 - Set speed of CAN0 in baud \(125000, 250000, etc\) CAN0LISTENONLY=0 - Enable/Disable Listen Only Mode \(0 = Dis, 1 = En\)
+SYSTYPE=0 - Set board type (0 = Macchina A0, 1 = EVTV ESP32 Board 
+LOGLEVEL=1 - set log level (0=debug, 1=info, 2=warn, 3=error, 4=off)
 
-CAN0SEND=ID,LEN, - Ex: CAN0SEND=0x200,4,1,2,3,4 MARK= - Set a mark in the log file about what you are about to do.
+CAN0EN=1 - Enable/Disable CAN0 (0 = Disable, 1 = Enable) 
+CAN0SPEED=500000 - Set speed of CAN0 in baud (125000, 250000, etc) 
+CAN0LISTENONLY=0 - Enable/Disable Listen Only Mode (0 = Dis, 1 = En)
 
-BINSERIAL=0 - Enable/Disable Binary Sending of CANBus Frames to Serial \(0=Dis, 1=En\)
+CAN0SEND=ID,LEN, - Ex: CAN0SEND=0x200,4,1,2,3,4 
+MARK= - Set a mark in the log file about what you are about to do.
 
-BTMODE=0 - Set mode for Bluetooth \(0 = Off, 1 = On\) BTNAME=ELM327-A0RET - Set advertised Bluetooth name
+BINSERIAL=0 - Enable/Disable Binary Sending of CANBus Frames to Serial (0=Dis, 1=En)
 
-LAWICEL=1 - Set whether to accept LAWICEL commands \(0 = Off, 1 = On\)
+BTMODE=0 - Set mode for Bluetooth (0 = Off, 1 = On) 
+BTNAME=ELM327-A0RET - Set advertised Bluetooth name
 
-WIFIMODE=2 - Set mode for WiFi \(0 = Wifi Off, 1 = Connect to AP, 2 = Create AP SSID=A0RETSSID - Set SSID to either connect to or create WPA2KEY=aBigSecret - Either passphrase or actual key
+LAWICEL=1 - Set whether to accept 
+LAWICEL commands (0 = Off, 1 = On)
 
-### To enter A0 built in options menu
+WIFIMODE=2 - Set mode for WiFi (0 = Wifi Off, 1 = Connect to AP, 2 = Create AP 
+SSID=A0RETSSID - Set SSID to either connect to or create 
+WPA2KEY=aBigSecret - Either passphrase or actual key
+```
 
-Get set up: 
+To enter A0 System Menu using the Arduino IDE Serial Monitor, follow these steps:
 
-1. If you don't already have Arduino installed download and install Arduino. 
+1. If you don't already have the Arduino IDE installed, download and install the Arduino IDE from [here](https://www.arduino.cc/en/software). 
 2. Connect A0 to your computer with a USB cable \(A0's LED should turn green\) 
-3. Open Arduino 
-4. Select the port \(port numbers change frequently, your port number will likely be different than the one pictured\)  
+3. Open Arduino IDE. 
+4. Select the port \(port numbers change frequently, your port number will likely be different than the one pictured\).
 
 ![](../.gitbook/assets/comport%20%281%29.jpg)
 
@@ -94,13 +110,11 @@ Send a question mark \(?\) to open the Menu
 
 ![](../.gitbook/assets/menu.jpg)
 
-On the left is the current state. On the right in parentheses are the options. For example BTmode=0 means Bluetooth is currently off. Send BTmode=1 in the top line to turn it on. Send another ? to make sure the change was made. 
-
-
+On the left is the current setting. On the right in parentheses are the options. For example, BTmode=0 means Bluetooth is currently off. Send "BTmode=1" in the top line to turn it on. Send another ? to make sure the change was made. 
 
 ## Re-Flashing ESP32RET 
 
-ESP32RET is the firmware shipped pre-loaded on A0, follow these steps to return it back to that state. 
+ESP32RET is the firmware shipped pre-loaded on A0, follow these steps to return it back to that state.
 
 1. Download the below Zip file
 2. Extract the files
@@ -113,13 +127,13 @@ ESP32RET is the firmware shipped pre-loaded on A0, follow these steps to return 
 
 {% file src="../.gitbook/assets/a0-production.zip" caption="A0 Firmware Flash File" %}
 
-To compile your self find everything for ESP32RET\(aka A0RET\) here: 
+To compile the code yourself, find everything for ESP32RET here: 
 
-{% embed url="https://github.com/collin80/A0RET" %}
+{% embed url="https://github.com/collin80/ESP32RET" %}
 
+Feel free to make improvements, submit pull requests and post issues!
 
-
-## ESP32RET Alternative \(Arduino\) 
+## Putting your own code on A0 \(using Arduino IDE\)
 
 {% hint style="danger" %}
 This removes the preinstalled ESP32RET
@@ -151,25 +165,18 @@ Before using Arduino IDE with A0 for the first time, you must follow the instruc
 
 #### Flashing A0
 
-1. Connect A0 to your computer via a micro USB cable
-2. Select "ESP32 Dev Module" as board type.
-3. Upload a sketch. An easy sketch to adapt is the "Blink" sketch found in File&gt;Examples&gt;Basics&gt;Blink.
-4. Change the three instances of "LED\_BUILTIN" to "13": 
+1. Make sure any dependent libraries are in your Arduino&gt;Libraries folder
+2. Connect A0 to your computer via a micro USB cable
+3. In "Tools" set the Port 
+4. Select "ESP32 Dev Module" as board type
+5. Upload a sketch
+6. Press upload
 
-   ```cpp
-    void setup() {
-    // initialize digital pin LED_BUILTIN as an output.
-    pinMode(13, OUTPUT);
-    }
+Attached is a simple sketch "ColorPallette" for blinking the LED on A0 and the required "FastLED" Library \(both need to be unzipped\). 
 
-    // the loop function runs over and over again forever
-    void loop() {
-    digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
-    delay(1000);                       // wait for a second
-    digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
-    delay(1000);                       // wait for a second
-    }
-   ```
+{% file src="../.gitbook/assets/colorpallette.zip" caption="ColorPallette Sketch" %}
 
-5. Press upload and the LED will blink every 1 second! 💡
+{% file src="../.gitbook/assets/fastled.zip" caption="FastLED Library " %}
+
+
 

@@ -6,7 +6,7 @@ description: >-
 
 # Quick Start Guide
 
-### Use A0 with Torque
+## Use A0 with Torque
 
 {% hint style="info" %}
 The process of connecting A0 with non-Torque apps should be fairly similar to the the one shown below.
@@ -36,9 +36,7 @@ A0RET allows A0 to work with SavvyCAN via Wi-Fi, no wires needed!
 
 #### Download SavvyCAN
 
-Follow the link below to download the latest release\* of SavvyCAN as a zip archive. Then unzip to a folder.
-
-_\*As of the date of this guide, this version is 1.0.36._
+Follow the link below to download the latest release of SavvyCAN as a zip archive. Then unzip to a folder.
 
 {% embed url="https://github.com/collin80/SavvyCAN/releases" %}
 
@@ -56,14 +54,14 @@ Go to Connection-&gt;Open Connection Window to begin adding a new device.
 
 ![](../.gitbook/assets/annotation-2020-08-21-135515.png)
 
-At this point, plug A0 into the car. Then from the computer running SavvyCAN connect to its Wi-Fi network. The defaults are:
+At this point, plug A0 into the car. Then, from the computer running SavvyCAN, connect to its Wi-Fi network. The defaults are:
 
 **SSID:** A0RETSSID
 
 **Password:** aBigSecret
 
 {% hint style="info" %}
-These defaults can be changed on lines 89 and 94 of A0RET.ino
+The default SSID and Password can be changed through the system menu as described in "Firmware Reference" section. 
 {% endhint %}
 
 Click "Add New Device Connection" and select "Network Connection"; the IP address should pre-populate since we have already connected to A0's network.
@@ -76,7 +74,7 @@ The A0-specific steps have now all been completed and you have free reign in the
 
 {% embed url="https://www.savvycan.com/docs/" %}
 
-#### For a more detailed look at A0's built in capabilities go to: 
+#### For a more detailed look at A0's built in capabilities, go to: 
 
 {% page-ref page="a0-firmware.md" %}
 
