@@ -8,7 +8,7 @@ description: Pages containing more in depth coverage of A0
 
 The Macchina A0 was designed with a convenient under-the-dash form factor that plugs directly into the OBD2 port of any modern car. 
 
-A0 plugs directly into the OBD2 port of the modern car. Any car built after 1996 has an OBD2 port near the steering wheel, under the dash. Some manufactures hide the port behind a panel. 
+A0 plugs directly into the OBD2 port of the modern car. Any car built after 1996 has an OBD2 port near the steering wheel, under the dash. Some manufacturers hide the port behind a panel. 
 
 {% hint style="info" %}
 Not all cars with OBD2 ports are compatible with A0, only cars with CAN bus on pins 6 and 14 are compatible. Cars from 2008 and newer should be compatible, many older cars are also compatible. Consult wiring diagrams of your car to verify. 
@@ -67,9 +67,7 @@ A "pin mapping" describes how the different circuits of your M2 are connected to
 
 ## CAN bus
 
-[Controller Area Network](https://en.wikipedia.org/wiki/CAN_bus)​
-
-CAN bus is a vehicle bus standard used in most cars built after 2006. It is a message-based protocol that allows modules within a car to communicate with one another. While the physical layer is understood and open, the actual meaning of the messages sent over the bus are not. While some messages are legislated to be "standard", the majority of CAN messages in your typical car are not well documented.
+CAN \([Controller Area Network](https://en.wikipedia.org/wiki/CAN_bus)​\) bus is a vehicle bus standard used in most cars built after 2006. It is a message-based protocol that allows modules within a car to communicate with one another. While the physical layer is understood and open, the actual meaning of the messages sent over the bus are not. While some messages are legislated to be "standard", the majority of CAN messages in your typical car are not well documented.
 
 The A0 has 1 CAN channel that can interface directly to the CAN bus network of your car. The A0 uses an external TJA1051 CAN transceiver. Here is CAN interface schematic. Note that C19 and C20 are not populated on shipping hardware. 
 
