@@ -11,7 +11,7 @@ The Macchina A0 was designed with a convenient under-the-dash form factor that p
 A0 plugs directly into the OBD2 port of the modern car. Any car built after 1996 has an OBD2 port near the steering wheel, under the dash. Some manufactures hide the port behind a panel. 
 
 {% hint style="info" %}
-Not all cars with OBD2 ports use are compatible with A0, only cars with CAN bus on pins 6 and 14 are compatible. Cars from 2008 and newer should be compatible, many older cars are also compatible. Consult wiring diagrams of your car to verify. 
+Not all cars with OBD2 ports are compatible with A0, only cars with CAN bus on pins 6 and 14 are compatible. Cars from 2008 and newer should be compatible, many older cars are also compatible. Consult wiring diagrams of your car to verify. 
 {% endhint %}
 
 ![](../.gitbook/assets/utd_09c94.png)
