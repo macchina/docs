@@ -66,7 +66,7 @@ Plug a microUSB cable into the PocketBeagle and your computer. After a minute or
 
 Login: _debian_ Password: _temppwd_
 
-[NOTE: if 192.168.7.2 does not work then try 192.168.6.2](https://beagleboard.org/static/beaglebone/latest/README.htm#step2)
+[NOTE: if 192.168.7.2 does not work then try 192.168.6.2](https://beagleboard.org/getting-started#step2)
 
 ### Step 2.5: Change your password \(optional but recommended\)
 
