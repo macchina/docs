@@ -8,13 +8,25 @@ description: >-
 
 P1 consists of 3 PCBs all stacked together through headers. Each board has its own schematic and each header and signal may have different names on each board.
 
-## P1 boards:
+
+
+![UTH and UTD versions of P1](../.gitbook/assets/p1_exploded.jpg)
+
+{% hint style="danger" %}
+Caution: Neither PocketBeagle nor Interface board is keyed, so it is possible to plug together incorrectly. Use the above diagram to ensure you are plugging together correctly.
+
+Caution: In the case of UTH version - with enough force, it is possible to plug a 24 pin connector into the 26 pin connector socket. Please don't do that. 
+{% endhint %}
+
+## 
+
+P1 boards:
 
 **PocketBeagle** \(schematic [here](https://github.com/beagleboard/pocketbeagle/blob/master/PocketBeagle_sch.pdf)\). This is the brains of the operation. 
 
 **Adapter board** \(schematic [here](https://github.com/macchina/p1-hardware/blob/master/SCH-01010%20R1%20SCHEM.PDF)\). This board acts connects PocketBeagle to the M2 interface board, adds a battery connector and full-sized USB A connector. 
 
-**Interface board** \(schematic [here](https://github.com/macchina/m2-hardware/blob/master/M2/Interface%20Board%20Schematic.pdf)\). This is the same interface board used with M2. This board has all of the automotive interfaces and power supply. 
+**Interface board** \(schematic [here](https://github.com/macchina/m2-hardware/blob/master/M2/Interface%20Board/Interface%20Board%20Schematic.pdf)\). This is the same interface board used with M2. This board has all of the automotive interfaces and power supply. 
 
 ## P1 headers:
 
