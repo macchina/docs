@@ -56,10 +56,10 @@ A USB wireless adapter can be plugged directly into the board, no powered USB hu
 
 ### Step 2: Create a bootable SD card
 
-Follow instructions [here](https://beagleboard.org/getting-started) to create a bootable SD card with the [BeagleBoard.org Debian 9.9 \(Stretch\) IoT image from 2018-08-11](https://rcn-ee.net/rootfs/bb.org/testing/2019-08-11/stretch-iot/bone-debian-9.9-iot-armhf-2019-08-11-4gb.img.xz). Once you have a bootable SD card, plug it into the PocketBeagle.
+Follow instructions [**here**](https://beagleboard.org/getting-started) ****to create a bootable SD card. Once you have a bootable SD card, plug it into the PocketBeagle. Latest images are found [**here**](https://beagleboard.org/latest-images)**.**
 
 {% hint style="success" %}
-Note: The P1 kit ships with pre-installed image on SD card!
+Note: The P1 kit ships with pre-installed image on SD card!  
 {% endhint %}
 
 Plug a microUSB cable into the PocketBeagle and your computer. After a minute or so, use your favorite terminal to ssh to beagle.local or 192.168.7.2:
