@@ -161,7 +161,7 @@ Follow the official installation instructions for your operating system then ret
 Before using Arduino IDE with A0 for the first time, you must follow the instructions in the link below to add ESP32 board definitions.
 {% endhint %}
 
-{% embed url="https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards\_manager.md" %}
+{% embed url="https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html" %}
 
 #### Flashing A0
 
