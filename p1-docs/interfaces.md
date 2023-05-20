@@ -1,13 +1,11 @@
 # Interfaces
 
-The P1 Inferface Board contains both the power supply circuitry and the automotive interfaces required to communicate with your car. This includes:
+The Interface Board for P1 is exactly the same as M2. It contains both the power supply circuitry and the automotive interfaces required to communicate with your car. This includes:
 
 * 2x CAN bus
 * 1x SWCAN \(Single-Wire CAN\)
 * 2x LIN/9141
 * J1850 VPW/PWM
-
-To find libraries for any P1 interfaces, try the [Macchina Community Showcase](http://showcase.macchina.cc/libraries.html).
 
 ![](../.gitbook/assets/interface_0d024.png)
 
@@ -51,8 +49,6 @@ The following table shows what the function for each pin:
 | 24 | +12V | +12V \(constant output\) |
 | 25 | GND | Ground |
 | 26 | GND | Ground |
-
-Find more about six 12V source/sink driver circuits [here](https://github.com/macchina/docs/tree/d20d1f6a346698c869e2e41805ca67fb908b7fb5/p1-docs/12vio.md).
 
 ## CAN
 
@@ -101,16 +97,30 @@ config-pin P2_28 hi # Enable LIN-Bus2
 config-pin P2_19 hi # Enable Power for LIN
 ```
 
-
-
 Use following Commands to see if the Lin-Busses are working:
-```
+
+```text
 cat /tty/ttyS4 # Lin1
 cat /tty/ttyS0 # Lin2
 ```
 
-Attention: To use the LIN2 Bus, you will need to solder bridges on the R06 and R07 which are not soldered on the Board.
-Refer here for Instructions: https://github.com/macchina/p1-hardware/blob/master/PCB-01010%20R1%20COMPONENT%20LOCATOR%20CLOSE%20UP.PDF
+Attention: To use the LIN2 Bus, you will need to solder bridges on the R06 and R07 which are not soldered on the Board. Refer here for Instructions: [https://github.com/macchina/p1-hardware/blob/master/PCB-01010 R1 COMPONENT LOCATOR CLOSE UP.PDF](https://github.com/macchina/p1-hardware/blob/master/PCB-01010%20R1%20COMPONENT%20LOCATOR%20CLOSE%20UP.PDF)
+
+
+
+{% tabs %}
+{% tab title="Plain Text" %}
+```text
+Add in boot/uEnv.txt the console option to redirect output to ttyS2:
+console=ttyO2,115200n8
+
+
+```
+{% endtab %}
+{% endtabs %}
+
+
+
 
 Add in boot/uEnv.txt the console option to redirect output to ttyS2
 :
@@ -134,6 +144,10 @@ Here is the link to the datasheet: [https://www.nxp.com/docs/en/data-sheet/TJA10
 ## J1850
 
 P1 supports both J1850 PWM \(Pulse-width-modulation\) and VPW \(Variable Pulse width\).
+
+{% hint style="danger" %}
+J1850 information below is specific to M2 \(Arduino\) and needs updating
+{% endhint %}
 
 **J1850 PWM** is typically found in older Ford vehicles and operates at 41.6 kb/s. The bus is active when `J1850+_BUS` is pulled HIGH to 5V and `J1850-_BUS` is pulled LOW to 0V.
 
