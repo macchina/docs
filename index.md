@@ -7,7 +7,7 @@ description: >-
 
 # Introduction
 
-![](.gitbook/assets/dsc02835.JPG)
+![](<.gitbook/assets/DSC02835 (1).JPG>)
 
 
 
@@ -21,13 +21,15 @@ If you find any **issues, misinformation, or typos** with any of the articles, c
 
 Loading your first Arduino Sketch on your M2:
 
-{% page-ref page="m2-docs/arduino.md" %}
+{% content-ref url="product-documentation/m2-docs/arduino.md" %}
+[arduino.md](product-documentation/m2-docs/arduino.md)
+{% endcontent-ref %}
 
 Adapter board that replaces M2 processor board with PocketBeagle:
 
-{% page-ref page="p1-docs/" %}
-
-
+{% content-ref url="product-documentation/p1-docs/" %}
+[p1-docs](product-documentation/p1-docs/)
+{% endcontent-ref %}
 
 
 

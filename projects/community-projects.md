@@ -6,13 +6,26 @@ description: >-
 
 # Community Projects
 
-{% embed url="https://github.com/atlas0fd00m/CanCat" caption="Swiss army knife of Controller Area Networks \(CAN\) running on M2" %}
+{% embed url="https://github.com/atlas0fd00m/CanCat" %}
+Swiss army knife of Controller Area Networks (CAN) running on M2
+{% endembed %}
 
-{% embed url="https://github.com/tmkdev/oppdr" caption="Turn vehicle canbus logs into linked HTML based performance charts." %}
+{% embed url="https://github.com/tmkdev/oppdr" %}
+Turn vehicle canbus logs into linked HTML based performance charts.
+{% endembed %}
 
-{% embed url="https://github.com/atlas0fd00m/TruckDevil" caption="J1939 tool using M2" %}
+{% embed url="https://github.com/atlas0fd00m/TruckDevil" %}
+J1939 tool using M2
+{% endembed %}
 
-{% embed url="https://github.com/EliasKotlyar/E46Clusterdriver" caption="Driving the E46 Cluster with Macchina P1" %}
+{% embed url="https://github.com/EliasKotlyar/E46Clusterdriver" %}
+Driving the E46 Cluster with Macchina P1
+{% endembed %}
 
 
 
+
+
+## Show off your project
+
+We are always interested in seeing what everyone is up. Please send us an email at info@macchina.cc&#x20;

@@ -24,9 +24,7 @@ This project aims to familiarize users with basic CAN functionality on A0 by ech
 
 ## A0 WIP Projects
 
-Find bleeding edge, experimental projects here, or just inspiration for your own next big project!
+Find experimental projects here, or just inspiration for your own next big project!
 
 {% embed url="https://docs.macchina.cc/projects/a0-projects/a0-projects-1" %}
-
-
 
