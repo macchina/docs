@@ -10,25 +10,25 @@ Macchina products can be used by a wide range of people for a wide range of task
 
 ## Step 1 (start here)
 
-The first thing we need to do is try to identify the type of help you need and how to direct you within our  company, network, or other
+The first thing we need to do is try to identify the type of help you need and how to direct you within our  company or community.&#x20;
 
-* Are you **beginner** working on your first project and looking for advice? Go [here ](../projects/getting-started-support.md)
+* Are you **beginner** working on your first project and looking for advice? Go [here ](../projects/project-support.md)
 * Is our **documentation** missing something that would benefit many people? Go [here](contact-us-faq.md#documentation-request)
 * Did you find an issue in a Macchina produced **library** or other related code? Go [here](contact-us-faq.md#submit-a-github-issue)
 * If you are looking to **partner** with Macchina or have us work on your product? go [here](contact-us-faq.md#business-questions)
 * Are you an **experienced engineer/developer** with a technical question hoping to talk with a Macchina Engineer? Go [here](contact-us-faq.md#ask-a-macchina-engineer)
 * Do you have **shipping** related questions? (invoice, tracking,...) go [here](contact-us-faq.md#shipping-related-questions)
 * If you're interested in a **bulk/resale** ordering, go [here](contact-us-faq.md#bulk-orders)
-* For **custom** orders (you want something about the HW or FW changed. Go [here](contact-us-faq.md#custom-orders)
-* For **defective ore broken** products please. Go [here](contact-us-faq.md#issues-returns)
-* Are you an **outside the US** and looking to buy Macchina products? Go [here](contact-us-faq.md#international-orders)
+* For **custom** orders (you want something about the HW or FW changed). Go [here](contact-us-faq.md#custom-orders)
+* For **defective or broken** products please. Go [here](contact-us-faq.md#issues-returns)
+* Are you **outside the US** and looking to buy Macchina products? Go [here](contact-us-faq.md#international-orders)
 * For questions on **lead times** for new restocking products go [here](out-of-stock-status.md)
 
 
 
 ## Documentation Request
 
-This is the easiest way to get support from us. If you think we are missing something from our docs then please let us know and we will try to get it added. Please note that questions like how do I tune my car are not in scope for the documentation. Good examples include how to send a CAN message, how to blink an LED,...&#x20;
+This is the easiest way to get support from us. If you think we are missing something from our docs, then please let us know and we will try to get it added. Please note that questions like "how do I tune my car" are not in scope for the documentation. Good examples include how to send a CAN message, how to blink an LED,...&#x20;
 
 To submit a doc request please email us the below information to info@macchina.cc,&#x20;
 
@@ -39,7 +39,7 @@ To submit a doc request please email us the below information to info@macchina.c
 
 
 
-## Submit a Github Issue&#x20;
+## Submit a GitHub Issue&#x20;
 
 If you found an issue that has to do with a specific library or code base, raise an issue in the appropriate repo here:&#x20;
 
@@ -77,7 +77,7 @@ Schematics are available in the documentation.&#x20;
 
 If you have a question you believe should have been answered by the technical documentation please submit a [doc request here](contact-us-faq.md#documentation-request).&#x20;
 
-If your question relates to car specific things such as reverse engineering CAN messages we ask that you use [this process](../projects/getting-started-support.md#how-to-ask-for-help) to ensure you get the best possible help.&#x20;
+If your question relates to car specific things such as reverse engineering CAN messages we ask that you use [this process](../projects/project-support.md#how-to-ask-for-help) to ensure you get the best possible help.&#x20;
 
 If you have a technical question that only a Macchina engineer can answer (this generally relates to design decisions made by Macchina) then please submit the below to info@macchina.cc
 
@@ -96,7 +96,7 @@ In some cases like if you have a question related to working with a processor in
 
 Lead time: we try to ship within 7  business days
 
-Please remember we are small company, while we are trying to improve on shipping times we are not Amazon. If you have a critical date please reach out to us about expediated shipping options. (info@macchina.cc, Subject: Express Shipping)&#x20;
+Please remember we are small company, while we are trying to improve on shipping times we are not Amazon. If you have a critical date please reach out to us about expedited shipping options. (info@macchina.cc, Subject: Express Shipping)&#x20;
 
 Tracking: if you are looking for your tracking information you should receive it in the shipping confirmation email.&#x20;
 
@@ -106,11 +106,11 @@ If you need an invoice changed or have another shipping related question please 
 
 ## **Bulk/Resale Orders**
 
-If you would like to order a Macchina product in bulk quantities. Standard lead time is 10 weeks from PO placement (or payment). For your new customer we require 100% payment prior to kick off.&#x20;
+If you would like to order a Macchina product in bulk quantities. Standard lead time is 10 weeks from PO placement (or payment). For a new customer we require 100% payment prior to kick off.&#x20;
 
 Requirements:&#x20;
 
-* Only available for 100+ units (otherwise please use the instore bulk discounts)&#x20;
+* Only available for 100+ units (otherwise please use the in-store bulk discounts)&#x20;
 * Assumes no changes to the design (otherwise scroll down to Custom Orders)
 
 Please email info@macchina.cc with the below information
@@ -134,11 +134,11 @@ If you would like to make a bulk order of a Macchina product but you need change
 Requirements: &#x20;
 
 * No MOQ
-* All custom orders will be produce by Macchina unless otherwise agreed on in a license agreement
+* All custom orders will be produced by Macchina unless otherwise agreed on in a license agreement
 
 Process:&#x20;
 
-1. Email below information to info@macchina.cc
+1. Email the below information to info@macchina.cc
 2. For simple changes that can be finished in a day we will make a quote with the number of engineering or other hours required to make the changes. For larger changes (multi day) we will work off a time and materials contract. In either case you will be billed at our hourly consulting rate.
 3. At this point we can estimate the cost of the final product
 4. We will produce a sample/ first article at a flat rate determined after engineering&#x20;

@@ -47,7 +47,7 @@
   * [Power Supply Note](product-documentation/p1-docs/power-supply-note.md)
 * [OBD3way Docs](product-documentation/obd2-test-board.md)
 
-## 🔨 Projects
+## Projects
 
 * [A0 Projects](projects/a0-projects/README.md)
   * [A0 CAN Vehicle Data](projects/a0-projects/a0-can-vehicle-data.md)
@@ -66,7 +66,8 @@
   * [P1 CAN Vehicle Data](projects/p1-projects/p1-can-vehicle-data.md)
   * [P1 CAN Loopback](projects/p1-projects/loopback-testing.md)
 * [Community Projects](projects/community-projects.md)
-* [Getting Started Support](projects/getting-started-support.md)
+* [Project Support](projects/project-support.md)
+* [Other Resources](projects/other-resources.md)
 
 ## Support /contact us
 

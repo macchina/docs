@@ -14,9 +14,9 @@ or, if the issue has to do with a specific library or code base, raise an issue 
 
 {% embed url="https://github.com/macchina" %}
 
-## Issues
+## Malfunction
 
-For example A0 or M2 not reflashing correctly. We test every unit that ships to try to prevent this. While the ultimate solution varies from case to case the most common issue by far is a bad USB cable. It is not good enough to verify the cable works with another product as USB implementation and cable configuration vary. Please test with multiple cables. The one we verify with is available in our store. Drivers and worn out ports also frequently come up. &#x20;
+This is related to many problems we have seen - examples include A0 or M2 not reflashing correctly. We test every unit that ships to try to prevent this. While the ultimate solution varies from case to case the most common issue by far is a bad USB cable. It is not good enough to verify the cable works with another product as USB implementation and cable configuration vary. Please test with multiple cables. The one we verify with is available in our store. Drivers and worn out ports also frequently come up. &#x20;
 
 ### **Arduino IDE Board Manager Issues**
 
