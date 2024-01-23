@@ -100,7 +100,7 @@ Please remember we are small company, while we are trying to improve on shipping
 
 Tracking: if you are looking for your tracking information you should receive it in the shipping confirmation email.&#x20;
 
-If you need an invoice changed or have another shipping related question please reach out to us (info@macchina.cc, Subject: Shipping)&#x20;
+If you need an invoice changed or have another shipping related question please reach out to us (info@macchina.cc, Subject: Shipping - your order number )&#x20;
 
 
 
@@ -166,7 +166,13 @@ email the above to info@macchina.cc
 
 We don’t want to ship things that don’t work, so we test every unit before it leaves. That doesn’t mean customers never have issues, but it should be rare. If you are having an issue, please make sure you have eliminated the other possible causes (computer, cable, sd card, or other issues).&#x20;
 
-If you still believe our hardware is the issue please reach out to us at [info@macchina.cc](mailto:info@macchina.cc), subject: Product Defect&#x20;
+If you still believe our hardware is the issue please reach out to us at [info@macchina.cc](mailto:info@macchina.cc),&#x20;
+
+* Subject: Product Defect&#x20;
+* Order Number: (from your purchase confirmation email)
+* Current address:&#x20;
+* Issue Description:&#x20;
+* Pictures: (if you see visable damage)&#x20;
 
 We will send you a return label and get the replacement processed.
 
