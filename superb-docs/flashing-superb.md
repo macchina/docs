@@ -88,7 +88,7 @@ int buttonState2 = 0;
 
 {% tabs %}
 {% tab title="USB Adapter Board + Arduino IDE" %}
-* **1\)** Follow the instructions [here](https://github.com/espressif/arduino-esp32/blob/master/docs/arduino-ide/boards_manager.md) to set up the board manager for ESP32.
+* **1\)** Follow the instructions [here](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html) to set up the board manager for ESP32.
 * **2\)** Connect the SuperB with the USB adapter board and select the correct port.
 * **3\)** Place the SuperB into bootloader mode by holding down the BOOT button, pressing and releasing the RESET button, and then releasing the BOOT button.
 * **4\)** Select "ESP32 Dev Module" as board type.
